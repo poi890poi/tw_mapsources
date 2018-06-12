@@ -1,7 +1,6 @@
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <onlinemapsources>
+
     <onlinemapsource uid="3">
         <name>OpenStreetMap Cyclemap</name>
         <url><![CDATA[http://{$s}.tile.opencyclemap.org/cycle/{$z}/{$x}/{$y}.png]]></url>
@@ -21,6 +20,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="4">
         <name>OpenStreetMap Mapnik</name>
         <url><![CDATA[http://{$s}.tile.openstreetmap.org/{$z}/{$x}/{$y}.png]]></url>
@@ -40,6 +40,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="26">
         <name>OpenPisteMap</name>
         <url><![CDATA[http://tiles.openpistemap.org/contours/{$z}/{$x}/{$y}.png]]></url>
@@ -58,6 +59,7 @@
         <zop />
         <qop />
     </onlinemapsource>
+
     <onlinemapsource uid="70">
         <name>GOOGLE MAPS (TW)</name>
         <url><![CDATA[http://mt{$s}.google.com/vt/lyrs=m@140&hl=en&x={$x}&y={$y}&z={$z}]]></url>
@@ -77,6 +79,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="71">
         <name>GOOGLE ORTOFOTOS (TW)</name>
         <url><![CDATA[http://khm0.googleapis.com/kh?v=142&hl=es-ES&x={$x}&y={$y}&z={$z}&token=83106]]></url>
@@ -96,6 +99,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="72">
         <name>GOOGLE HIBRIDO (TW)</name>
         <url><![CDATA[http://mt{$s}.google.com/vt/lyrs=s,m&hl=iw&x={$x}&y={$y}&z={$z}]]></url>
@@ -115,6 +119,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="80">
         <name>Topo 4umaps</name>
         <url><![CDATA[http://4umaps.eu/{$z}/{$x}/{$y}.png]]></url>
@@ -133,6 +138,7 @@
         <zop />
         <qop />
     </onlinemapsource>
+
     <onlinemapsource uid="104">
         <name>OpenSeaMap</name>
         <url><![CDATA[http://tiles.openseamap.org/seamark/{$z}/{$x}/{$y}.png]]></url>
@@ -152,6 +158,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="206">
         <name>MapQuest-OSM</name>
         <url><![CDATA[http://otile{$s}.mqcdn.com/tiles/1.0.0/map/{$z}/{$x}/{$y}.jpg]]></url>
@@ -171,6 +178,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="207">
         <name>MapQuest Open Aerial</name>
         <url><![CDATA[http://otile{$s}.mqcdn.com/tiles/1.0.0/sat/{$z}/{$x}/{$y}.jpg]]></url>
@@ -190,6 +198,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="407">
         <name>OpenWeatherMap Clouds</name>
         <url><![CDATA[http://{$s}.tile.openweathermap.org/map/clouds/{$z}/{$x}/{$y}.png]]></url>
@@ -210,6 +219,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="408">
         <name>OpenWeatherMap Precipitation</name>
         <url><![CDATA[http://{$s}.tile.openweathermap.org/map/precipitation/{$z}/{$x}/{$y}.png]]></url>
@@ -230,6 +240,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="409">
         <name>OpenWeatherMap Pressure</name>
         <url><![CDATA[http://{$s}.tile.openweathermap.org/map/pressure_cntr/{$z}/{$x}/{$y}.png]]></url>
@@ -250,6 +261,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="410">
         <name>OpenWeatherMap Wind</name>
         <url><![CDATA[http://{$s}.tile.openweathermap.org/map/wind/{$z}/{$x}/{$y}.png]]></url>
@@ -270,6 +282,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="411">
         <name>OpenWeatherMap Snow</name>
         <url><![CDATA[http://{$s}.tile.openweathermap.org/map/snow/{$z}/{$x}/{$y}.png]]></url>
@@ -290,6 +303,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="412">
         <name>OpenWeatherMap Temp</name>
         <url><![CDATA[http://{$s}.tile.openweathermap.org/map/temp/{$z}/{$x}/{$y}.png]]></url>
@@ -310,6 +324,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="414">
         <name>OpenTopoMap</name>
         <url><![CDATA[http://{$s}.tile.opentopomap.org/{$z}/{$x}/{$y}.png]]></url>
@@ -329,6 +344,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="800">
         <name>1899-日治臺灣全圖 (TW)</name>
         <url><![CDATA[https://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=JM400K_1899&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
@@ -348,6 +364,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="801">
         <name>1904-日治臺灣堡圖(明治版)-1:20,000 (TW)</name>
         <url><![CDATA[https://gis.sinica.edu.tw/tileserver/file-exists.php?img=JM20K_1904-jpg-{$z}-{$x}-{$y}]]></url>
@@ -367,6 +384,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="802">
         <name>1916-日治蕃地地形圖-1:50,000 (TW)</name>
         <url><![CDATA[https://gis.sinica.edu.tw/tileserver/file-exists.php?img=JM50K_1916-jpg-{$z}-{$x}-{$y}]]></url>
@@ -386,6 +404,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="803">
         <name>1921-日治臺灣堡圖(大正版)-1:20,000 (TW)</name>
         <url><![CDATA[https://gis.sinica.edu.tw/tileserver/file-exists.php?img=JM20K_1921-jpg-{$z}-{$x}-{$y}]]></url>
@@ -405,6 +424,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="804">
         <name>1924-日治地形圖(陸地測量部)-1:50,000 (TW)</name>
         <url><![CDATA[https://gis.sinica.edu.tw/tileserver/file-exists.php?img=JM50K_1924_new-jpg-{$z}-{$x}-{$y}]]></url>
@@ -424,6 +444,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="805">
         <name>1936-五十萬分一輿地圖 (TW)</name>
         <url><![CDATA[https://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=JM500K_1936&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
@@ -443,6 +464,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="806">
         <name>1944-美軍地形圖-1:50,000 (TW)</name>
         <url><![CDATA[https://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=AM50K_1944&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
@@ -462,6 +484,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="807">
         <name>1945-美軍繪製臺灣城市地圖 (TW)</name>
         <url><![CDATA[https://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=AMCityPlan_1945&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
@@ -481,6 +504,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="808">
         <name>1945-台北美軍航照影像 (TW)</name>
         <url><![CDATA[https://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=Taipei_aerialphoto_1945&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/jpeg]]></url>
@@ -500,6 +524,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="809">
         <name>1956-臺灣地形圖-1:50,000 (TW)</name>
         <url><![CDATA[https://gis.sinica.edu.tw/tileserver/file-exists.php?img=TM50K_1956-jpg-{$z}-{$x}-{$y}]]></url>
@@ -519,6 +544,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="810">
         <name>1956-臺灣土地利用及林型圖 (TW)</name>
         <url><![CDATA[https://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=1956_Landuse&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
@@ -538,6 +564,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="811">
         <name>1966-臺灣省水利工程、水文站及基準點位置圖 (TW)</name>
         <url><![CDATA[https://gis.sinica.edu.tw/tileserver/file-exists.php?img=TM50K_1966-jpg-{$z}-{$x}-{$y}]]></url>
@@ -557,6 +584,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="812">
         <name>1989-臺灣經建1版地形圖-1:25,000 (TW)</name>
         <url><![CDATA[https://gis.sinica.edu.tw/tileserver/file-exists.php?img=TM25K_1989-jpg-{$z}-{$x}-{$y}]]></url>
@@ -576,6 +604,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="813">
         <name>2001-臺灣經建3版地形圖-1:25,000 (TW)</name>
         <url><![CDATA[https://gis.sinica.edu.tw/tileserver/file-exists.php?img=TM25K_2001-jpg-{$z}-{$x}-{$y}]]></url>
@@ -595,6 +624,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="814">
         <name>2013-正射影像圖 (TW)</name>
         <url><![CDATA[https://wmts.nlsc.gov.tw/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&FORMAT=image/png&STYLE=_null&LAYER=PHOTO2&TILEMATRIXSET=EPSG:3857&TileMatrix={$z}&TileCol={$x}&TileRow={$y}]]></url>
@@ -614,6 +644,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="815">
         <name>通用版電子地圖 (TW)</name>
         <url><![CDATA[https://wmts.nlsc.gov.tw/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&FORMAT=image/png&STYLE=_null&LAYER=EMAP5&TILEMATRIXSET=EPSG:3857&TileMatrix={$z}&TileCol={$x}&TileRow={$y}]]></url>
@@ -633,6 +664,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="816">
         <name>地圖產生器-魯地圖 (TW)</name>
         <url><![CDATA[https://rs.happyman.idv.tw/map/moi_osm_gpx/{$z}/{$x}/{$y}.png]]></url>
@@ -650,6 +682,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
     <onlinemapsource uid="817">
         <name>地圖產生器-經建三 (TW)</name>
         <url><![CDATA[https://rs.happyman.idv.tw/map/twmap_gpx/{$z}_{$x}_{$y}.png]]></url>
@@ -667,5 +700,7 @@
         <qop />
         <sop />
     </onlinemapsource>
+
+
 </onlinemapsources>
 
