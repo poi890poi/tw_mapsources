@@ -357,6 +357,24 @@
         <sop />
     </onlinemapsource>
 
+    <onlinemapsource uid="818">
+        <name>地圖產生器-航跡圖層 (TW)</name>
+        <url><![CDATA[https://rs.happyman.idv.tw/map/gpxtrack/{$z}/{$x}/{$y}.png]]></url>
+        <minzoom>11</minzoom>
+        <maxzoom>17</maxzoom>
+        <projection>MERCATORESFERICA</projection>
+        <httpparam name="" />
+        <cacheable>1</cacheable>
+        <downloadable>1</downloadable>
+        <maxtilesday>0</maxtilesday>
+        <maxthreads>0</maxthreads>
+        <xop />
+        <yop />
+        <zop />
+        <qop />
+        <sop />
+    </onlinemapsource>
+
 
 </onlinemapsources>
 

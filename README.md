@@ -33,6 +33,7 @@ Reset online map cache (Global setting > Maps > Reset online cache)
 通用版電子地圖<br/>
 地圖產生器-魯地圖<br/>
 地圖產生器-經建三<br/>
+地圖產生器-航跡圖層<br/>
 
 # Map URLs and Zoom Levels
 https://goo.gl/tCZBDR
