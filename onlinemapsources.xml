@@ -416,7 +416,25 @@
         <qop></qop>
         <sop></sop>
     </onlinemapsource>
-    
+
+	<onlinemapsource uid="1004">
+		<name>地圖產生器-航跡透明 (TW)</name>
+		<url><![CDATA[https://rs.happyman.idv.tw/map/gpxtrack/{$z}/{$x}/{$y}.png]]></url>
+		<minzoom>11</minzoom>
+		<maxzoom>17</maxzoom>
+		<projection>MERCATORESFERICA</projection>
+		<httpparam name="" />
+		<cacheable>1</cacheable>
+		<downloadable>1</downloadable>
+		<maxtilesday>0</maxtilesday>
+		<maxthreads>0</maxthreads>
+		<xop />
+		<yop />
+		<zop />
+		<qop />
+		<sop />
+	</onlinemapsource>
+
 	<onlinemapsource uid="303">
 		<name>農航所正射影像 (404)</name>
 		<url><![CDATA[]]></url>
@@ -442,46 +460,6 @@
 		<url><![CDATA[http://rudy-daily.tile.basecamp.tw/{z}/{x}/{y}.png]]></url>
 		<minzoom>11</minzoom>
 		<maxzoom>18</maxzoom>
-		<projection>MERCATORESFERICA</projection>
-		<servers></servers>
-		<httpparam name=""></httpparam>
-		<cacheable>1</cacheable>
-		<downloadable>1</downloadable>
-		<maxtilesday>0</maxtilesday>
-		<maxthreads>0</maxthreads>
-		<xop></xop>
-		<yop></yop>
-		<zop></zop>
-		<qop></qop>
-		<sop></sop>
-	</onlinemapsource>
-    
-	<onlinemapsource uid="209">
-		<name>1993-臺灣經建2版地形圖-1:25,000 (404)</name>
-		<url><![CDATA[http://gis.sinica.edu.tw/googlemap/TM25K_1993/{$z}/{$y}/IMG_{$y}_{$x}_{$z}.jpg]]></url>
-		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
-		<minzoom>7</minzoom>
-		<maxzoom>15</maxzoom>
-		<projection>MERCATORESFERICA</projection>
-		<servers></servers>
-		<httpparam name=""></httpparam>
-		<cacheable>1</cacheable>
-		<downloadable>1</downloadable>
-		<maxtilesday>0</maxtilesday>
-		<maxthreads>0</maxthreads>
-		<xop></xop>
-		<yop></yop>
-		<zop></zop>
-		<qop></qop>
-		<sop></sop>
-	</onlinemapsource>
-    
-	<onlinemapsource uid="211">
-		<name>2003-臺灣經建4版地形圖-1:25,000 (404)</name>
-        <url><![CDATA[http://gis.sinica.edu.tw/googlemap/TM25K_2003/{$z}/{$y}/IMG_{$y}_{$x}_{$z}.jpg]]></url>
-		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
-		<minzoom>5</minzoom>
-		<maxzoom>17</maxzoom>
 		<projection>MERCATORESFERICA</projection>
 		<servers></servers>
 		<httpparam name=""></httpparam>
@@ -535,7 +513,7 @@
 		<qop></qop>
 		<sop></sop>
 	</onlinemapsource>
-   
+    
 	<onlinemapsource uid="219">
 		<name>1987-臺灣地形圖-1:100,000</name>
 		<url><![CDATA[http://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=TM100K_1987&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
