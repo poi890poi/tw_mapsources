@@ -323,7 +323,7 @@
     
 	<onlinemapsource uid="913">
 		<name>2013-正射影像圖 (TW)</name>
-		<url><![CDATA[https://wmts.nlsc.gov.tw/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&FORMAT=image/png&STYLE=_null&LAYER=PHOTO2&TILEMATRIXSET=EPSG:3857&TileMatrix={$z}&TileCol={$x}&TileRow={$y}]]></url>
+		<url><![CDATA[https://wmts.nlsc.gov.tw/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&FORMAT=image/png&STYLE=_null&LAYER=PHOTO_MIX&TILEMATRIXSET=EPSG:3857&TileMatrix={$z}&TileCol={$x}&TileRow={$y}]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
 		<minzoom>5</minzoom>
 		<maxzoom>19</maxzoom>
