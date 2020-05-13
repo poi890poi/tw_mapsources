@@ -3085,22 +3085,22 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
             <line stroke="#E10600" stroke-width="0.88" stroke-dasharray="5,3" stroke-linecap="butt"/>
           </rule>
           <rule e="way" k="*" v="*" zoom-min="13" zoom-max="13">
-            <line stroke="#80E13D38" stroke-width="3.00"/>
+            <line stroke="#00E13D38" stroke-width="3.00"/>
           </rule>
           <rule e="way" k="*" v="*" zoom-min="14" zoom-max="14">
-            <line stroke="#80E15854" stroke-width="2.25"/>
+            <line stroke="#00E15854" stroke-width="2.25"/>
           </rule>
           <rule e="way" k="*" v="*" zoom-min="15" zoom-max="15">
-            <line stroke="#80E1726F" stroke-width="1.69"/>
+            <line stroke="#00E1726F" stroke-width="1.69"/>
           </rule>
           <rule e="way" k="*" v="*" zoom-min="16" zoom-max="16">
-            <line stroke="#80E1726F" stroke-width="1.27"/>
+            <line stroke="#00E1726F" stroke-width="1.27"/>
           </rule>
           <rule e="way" k="*" v="*" zoom-min="17" zoom-max="17">
-            <line stroke="#80E1726F" stroke-width="0.95"/>
+            <line stroke="#00E1726F" stroke-width="0.95"/>
           </rule>
           <rule e="way" k="*" v="*" zoom-min="18">
-            <line stroke="#80E1726F" stroke-width="0.71"/>
+            <line stroke="#00E1726F" stroke-width="0.71"/>
           </rule>
         </rule>
         <rule e="way" k="highlight" v="yes" zoom-min="11" zoom-max="12">
