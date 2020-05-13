@@ -4073,17 +4073,20 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
   </rule>
   <rule cat="surveypoint" e="any" k="*" v="*">
     <rule e="any" k="man_made" v="survey_point">
-      <rule e="node" k="survey_point" v="trig_1st" zoom-min="10">
-        <symbol id="s_sp_trig" priority="340" src="file:moiosm_res/s_sp_trig.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-        <caption k="name" symbol-id="s_sp_trig" priority="340" position="below" font-style="normal" font-size="9" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule e="node" k="survey_point" v="trig_1st" zoom-min="9">
+        <symbol id="s_peak_small_m" display="always" priority="340" src="file:moiosm_res/s_peak_small_m.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
       </rule>
-      <rule e="node" k="survey_point" v="trig_2nd" zoom-min="11">
-        <symbol id="s_sp_trig" priority="320" src="file:moiosm_res/s_sp_trig.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-        <caption k="name" symbol-id="s_sp_trig" priority="320" position="below" font-style="normal" font-size="9" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule e="node" k="survey_point" v="trig_2nd" zoom-min="10">
+        <symbol id="s_peak_small_l" priority="320" src="file:moiosm_res/s_peak_small_l.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
+      </rule>
+      <rule e="node" k="survey_point" v="trig_3rd" zoom-min="11">
+        <symbol id="s_sp_trig" priority="300" src="file:moiosm_res/s_sp_trig.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
+      </rule>
+      <rule e="node" k="survey_point" v="trig_2nd" zoom-min="12">
+        <caption k="name" symbol-id="s_peak_small_l" priority="320" position="below" font-style="normal" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
       </rule>
       <rule e="node" k="survey_point" v="trig_3rd" zoom-min="12">
-        <symbol id="s_sp_trig" priority="300" src="file:moiosm_res/s_sp_trig.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-        <caption k="name" symbol-id="s_sp_trig" priority="300" position="below" font-style="normal" font-size="9" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+        <caption k="name" symbol-id="s_sp_trig" priority="300" position="below" font-style="normal" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
       </rule>
       <rule e="node" k="survey_point" v="trig_1st_IC" zoom-min="10">
         <symbol id="s_sp_trig_C" priority="340" src="file:moiosm_res/s_sp_trig_C.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
@@ -4109,7 +4112,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
         <symbol id="s_sp_mine_suppl" priority="280" src="file:moiosm_res/s_sp_mine_suppl.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
         <caption k="name" symbol-id="s_sp_mine_suppl" priority="280" position="below" font-style="normal" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
-      <rule e="node" k="survey_point" v="forest_trig|forest_trig_aero" zoom-min="13">
+      <rule e="node" k="survey_point" v="forest_trig|forest_trig_aero" zoom-min="12">
         <symbol id="s_sp_forest_trig" priority="280" src="file:moiosm_res/s_sp_forest_trig.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
         <caption k="name" symbol-id="s_sp_forest_trig" priority="280" position="below" font-style="normal" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
@@ -4183,28 +4186,28 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       </rule>
     </rule>
     <rule cat="nocity" e="node" k="natural" v="peak">
-      <rule e="any" k="zl" v="0" zoom-min="7" zoom-max="11">
-        <symbol id="s_peak_small_m" display="always" priority="250" src="file:moiosm_res/s_peak_small_m.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-        <caption k="name" symbol-id="s_peak_small_m" priority="220" position="above" font-style="normal" font-size="9" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
+      <rule e="any" k="zl" v="0" zoom-min="7">
+        <symbol id="s_sp_trig" display="always" priority="250" src="file:moiosm_res/s_sp_trig.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
+        <caption k="name" symbol-id="s_sp_trig" priority="220" position="above" font-style="normal" font-size="9" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
       </rule>
-      <rule e="any" k="zl" v="1" zoom-min="10" zoom-max="11">
-        <symbol id="s_peak_small_m" priority="240" src="file:moiosm_res/s_peak_small_m.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-        <caption k="name" symbol-id="s_peak_small_m" priority="210" position="above" font-style="normal" font-size="9" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
+      <rule e="any" k="zl" v="1" zoom-min="10">
+        <symbol id="s_sp_trig" priority="240" src="file:moiosm_res/s_sp_trig.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
+        <caption k="name" symbol-id="s_sp_trig" priority="210" position="above" font-style="normal" font-size="9" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
       </rule>
-      <rule e="any" k="zl" v="2" zoom-min="10" zoom-max="11">
-        <symbol id="s_peak_small_l" priority="230" src="file:moiosm_res/s_peak_small_l.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-        <caption k="name" symbol-id="s_peak_small_l" priority="200" position="above" font-style="normal" font-size="9" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
+      <rule e="any" k="zl" v="2" zoom-min="10">
+        <symbol id="s_sp_trig" priority="230" src="file:moiosm_res/s_sp_trig.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
+        <caption k="name" symbol-id="s_sp_trig" priority="200" position="above" font-style="normal" font-size="9" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
       </rule>
-      <rule e="any" k="*" v="*" zoom-min="12" zoom-max="13">
+      <rule e="any" k="*" v="*" zoom-min="12">
         <rule e="any" k="zl" v="0|1">
-          <symbol id="s_peak_small_m" display="always" priority="210" src="file:moiosm_res/s_peak_small_m.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-          <caption k="name" symbol-id="s_peak_small_m" priority="210" position="above" font-style="normal" font-size="9" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
-          <caption k="ref" priority="-5" symbol-id="s_peak_small_m" position="below" font-style="normal" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
+          <symbol id="s_sp_trig" display="always" priority="210" src="file:moiosm_res/s_sp_trig.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
+          <caption k="name" symbol-id="s_sp_trig" priority="210" position="above" font-style="normal" font-size="9" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
+          <caption k="ref" priority="-5" symbol-id="s_sp_trig" position="below" font-style="normal" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
         </rule>
         <rule e="any" k="zl" v="2">
-          <symbol id="s_peak_small_l" display="always" priority="210" src="file:moiosm_res/s_peak_small_l.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-          <caption k="name" symbol-id="s_peak_small_l" priority="210" position="above" font-style="normal" font-size="9" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
-          <caption k="ref" priority="-5" symbol-id="s_peak_small_l" position="below" font-style="normal" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
+          <symbol id="s_sp_trig" display="always" priority="210" src="file:moiosm_res/s_sp_trig.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
+          <caption k="name" symbol-id="s_sp_trig" priority="210" position="above" font-style="normal" font-size="9" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
+          <caption k="ref" priority="-5" symbol-id="s_sp_trig" position="below" font-style="normal" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
         </rule>
         <rule e="any" k="zl" v="~|no">
           <rule e="any" k="name" v="~|no">
