@@ -4032,11 +4032,11 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
         <caption k="ele" priority="-5" dy="21" font-style="bold" font-size="10" fill="#666666" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
     </rule>
-    <rule e="any" k="natural" v="saddle">
+    <rule e="any" k="natural" v="saddle" zoom-min="15">
       <circle radius="0.8" scale-radius="true" fill="#CCCCCC" stroke="#666666" stroke-width="0.4"/>
-      <caption k="name" dy="-21" font-style="bold" font-size="10" fill="#666666" stroke="#E5FFFFFF" stroke-width="2"/>
+      <caption k="name" dy="-18" font-style="bold" font-size="9" fill="#666666" stroke="#E5FFFFFF" stroke-width="1.8"/>
       <rule e="any" k="*" v="*">
-        <caption k="ele" priority="-5" dy="21" font-style="bold" font-size="10" fill="#666666" stroke="#E5FFFFFF" stroke-width="2"/>
+        <caption k="ele" priority="-5" dy="18" font-style="bold" font-size="9" fill="#666666" stroke="#E5FFFFFF" stroke-width="1.8"/>
       </rule>
     </rule>
     <rule e="any" k="waterway|natural" v="rapids">
