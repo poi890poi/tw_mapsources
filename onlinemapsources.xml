@@ -3,7 +3,7 @@
 
 	<onlinemapsource uid="799">
 		<name>1899-日治臺灣全圖 (TW)</name>
-		<url><![CDATA[https://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=JM400K_1899&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
+		<url><![CDATA[http://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=JM400K_1899&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
 		<minzoom>5</minzoom>
 		<maxzoom>14</maxzoom>
@@ -23,7 +23,7 @@
 
     <onlinemapsource uid="804">
 		<name>1904-日治臺灣堡圖(明治版)-1:20,000 (TW)</name>
-		<url><![CDATA[https://gis.sinica.edu.tw/tileserver/file-exists.php?img=JM20K_1904-jpg-{$z}-{$x}-{$y}]]></url>
+		<url><![CDATA[http://gis.sinica.edu.tw/tileserver/file-exists.php?img=JM20K_1904-jpg-{$z}-{$x}-{$y}]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
 		<minzoom>5</minzoom>
 		<maxzoom>17</maxzoom>
@@ -63,7 +63,7 @@
     
 	<onlinemapsource uid="816">
 		<name>1916-日治蕃地地形圖-1:50,000 (TW)</name>
-		<url><![CDATA[https://gis.sinica.edu.tw/tileserver/file-exists.php?img=JM50K_1916-jpg-{$z}-{$x}-{$y}]]></url>
+		<url><![CDATA[http://gis.sinica.edu.tw/tileserver/file-exists.php?img=JM50K_1916-jpg-{$z}-{$x}-{$y}]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
 		<minzoom>5</minzoom>
 		<maxzoom>16</maxzoom>
@@ -83,7 +83,7 @@
     
 	<onlinemapsource uid="821">
 		<name>1921-日治臺灣堡圖(大正版)-1:20,000 (TW)</name>
-		<url><![CDATA[https://gis.sinica.edu.tw/tileserver/file-exists.php?img=JM20K_1921-jpg-{$z}-{$x}-{$y}]]></url>
+		<url><![CDATA[http://gis.sinica.edu.tw/tileserver/file-exists.php?img=JM20K_1921-jpg-{$z}-{$x}-{$y}]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
 		<minzoom>5</minzoom>
 		<maxzoom>17</maxzoom>
@@ -103,7 +103,7 @@
     
 	<onlinemapsource uid="824">
 		<name>1924-日治地形圖(陸地測量部)-1:50,000 (TW)</name>
-		<url><![CDATA[https://gis.sinica.edu.tw/tileserver/file-exists.php?img=JM50K_1924_new-jpg-{$z}-{$x}-{$y}]]></url>
+		<url><![CDATA[http://gis.sinica.edu.tw/tileserver/file-exists.php?img=JM50K_1924_new-jpg-{$z}-{$x}-{$y}]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
 		<minzoom>5</minzoom>
 		<maxzoom>16</maxzoom>
@@ -123,7 +123,7 @@
     
 	<onlinemapsource uid="836">
 		<name>1936-五十萬分一輿地圖 (TW)</name>
-		<url><![CDATA[https://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=JM500K_1936&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
+		<url><![CDATA[http://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=JM500K_1936&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
 		<minzoom>5</minzoom>
 		<maxzoom>14</maxzoom>
@@ -143,7 +143,7 @@
 
 	<onlinemapsource uid="832">
 		<name>1932-二十萬分一帝國圖 (TW)</name>
-		<url><![CDATA[https://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=JM200K_1932&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
+		<url><![CDATA[http://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=JM200K_1932&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
 		<minzoom>5</minzoom>
 		<maxzoom>14</maxzoom>
@@ -163,7 +163,7 @@
 
 	<onlinemapsource uid="839">
 		<name>1939-日治臺灣全圖(第五版) (TW)</name>
-		<url><![CDATA[https://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=JM300K_1939&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
+		<url><![CDATA[http://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=JM300K_1939&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
 		<minzoom>5</minzoom>
 		<maxzoom>14</maxzoom>
@@ -183,7 +183,7 @@
 
 	<onlinemapsource uid="844">
 		<name>1944-美軍地形圖-1:50,000 (TW)</name>
-		<url><![CDATA[https://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=AM50K_1944&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
+		<url><![CDATA[http://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=AM50K_1944&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
 		<minzoom>5</minzoom>
 		<maxzoom>16</maxzoom>
@@ -203,7 +203,7 @@
     
 	<onlinemapsource uid="845">
 		<name>1945-美軍繪製臺灣城市地圖 (TW)</name>
-		<url><![CDATA[https://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=AMCityPlan_1945&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
+		<url><![CDATA[http://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=AMCityPlan_1945&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
 		<minzoom>5</minzoom>
 		<maxzoom>17</maxzoom>
@@ -223,7 +223,7 @@
     
 	<onlinemapsource uid="846">
 		<name>1945-台北美軍航照影像 (TW)</name>
-		<url><![CDATA[https://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=Taipei_aerialphoto_1945&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/jpeg]]></url>
+		<url><![CDATA[http://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=Taipei_aerialphoto_1945&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/jpeg]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
 		<minzoom>11</minzoom>
 		<maxzoom>19</maxzoom>
@@ -243,7 +243,7 @@
     
 	<onlinemapsource uid="856">
 		<name>1956-臺灣地形圖-1:50,000 (TW)</name>
-		<url><![CDATA[https://gis.sinica.edu.tw/tileserver/file-exists.php?img=TM50K_1956-jpg-{$z}-{$x}-{$y}]]></url>
+		<url><![CDATA[http://gis.sinica.edu.tw/tileserver/file-exists.php?img=TM50K_1956-jpg-{$z}-{$x}-{$y}]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
 		<minzoom>5</minzoom>
 		<maxzoom>16</maxzoom>
@@ -263,7 +263,7 @@
     
 	<onlinemapsource uid="866">
 		<name>1966-臺灣省水利工程、水文站及基準點位置圖 (TW)</name>
-		<url><![CDATA[https://gis.sinica.edu.tw/tileserver/file-exists.php?img=TM50K_1966-jpg-{$z}-{$x}-{$y}]]></url>
+		<url><![CDATA[http://gis.sinica.edu.tw/tileserver/file-exists.php?img=TM50K_1966-jpg-{$z}-{$x}-{$y}]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
 		<minzoom>5</minzoom>
 		<maxzoom>15</maxzoom>
@@ -283,7 +283,7 @@
 
 	<onlinemapsource uid="889">
 		<name>1989-臺灣經建1版地形圖-1:25,000 (TW)</name>
-		<url><![CDATA[https://gis.sinica.edu.tw/tileserver/file-exists.php?img=TM25K_1989-jpg-{$z}-{$x}-{$y}]]></url>
+		<url><![CDATA[http://gis.sinica.edu.tw/tileserver/file-exists.php?img=TM25K_1989-jpg-{$z}-{$x}-{$y}]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
 		<minzoom>7</minzoom>
 		<maxzoom>18</maxzoom>
@@ -303,7 +303,7 @@
     
 	<onlinemapsource uid="901">
 		<name>2001-臺灣經建3版地形圖-1:25,000 (TW)</name>
-        <url><![CDATA[https://gis.sinica.edu.tw/tileserver/file-exists.php?img=TM25K_2001-jpg-{$z}-{$x}-{$y}]]></url>
+        <url><![CDATA[http://gis.sinica.edu.tw/tileserver/file-exists.php?img=TM25K_2001-jpg-{$z}-{$x}-{$y}]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
 		<minzoom>7</minzoom>
 		<maxzoom>18</maxzoom>
@@ -323,8 +323,48 @@
     
 	<onlinemapsource uid="913">
 		<name>2013-正射影像圖 (TW)</name>
-		<url><![CDATA[https://wmts.nlsc.gov.tw/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&FORMAT=image/png&STYLE=_null&LAYER=PHOTO_MIX&TILEMATRIXSET=EPSG:3857&TileMatrix={$z}&TileCol={$x}&TileRow={$y}]]></url>
+		<url><![CDATA[http://wmts.nlsc.gov.tw/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&FORMAT=image/png&STYLE=_null&LAYER=PHOTO_MIX&TILEMATRIXSET=EPSG:3857&TileMatrix={$z}&TileCol={$x}&TileRow={$y}]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
+		<minzoom>5</minzoom>
+		<maxzoom>19</maxzoom>
+		<projection>MERCATORESFERICA</projection>
+		<servers></servers>
+		<httpparam name=""></httpparam>
+		<cacheable>1</cacheable>
+		<downloadable>1</downloadable>
+		<maxtilesday>0</maxtilesday>
+		<maxthreads>0</maxthreads>
+		<xop></xop>
+		<yop></yop>
+		<zop></zop>
+		<qop></qop>
+		<sop></sop>
+	</onlinemapsource>
+    
+	<onlinemapsource uid="914">
+		<name>2019-北市都發地形圖 (TW)</name>
+		<url><![CDATA[http://www.historygis.udd.gov.taipei/arcgis/rest/services/TOPO/DGN_2019/MapServer/WMTS/tile/1.0.0/TOPO_DGN_2015/default/GoogleMapsCompatible/{$z}/{$y}/{$x}.jpg]]></url>
+		<website><![CDATA[<a href="ttps://www.historygis.udd.gov.taipei/WMTS?">臺北市政府都市發展局歷史圖資圖磚服務(WMTS)</a>]]></website>
+		<minzoom>5</minzoom>
+		<maxzoom>19</maxzoom>
+		<projection>MERCATORESFERICA</projection>
+		<servers></servers>
+		<httpparam name=""></httpparam>
+		<cacheable>1</cacheable>
+		<downloadable>1</downloadable>
+		<maxtilesday>0</maxtilesday>
+		<maxthreads>0</maxthreads>
+		<xop></xop>
+		<yop></yop>
+		<zop></zop>
+		<qop></qop>
+		<sop></sop>
+	</onlinemapsource>
+
+	<onlinemapsource uid="915">
+		<name>2019-北市都發航測影像 (TW)</name>
+		<url><![CDATA[http://www.historygis.udd.gov.taipei/arcgis/rest/services/Aerial/Ortho_2019/MapServer/tile/{$z}/{$y}/{$x}]]></url>
+		<website><![CDATA[<a href="ttps://www.historygis.udd.gov.taipei/WMTS?">臺北市政府都市發展局歷史圖資圖磚服務(WMTS)</a>]]></website>
 		<minzoom>5</minzoom>
 		<maxzoom>19</maxzoom>
 		<projection>MERCATORESFERICA</projection>
@@ -343,7 +383,7 @@
     
     <onlinemapsource uid="1000">
 		<name>通用版電子地圖 (TW)</name>
-		<url><![CDATA[https://wmts.nlsc.gov.tw/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&FORMAT=image/png&STYLE=_null&LAYER=EMAP5&TILEMATRIXSET=EPSG:3857&TileMatrix={$z}&TileCol={$x}&TileRow={$y}]]></url>
+		<url><![CDATA[http://wmts.nlsc.gov.tw/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&FORMAT=image/png&STYLE=_null&LAYER=EMAP5&TILEMATRIXSET=EPSG:3857&TileMatrix={$z}&TileCol={$x}&TileRow={$y}]]></url>
 		<website><![CDATA[<a href="http://www.nlsc.gov.tw">NLSC</a>]]></website>
 		<minzoom>5</minzoom>
 		<maxzoom>18</maxzoom>
@@ -422,6 +462,24 @@
 		<url><![CDATA[https://rs.happyman.idv.tw/map/gpxtrack/{$z}/{$x}/{$y}.png]]></url>
 		<minzoom>11</minzoom>
 		<maxzoom>17</maxzoom>
+		<projection>MERCATORESFERICA</projection>
+		<httpparam name="" />
+		<cacheable>1</cacheable>
+		<downloadable>1</downloadable>
+		<maxtilesday>0</maxtilesday>
+		<maxthreads>0</maxthreads>
+		<xop />
+		<yop />
+		<zop />
+		<qop />
+		<sop />
+	</onlinemapsource>
+
+	<onlinemapsource uid="1005">
+		<name>地圖產生器-農航所 (TW)</name>
+		<url><![CDATA[https://tile.happyman.idv.tw/map/atis/{$z}/{$x}/{$y}.png]]></url>
+		<minzoom>11</minzoom>
+		<maxzoom>19</maxzoom>
 		<projection>MERCATORESFERICA</projection>
 		<httpparam name="" />
 		<cacheable>1</cacheable>
@@ -555,7 +613,7 @@
     </onlinemapsource>
 
     <onlinemapsource uid="71">
-        <name>GOOGLE ORTOFOTOS</name>      
+        <name>GOOGLE ORTOFOTOS (TW)</name>
 		<url><![CDATA[http://khm0.googleapis.com/kh?v=142&hl=es-ES&x={$x}&y={$y}&z={$z}&token=83106]]></url>
         <website><![CDATA[<a href="http://4umaps.eu/index.htm">4umaps.eu Maps</a>]]></website>
         <minzoom>3</minzoom>
@@ -575,7 +633,7 @@
     </onlinemapsource>
    
     <onlinemapsource uid="72">
-        <name>GOOGLE HIBRIDO (TW)</name>
+        <name>GOOGLE HIBRID (TW)</name>
 		<url><![CDATA[http://mt{$s}.google.com/vt/lyrs=s,m&hl=iw&x={$x}&y={$y}&z={$z}]]></url>
         <website><![CDATA[<a href="http://4umaps.eu/index.htm">google-hibrido</a>]]></website>
         <minzoom>3</minzoom>
