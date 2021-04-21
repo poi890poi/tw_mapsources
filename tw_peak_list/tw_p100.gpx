@@ -1,0 +1,6124 @@
+<?xml version='1.0' encoding='utf8'?>
+<gpx creator="TW_MAP csv2gpx 0.1" version="1.0">
+  <name>Taiwan P100 List</name>
+<wpt lat="23.47" lon="120.95728">
+    <ele>3952</ele>
+  <name>玉山</name>
+  <cmt>1:prom=3952,rank=1</cmt>
+  </wpt>
+<wpt lat="24.3831" lon="121.2319">
+    <ele>3878</ele>
+  <name>雪山</name>
+  <cmt>2:prom=1928,rank=2</cmt>
+  </wpt>
+<wpt lat="23.1397" lon="121.3219">
+    <ele>1676</ele>
+  <name>麻荖漏山</name>
+  <cmt>3:prom=1408,rank=3</cmt>
+  </wpt>
+<wpt lat="22.6269" lon="120.7614">
+    <ele>3077</ele>
+  <name>北大武山</name>
+  <cmt>4:prom=1397,rank=4</cmt>
+  </wpt>
+<wpt lat="24.3619" lon="121.4392">
+    <ele>3735</ele>
+  <name>南湖大山</name>
+  <cmt>5:prom=1241,rank=5</cmt>
+  </wpt>
+<wpt lat="24.2025" lon="121.1089">
+    <ele>3336</ele>
+  <name>白姑大山</name>
+  <cmt>6:prom=1206,rank=6</cmt>
+  </wpt>
+<wpt lat="25.1708" lon="121.5533">
+    <ele>1109</ele>
+  <name>七星山</name>
+  <cmt>7:prom=1054,rank=7</cmt>
+  </wpt>
+<wpt lat="23.4967" lon="121.0572">
+    <ele>3825</ele>
+  <name>秀姑巒山</name>
+  <cmt>8:prom=1017,rank=8</cmt>
+  </wpt>
+<wpt lat="23.2269" lon="120.9117">
+    <ele>3656</ele>
+  <name>關山P</name>
+  <cmt>9:prom=1009,rank=9</cmt>
+  </wpt>
+<wpt lat="23.8394" lon="120.9722">
+    <ele>2121</ele>
+  <name>P2121</name>
+  <cmt>10:prom=980,rank=10</cmt>
+  </wpt>
+<wpt lat="24.7050" lon="121.4497">
+    <ele>2131</ele>
+  <name>P2131</name>
+  <cmt>11:prom=974,rank=11</cmt>
+  </wpt>
+<wpt lat="24.1181" lon="121.3347">
+    <ele>3593</ele>
+  <name>奇萊北峰</name>
+  <cmt>12:prom=958,rank=12</cmt>
+  </wpt>
+<wpt lat="23.8344" lon="121.1158">
+    <ele>3359</ele>
+  <name>卓社大山</name>
+  <cmt>13:prom=875,rank=13</cmt>
+  </wpt>
+<wpt lat="23.6267" lon="121.0919">
+    <ele>3607</ele>
+  <name>東郡大山</name>
+  <cmt>14:prom=832,rank=14</cmt>
+  </wpt>
+<wpt lat="24.7972" lon="121.5675">
+    <ele>1458</ele>
+  <name>P1458</name>
+  <cmt>15:prom=807,rank=15</cmt>
+  </wpt>
+<wpt lat="24.0453" lon="121.0503">
+    <ele>2417</ele>
+  <name>P2417</name>
+  <cmt>16:prom=778,rank=16</cmt>
+  </wpt>
+<wpt lat="24.5939" lon="121.3728">
+    <ele>2440</ele>
+  <name>泰矢生山</name>
+  <cmt>17:prom=760,rank=17</cmt>
+  </wpt>
+<wpt lat="23.8550" lon="120.8381">
+    <ele>1388</ele>
+  <name>集集大山</name>
+  <cmt>18:prom=754,rank=18</cmt>
+  </wpt>
+<wpt lat="24.5375" lon="121.7608">
+    <ele>1471</ele>
+  <name>蘭崁山</name>
+  <cmt>19:prom=746,rank=19</cmt>
+  </wpt>
+<wpt lat="23.5447" lon="121.4889">
+    <ele>913</ele>
+  <name>八里灣</name>
+  <cmt>20:prom=743,rank=20</cmt>
+  </wpt>
+<wpt lat="23.3536" lon="120.9758">
+    <ele>3559</ele>
+  <name>雲峰</name>
+  <cmt>21:prom=730,rank=21</cmt>
+  </wpt>
+<wpt lat="24.3908" lon="121.6911">
+    <ele>1854</ele>
+  <name>飯包山</name>
+  <cmt>22:prom=710,rank=22</cmt>
+  </wpt>
+<wpt lat="24.1811" lon="121.2811">
+    <ele>3419</ele>
+  <name>北合歡山P</name>
+  <cmt>23:prom=707,rank=23</cmt>
+  </wpt>
+<wpt lat="22.1639" lon="120.7328">
+    <ele>1056</ele>
+  <name>里龍山</name>
+  <cmt>24:prom=707,rank=23</cmt>
+  </wpt>
+<wpt lat="23.5772" lon="120.9628">
+    <ele>3270</ele>
+  <name>郡大山</name>
+  <cmt>25:prom=690,rank=25</cmt>
+  </wpt>
+<wpt lat="23.2842" lon="120.9925">
+    <ele>3594</ele>
+  <name>向陽山</name>
+  <cmt>26:prom=679,rank=26</cmt>
+  </wpt>
+<wpt lat="22.8950" lon="121.1881">
+    <ele>1188</ele>
+  <name>都蘭山</name>
+  <cmt>27:prom=676,rank=27</cmt>
+  </wpt>
+<wpt lat="23.2958" lon="120.7828">
+    <ele>2475</ele>
+  <name>P2475</name>
+  <cmt>28:prom=648,rank=28</cmt>
+  </wpt>
+<wpt lat="22.6931" lon="120.7869">
+    <ele>2727</ele>
+  <name>霧頭山</name>
+  <cmt>29:prom=647,rank=29</cmt>
+  </wpt>
+<wpt lat="24.3100" lon="121.4161">
+    <ele>3693</ele>
+  <name>中央尖</name>
+  <cmt>30:prom=640,rank=30</cmt>
+  </wpt>
+<wpt lat="23.2403" lon="120.5925">
+    <ele>1181</ele>
+  <name>三角南山</name>
+  <cmt>31:prom=630,rank=31</cmt>
+  </wpt>
+<wpt lat="23.6967" lon="121.0936">
+    <ele>2840</ele>
+  <name>巒潭山</name>
+  <cmt>32:prom=622,rank=32</cmt>
+  </wpt>
+<wpt lat="23.7447" lon="120.9811">
+    <ele>2905</ele>
+  <name>治茆山</name>
+  <cmt>33:prom=619,rank=33</cmt>
+  </wpt>
+<wpt lat="24.2094" lon="121.5906">
+    <ele>2602</ele>
+  <name>三角錐山</name>
+  <cmt>34:prom=594,rank=34</cmt>
+  </wpt>
+<wpt lat="24.2553" lon="121.3847">
+    <ele>3444</ele>
+  <name>無名山</name>
+  <cmt>35:prom=594,rank=34</cmt>
+  </wpt>
+<wpt lat="23.3164" lon="121.1272">
+    <ele>3334</ele>
+  <name>新康山</name>
+  <cmt>36:prom=585,rank=36</cmt>
+  </wpt>
+<wpt lat="23.9656" lon="121.2778">
+    <ele>3341</ele>
+  <name>能高南峰</name>
+  <cmt>37:prom=581,rank=37</cmt>
+  </wpt>
+<wpt lat="24.2736" lon="121.6153">
+    <ele>2647</ele>
+  <name>曉星山南峰</name>
+  <cmt>38:prom=577,rank=38</cmt>
+  </wpt>
+<wpt lat="24.5414" lon="121.3886">
+    <ele>2347</ele>
+  <name>P2347</name>
+  <cmt>39:prom=558,rank=39</cmt>
+  </wpt>
+<wpt lat="24.3306" lon="121.1211">
+    <ele>3524</ele>
+  <name>大雪山</name>
+  <cmt>40:prom=552,rank=40</cmt>
+  </wpt>
+<wpt lat="23.7394" lon="120.8172">
+    <ele>1387</ele>
+  <name>P1387</name>
+  <cmt>41:prom=551,rank=41</cmt>
+  </wpt>
+<wpt lat="23.8239" lon="121.3011">
+    <ele>2825</ele>
+  <name>P2825</name>
+  <cmt>42:prom=549,rank=42</cmt>
+  </wpt>
+<wpt lat="24.3522" lon="121.5925">
+    <ele>2045</ele>
+  <name>石楠花山</name>
+  <cmt>43:prom=544,rank=43</cmt>
+  </wpt>
+<wpt lat="22.0528" lon="121.5344">
+    <ele>543</ele>
+  <name>紅頭山</name>
+  <cmt>44:prom=543,rank=44</cmt>
+  </wpt>
+<wpt lat="23.7614" lon="121.3886">
+    <ele>2026</ele>
+  <name>P2026</name>
+  <cmt>45:prom=538,rank=45</cmt>
+  </wpt>
+<wpt lat="23.0081" lon="120.7225">
+    <ele>1890</ele>
+  <name>榆油山</name>
+  <cmt>46:prom=535,rank=46</cmt>
+  </wpt>
+<wpt lat="22.5728" lon="120.7489">
+    <ele>2831</ele>
+  <name>南大武山</name>
+  <cmt>47:prom=532,rank=47</cmt>
+  </wpt>
+<wpt lat="24.4967" lon="121.0703">
+    <ele>2610</ele>
+  <name>鹿場大山</name>
+  <cmt>48:prom=515,rank=48</cmt>
+  </wpt>
+<wpt lat="22.8258" lon="120.7492">
+    <ele>2422</ele>
+  <name>大母母山</name>
+  <cmt>49:prom=512,rank=49</cmt>
+  </wpt>
+<wpt lat="25.1361" lon="121.4264">
+    <ele>601</ele>
+  <name>八里觀音山</name>
+  <cmt>50:prom=497,rank=50</cmt>
+  </wpt>
+<wpt lat="22.9753" lon="120.8292">
+    <ele>2769</ele>
+  <name>出雲山</name>
+  <cmt>51:prom=494,rank=51</cmt>
+  </wpt>
+<wpt lat="22.6319" lon="120.9414">
+    <ele>1393</ele>
+  <name>規那山</name>
+  <cmt>52:prom=489,rank=52</cmt>
+  </wpt>
+<wpt lat="24.3750" lon="120.8111">
+    <ele>886</ele>
+  <name>關刀山</name>
+  <cmt>53:prom=488,rank=53</cmt>
+  </wpt>
+<wpt lat="24.6931" lon="121.3039">
+    <ele>1911</ele>
+  <name>P1911</name>
+  <cmt>54:prom=480,rank=54</cmt>
+  </wpt>
+<wpt lat="23.0478" lon="120.5236">
+    <ele>793</ele>
+  <name>P793</name>
+  <cmt>55:prom=476,rank=55</cmt>
+  </wpt>
+<wpt lat="25.0711" lon="121.7806">
+    <ele>756</ele>
+  <name>五分山</name>
+  <cmt>56:prom=473,rank=56</cmt>
+  </wpt>
+<wpt lat="24.1356" lon="121.2811">
+    <ele>3415</ele>
+  <name>合歡東峰</name>
+  <cmt>57:prom=469,rank=57</cmt>
+  </wpt>
+<wpt lat="22.4075" lon="120.7514">
+    <ele>1687</ele>
+  <name>P1687</name>
+  <cmt>58:prom=469,rank=57</cmt>
+  </wpt>
+<wpt lat="23.9225" lon="121.3839">
+    <ele>2730</ele>
+  <name>大檜山</name>
+  <cmt>59:prom=465,rank=59</cmt>
+  </wpt>
+<wpt lat="25.0931" lon="121.8656">
+    <ele>730</ele>
+  <name>燦光寮山</name>
+  <cmt>60:prom=464,rank=60</cmt>
+  </wpt>
+<wpt lat="24.8983" lon="121.7931">
+    <ele>1001</ele>
+  <name>P1001</name>
+  <cmt>61:prom=462,rank=61</cmt>
+  </wpt>
+<wpt lat="23.6794" lon="121.5233">
+    <ele>742</ele>
+  <name>P742</name>
+  <cmt>62:prom=458,rank=62</cmt>
+  </wpt>
+<wpt lat="23.6939" lon="120.9475">
+    <ele>3079</ele>
+  <name>西巒大山</name>
+  <cmt>63:prom=456,rank=63</cmt>
+  </wpt>
+<wpt lat="22.7639" lon="120.6922">
+    <ele>1236</ele>
+  <name>德文山</name>
+  <cmt>64:prom=455,rank=64</cmt>
+  </wpt>
+<wpt lat="23.0692" lon="121.2472">
+    <ele>1015</ele>
+  <name>P1015</name>
+  <cmt>65:prom=454,rank=65</cmt>
+  </wpt>
+<wpt lat="23.3575" lon="121.4222">
+    <ele>1331</ele>
+  <name>P1331</name>
+  <cmt>66:prom=452,rank=66</cmt>
+  </wpt>
+<wpt lat="23.9192" lon="121.5206">
+    <ele>594</ele>
+  <name>鯉魚山</name>
+  <cmt>67:prom=451,rank=67</cmt>
+  </wpt>
+<wpt lat="24.1153" lon="121.5219">
+    <ele>2507</ele>
+  <name>P2507</name>
+  <cmt>68:prom=449,rank=68</cmt>
+  </wpt>
+<wpt lat="23.3836" lon="121.2414">
+    <ele>2176</ele>
+  <name>P2176</name>
+  <cmt>69:prom=447,rank=69</cmt>
+  </wpt>
+<wpt lat="24.0992" lon="121.4664">
+    <ele>3094</ele>
+  <name>帕托魯山</name>
+  <cmt>70:prom=447,rank=69</cmt>
+  </wpt>
+<wpt lat="22.0389" lon="120.7919">
+    <ele>669</ele>
+  <name>老佛山</name>
+  <cmt>71:prom=446,rank=71</cmt>
+  </wpt>
+<wpt lat="23.4978" lon="120.7200">
+    <ele>1973</ele>
+  <name>奮起湖大凍山</name>
+  <cmt>72:prom=444,rank=72</cmt>
+  </wpt>
+<wpt lat="24.5092" lon="121.5639">
+    <ele>2349</ele>
+  <name>三星山</name>
+  <cmt>73:prom=440,rank=73</cmt>
+  </wpt>
+<wpt lat="23.4836" lon="121.1739">
+    <ele>3437</ele>
+  <name>馬西山</name>
+  <cmt>74:prom=439,rank=74</cmt>
+  </wpt>
+<wpt lat="23.8631" lon="121.3258">
+    <ele>2521</ele>
+  <name>P2521</name>
+  <cmt>75:prom=438,rank=75</cmt>
+  </wpt>
+<wpt lat="23.3544" lon="120.9392">
+    <ele>3041</ele>
+  <name>玉穗山</name>
+  <cmt>76:prom=438,rank=75</cmt>
+  </wpt>
+<wpt lat="23.6936" lon="121.2392">
+    <ele>3039</ele>
+  <name>關門山北峰</name>
+  <cmt>77:prom=437,rank=77</cmt>
+  </wpt>
+<wpt lat="22.7039" lon="120.9478">
+    <ele>1667</ele>
+  <name>P1667</name>
+  <cmt>78:prom=435,rank=78</cmt>
+  </wpt>
+<wpt lat="24.6736" lon="121.4797">
+    <ele>2096</ele>
+  <name>巴博庫魯</name>
+  <cmt>79:prom=435,rank=78</cmt>
+  </wpt>
+<wpt lat="24.8344" lon="121.6964">
+    <ele>1160</ele>
+  <name>烘爐地山</name>
+  <cmt>80:prom=433,rank=80</cmt>
+  </wpt>
+<wpt lat="24.5019" lon="120.8806">
+    <ele>772</ele>
+  <name>P772</name>
+  <cmt>81:prom=433,rank=80</cmt>
+  </wpt>
+<wpt lat="22.9853" lon="120.9961">
+    <ele>2942</ele>
+  <name>P2942</name>
+  <cmt>82:prom=433,rank=80</cmt>
+  </wpt>
+<wpt lat="22.9547" lon="121.0444">
+    <ele>2102</ele>
+  <name>P2102</name>
+  <cmt>83:prom=428,rank=83</cmt>
+  </wpt>
+<wpt lat="23.0508" lon="120.8744">
+    <ele>3284</ele>
+  <name>卑南主山</name>
+  <cmt>84:prom=424,rank=84</cmt>
+  </wpt>
+<wpt lat="22.8997" lon="120.8333">
+    <ele>2549</ele>
+  <name>石穗頭</name>
+  <cmt>85:prom=421,rank=85</cmt>
+  </wpt>
+<wpt lat="24.0819" lon="121.4189">
+    <ele>3281</ele>
+  <name>太魯閣大山P</name>
+  <cmt>86:prom=420,rank=86</cmt>
+  </wpt>
+<wpt lat="23.0708" lon="120.9828">
+    <ele>2863</ele>
+  <name>P2863</name>
+  <cmt>87:prom=419,rank=87</cmt>
+  </wpt>
+<wpt lat="24.0761" lon="121.1269">
+    <ele>2080</ele>
+  <name>P2080</name>
+  <cmt>88:prom=417,rank=88</cmt>
+  </wpt>
+<wpt lat="23.0556" lon="120.6225">
+    <ele>1037</ele>
+  <name>廓庭山</name>
+  <cmt>89:prom=416,rank=89</cmt>
+  </wpt>
+<wpt lat="22.5167" lon="120.7853">
+    <ele>1986</ele>
+  <name>P1986</name>
+  <cmt>90:prom=413,rank=90</cmt>
+  </wpt>
+<wpt lat="23.3953" lon="121.4078">
+    <ele>1271</ele>
+  <name>麻汝蘭山</name>
+  <cmt>91:prom=408,rank=91</cmt>
+  </wpt>
+<wpt lat="23.5900" lon="120.6233">
+    <ele>1299</ele>
+  <name>大尖山(一等)</name>
+  <cmt>92:prom=405,rank=92</cmt>
+  </wpt>
+<wpt lat="23.3122" lon="120.5233">
+    <ele>1237</ele>
+  <name>P1237</name>
+  <cmt>93:prom=401,rank=93</cmt>
+  </wpt>
+<wpt lat="24.9747" lon="121.7181">
+    <ele>836</ele>
+  <name>火燒寮山</name>
+  <cmt>94:prom=397,rank=94</cmt>
+  </wpt>
+<wpt lat="23.9831" lon="121.2006">
+    <ele>2614</ele>
+  <name>麻平暮山</name>
+  <cmt>95:prom=396,rank=95</cmt>
+  </wpt>
+<wpt lat="23.9142" lon="121.4436">
+    <ele>2426</ele>
+  <name>P2426</name>
+  <cmt>96:prom=396,rank=95</cmt>
+  </wpt>
+<wpt lat="24.2350" lon="121.6514">
+    <ele>2404</ele>
+  <name>清水大山</name>
+  <cmt>97:prom=395,rank=97</cmt>
+  </wpt>
+<wpt lat="24.2133" lon="121.3472">
+    <ele>3361</ele>
+  <name>畢祿山</name>
+  <cmt>98:prom=389,rank=98</cmt>
+  </wpt>
+<wpt lat="24.8414" lon="121.9531">
+    <ele>387</ele>
+  <name>P387</name>
+  <cmt>99:prom=387,rank=99</cmt>
+  </wpt>
+<wpt lat="23.7142" lon="121.3192">
+    <ele>2142</ele>
+  <name>P2142</name>
+  <cmt>100:prom=385,rank=100</cmt>
+  </wpt>
+<wpt lat="24.2567" lon="121.5700">
+    <ele>2561</ele>
+  <name>二子山</name>
+  <cmt>101:prom=384,rank=101</cmt>
+  </wpt>
+<wpt lat="22.4789" lon="120.8503">
+    <ele>1241</ele>
+  <name>杜鴉原山</name>
+  <cmt>102:prom=383,rank=102</cmt>
+  </wpt>
+<wpt lat="23.2817" lon="120.6167">
+    <ele>996</ele>
+  <name>崙頂</name>
+  <cmt>103:prom=383,rank=102</cmt>
+  </wpt>
+<wpt lat="24.4783" lon="121.1081">
+    <ele>2474</ele>
+  <name>榛山</name>
+  <cmt>104:prom=380,rank=104</cmt>
+  </wpt>
+<wpt lat="23.8842" lon="121.3867">
+    <ele>2003</ele>
+  <name>P2003</name>
+  <cmt>105:prom=379,rank=105</cmt>
+  </wpt>
+<wpt lat="24.2586" lon="121.3097">
+    <ele>3160</ele>
+  <name>閂山</name>
+  <cmt>106:prom=378,rank=106</cmt>
+  </wpt>
+<wpt lat="23.5358" lon="120.8086">
+    <ele>2650</ele>
+  <name>大塔山</name>
+  <cmt>107:prom=377,rank=107</cmt>
+  </wpt>
+<wpt lat="24.4575" lon="121.2578">
+    <ele>3475</ele>
+  <name>大霸尖山</name>
+  <cmt>108:prom=374,rank=108</cmt>
+  </wpt>
+<wpt lat="24.7308" lon="121.2983">
+    <ele>1753</ele>
+  <name>烏嘴山</name>
+  <cmt>109:prom=374,rank=108</cmt>
+  </wpt>
+<wpt lat="24.0747" lon="120.8292">
+    <ele>1202</ele>
+  <name>大橫屏山</name>
+  <cmt>110:prom=374,rank=108</cmt>
+  </wpt>
+<wpt lat="24.1244" lon="121.4456">
+    <ele>3066</ele>
+  <name>立霧主山</name>
+  <cmt>111:prom=373,rank=111</cmt>
+  </wpt>
+<wpt lat="22.8569" lon="120.6764">
+    <ele>1422</ele>
+  <name>尾寮山</name>
+  <cmt>112:prom=372,rank=112</cmt>
+  </wpt>
+<wpt lat="22.9778" lon="120.6231">
+    <ele>819</ele>
+  <name>大貢占山</name>
+  <cmt>113:prom=371,rank=113</cmt>
+  </wpt>
+<wpt lat="23.9694" lon="121.0533">
+    <ele>1671</ele>
+  <name>P1671</name>
+  <cmt>114:prom=368,rank=114</cmt>
+  </wpt>
+<wpt lat="22.9603" lon="121.2622">
+    <ele>910</ele>
+  <name>跋都山</name>
+  <cmt>115:prom=361,rank=115</cmt>
+  </wpt>
+<wpt lat="24.5003" lon="121.2194">
+    <ele>2912</ele>
+  <name>P2912</name>
+  <cmt>116:prom=359,rank=116</cmt>
+  </wpt>
+<wpt lat="23.5425" lon="121.4528">
+    <ele>693</ele>
+  <name>新瑞山</name>
+  <cmt>117:prom=356,rank=117</cmt>
+  </wpt>
+<wpt lat="23.1514" lon="120.8761">
+    <ele>3237</ele>
+  <name>小關山</name>
+  <cmt>118:prom=353,rank=118</cmt>
+  </wpt>
+<wpt lat="24.5106" lon="121.0122">
+    <ele>2202</ele>
+  <name>加里山</name>
+  <cmt>119:prom=353,rank=118</cmt>
+  </wpt>
+<wpt lat="23.0825" lon="120.8344">
+    <ele>2845</ele>
+  <name>P2845</name>
+  <cmt>120:prom=353,rank=118</cmt>
+  </wpt>
+<wpt lat="23.6003" lon="121.2133">
+    <ele>3319</ele>
+  <name>丹大山</name>
+  <cmt>121:prom=350,rank=121</cmt>
+  </wpt>
+<wpt lat="23.8761" lon="121.1389">
+    <ele>3275</ele>
+  <name>干卓萬山</name>
+  <cmt>122:prom=349,rank=122</cmt>
+  </wpt>
+<wpt lat="23.6467" lon="120.9642">
+    <ele>3052</ele>
+  <name>清水山</name>
+  <cmt>123:prom=349,rank=122</cmt>
+  </wpt>
+<wpt lat="23.3072" lon="120.7097">
+    <ele>1590</ele>
+  <name>卓武山</name>
+  <cmt>124:prom=348,rank=124</cmt>
+  </wpt>
+<wpt lat="23.8253" lon="121.5519">
+    <ele>611</ele>
+  <name>月眉山</name>
+  <cmt>125:prom=348,rank=124</cmt>
+  </wpt>
+<wpt lat="22.9211" lon="120.8292">
+    <ele>2511</ele>
+  <name>P2511</name>
+  <cmt>126:prom=345,rank=126</cmt>
+  </wpt>
+<wpt lat="22.6417" lon="120.2614">
+    <ele>355</ele>
+  <name>P355</name>
+  <cmt>127:prom=343,rank=127</cmt>
+  </wpt>
+<wpt lat="22.4528" lon="120.7436">
+    <ele>1629</ele>
+  <name>P1629</name>
+  <cmt>128:prom=343,rank=127</cmt>
+  </wpt>
+<wpt lat="22.6431" lon="120.8544">
+    <ele>1566</ele>
+  <name>P1566</name>
+  <cmt>129:prom=342,rank=129</cmt>
+  </wpt>
+<wpt lat="23.0669" lon="121.0703">
+    <ele>2196</ele>
+  <name>P2196</name>
+  <cmt>130:prom=341,rank=130</cmt>
+  </wpt>
+<wpt lat="24.7392" lon="121.6458">
+    <ele>816</ele>
+  <name>P816</name>
+  <cmt>131:prom=341,rank=130</cmt>
+  </wpt>
+<wpt lat="24.7353" lon="121.5942">
+    <ele>1132</ele>
+  <name>紅紫山</name>
+  <cmt>132:prom=341,rank=130</cmt>
+  </wpt>
+<wpt lat="23.3533" lon="120.8889">
+    <ele>2857</ele>
+  <name>魔界腕</name>
+  <cmt>133:prom=339,rank=133</cmt>
+  </wpt>
+<wpt lat="23.8586" lon="120.9950">
+    <ele>2013</ele>
+  <name>大尖山</name>
+  <cmt>134:prom=339,rank=133</cmt>
+  </wpt>
+<wpt lat="23.9078" lon="121.2750">
+    <ele>3105</ele>
+  <name>白石山</name>
+  <cmt>135:prom=338,rank=135</cmt>
+  </wpt>
+<wpt lat="24.7617" lon="121.4231">
+    <ele>1899</ele>
+  <name>魯培山</name>
+  <cmt>136:prom=336,rank=136</cmt>
+  </wpt>
+<wpt lat="22.8042" lon="120.9008">
+    <ele>2398</ele>
+  <name>王霸邊浦</name>
+  <cmt>137:prom=335,rank=137</cmt>
+  </wpt>
+<wpt lat="23.8706" lon="121.0100">
+    <ele>1807</ele>
+  <name>P1807</name>
+  <cmt>138:prom=334,rank=138</cmt>
+  </wpt>
+<wpt lat="23.7572" lon="121.1289">
+    <ele>2632</ele>
+  <name>P2632</name>
+  <cmt>139:prom=334,rank=138</cmt>
+  </wpt>
+<wpt lat="24.3639" lon="121.7153">
+    <ele>1739</ele>
+  <name>P1739</name>
+  <cmt>140:prom=332,rank=140</cmt>
+  </wpt>
+<wpt lat="22.4942" lon="120.7950">
+    <ele>1924</ele>
+  <name>大里力山</name>
+  <cmt>141:prom=331,rank=141</cmt>
+  </wpt>
+<wpt lat="22.2578" lon="120.7933">
+    <ele>926</ele>
+  <name>P926</name>
+  <cmt>142:prom=331,rank=141</cmt>
+  </wpt>
+<wpt lat="24.9481" lon="121.8133">
+    <ele>810</ele>
+  <name>灣潭山</name>
+  <cmt>143:prom=330,rank=143</cmt>
+  </wpt>
+<wpt lat="23.0486" lon="120.9303">
+    <ele>2915</ele>
+  <name>P2915</name>
+  <cmt>144:prom=328,rank=144</cmt>
+  </wpt>
+<wpt lat="23.0208" lon="121.0872">
+    <ele>1884</ele>
+  <name>加奈典山</name>
+  <cmt>145:prom=326,rank=145</cmt>
+  </wpt>
+<wpt lat="22.0678" lon="120.8417">
+    <ele>512</ele>
+  <name>萬里得山</name>
+  <cmt>146:prom=326,rank=145</cmt>
+  </wpt>
+<wpt lat="23.1919" lon="121.3392">
+    <ele>1585</ele>
+  <name>P1585</name>
+  <cmt>147:prom=325,rank=147</cmt>
+  </wpt>
+<wpt lat="24.1400" lon="120.9461">
+    <ele>1533</ele>
+  <name>阿冷山</name>
+  <cmt>148:prom=322,rank=148</cmt>
+  </wpt>
+<wpt lat="23.5908" lon="121.0822">
+    <ele>3440</ele>
+  <name>儲山</name>
+  <cmt>149:prom=321,rank=149</cmt>
+  </wpt>
+<wpt lat="23.5206" lon="121.0669">
+    <ele>3766</ele>
+  <name>馬博拉斯山</name>
+  <cmt>150:prom=321,rank=149</cmt>
+  </wpt>
+<wpt lat="23.4039" lon="120.7944">
+    <ele>2409</ele>
+  <name>P2409</name>
+  <cmt>151:prom=321,rank=149</cmt>
+  </wpt>
+<wpt lat="24.2353" lon="120.9733">
+    <ele>2320</ele>
+  <name>P2320</name>
+  <cmt>152:prom=320,rank=152</cmt>
+  </wpt>
+<wpt lat="24.1792" lon="120.8003">
+    <ele>852</ele>
+  <name>頭嵙山</name>
+  <cmt>153:prom=319,rank=153</cmt>
+  </wpt>
+<wpt lat="22.5525" lon="120.7978">
+    <ele>2058</ele>
+  <name>P2058</name>
+  <cmt>154:prom=318,rank=154</cmt>
+  </wpt>
+<wpt lat="24.4911" lon="121.7233">
+    <ele>1689</ele>
+  <name>P1689</name>
+  <cmt>155:prom=314,rank=155</cmt>
+  </wpt>
+<wpt lat="24.3467" lon="121.3544">
+    <ele>2825</ele>
+  <name>平岩山</name>
+  <cmt>156:prom=314,rank=155</cmt>
+  </wpt>
+<wpt lat="23.0344" lon="120.7439">
+    <ele>1683</ele>
+  <name>見付</name>
+  <cmt>157:prom=313,rank=157</cmt>
+  </wpt>
+<wpt lat="23.5217" lon="121.1172">
+    <ele>3551</ele>
+  <name>馬利加南山</name>
+  <cmt>158:prom=313,rank=157</cmt>
+  </wpt>
+<wpt lat="23.0139" lon="121.3028">
+    <ele>807</ele>
+  <name>都歷</name>
+  <cmt>159:prom=311,rank=159</cmt>
+  </wpt>
+<wpt lat="25.2142" lon="121.5631">
+    <ele>1100</ele>
+  <name>竹子山</name>
+  <cmt>160:prom=310,rank=160</cmt>
+  </wpt>
+<wpt lat="22.8300" lon="120.4325">
+    <ele>417</ele>
+  <name>中寮山</name>
+  <cmt>161:prom=310,rank=160</cmt>
+  </wpt>
+<wpt lat="23.3397" lon="120.6589">
+    <ele>1091</ele>
+  <name>草山(嘉)</name>
+  <cmt>162:prom=307,rank=162</cmt>
+  </wpt>
+<wpt lat="22.9667" lon="120.5797">
+    <ele>659</ele>
+  <name>P659</name>
+  <cmt>163:prom=306,rank=163</cmt>
+  </wpt>
+<wpt lat="22.4203" lon="120.6867">
+    <ele>1179</ele>
+  <name>P1179</name>
+  <cmt>164:prom=303,rank=164</cmt>
+  </wpt>
+<wpt lat="23.3956" lon="120.6050">
+    <ele>1274</ele>
+  <name>頭凍山</name>
+  <cmt>165:prom=303,rank=164</cmt>
+  </wpt>
+<wpt lat="22.0831" lon="120.8033">
+    <ele>586</ele>
+  <name>四林格山</name>
+  <cmt>166:prom=300,rank=166</cmt>
+  </wpt>
+<wpt lat="23.5794" lon="121.1964">
+    <ele>3271</ele>
+  <name>內嶺爾山</name>
+  <cmt>167:prom=299,rank=167</cmt>
+  </wpt>
+<wpt lat="22.0100" lon="121.5856">
+    <ele>476</ele>
+  <name>大森山</name>
+  <cmt>168:prom=299,rank=167</cmt>
+  </wpt>
+<wpt lat="23.4719" lon="120.8264">
+    <ele>2610</ele>
+  <name>P2610</name>
+  <cmt>169:prom=298,rank=169</cmt>
+  </wpt>
+<wpt lat="23.1125" lon="120.5250">
+    <ele>634</ele>
+  <name>糖子恩山</name>
+  <cmt>170:prom=297,rank=170</cmt>
+  </wpt>
+<wpt lat="23.9914" lon="121.2597">
+    <ele>3249</ele>
+  <name>能高山P</name>
+  <cmt>171:prom=296,rank=171</cmt>
+  </wpt>
+<wpt lat="23.3911" lon="120.9983">
+    <ele>3263</ele>
+  <name>轆轆山</name>
+  <cmt>172:prom=295,rank=172</cmt>
+  </wpt>
+<wpt lat="24.3214" lon="120.9072">
+    <ele>1232</ele>
+  <name>大克山</name>
+  <cmt>173:prom=295,rank=172</cmt>
+  </wpt>
+<wpt lat="24.9236" lon="121.7556">
+    <ele>945</ele>
+  <name>P945</name>
+  <cmt>174:prom=295,rank=172</cmt>
+  </wpt>
+<wpt lat="24.7303" lon="121.4342">
+    <ele>2029</ele>
+  <name>拉拉山</name>
+  <cmt>175:prom=295,rank=172</cmt>
+  </wpt>
+<wpt lat="23.6422" lon="121.2769">
+    <ele>2925</ele>
+  <name>倫太文山</name>
+  <cmt>176:prom=292,rank=176</cmt>
+  </wpt>
+<wpt lat="23.3458" lon="121.0103">
+    <ele>3354</ele>
+  <name>南雙頭山</name>
+  <cmt>177:prom=291,rank=177</cmt>
+  </wpt>
+<wpt lat="24.9461" lon="121.4561">
+    <ele>417</ele>
+  <name>天上山</name>
+  <cmt>178:prom=290,rank=178</cmt>
+  </wpt>
+<wpt lat="23.0436" lon="121.0456">
+    <ele>2275</ele>
+  <name>關東松</name>
+  <cmt>179:prom=290,rank=178</cmt>
+  </wpt>
+<wpt lat="24.3672" lon="120.9139">
+    <ele>1398</ele>
+  <name>馬那邦山</name>
+  <cmt>180:prom=289,rank=180</cmt>
+  </wpt>
+<wpt lat="22.5467" lon="120.9203">
+    <ele>1049</ele>
+  <name>虷泉山</name>
+  <cmt>181:prom=287,rank=181</cmt>
+  </wpt>
+<wpt lat="22.5022" lon="120.7042">
+    <ele>1643</ele>
+  <name>大武藏山</name>
+  <cmt>182:prom=286,rank=182</cmt>
+  </wpt>
+<wpt lat="22.5511" lon="120.8608">
+    <ele>1235</ele>
+  <name>北交莫爾</name>
+  <cmt>183:prom=285,rank=183</cmt>
+  </wpt>
+<wpt lat="23.2367" lon="120.6714">
+    <ele>1181</ele>
+  <name>河湖表山</name>
+  <cmt>184:prom=285,rank=183</cmt>
+  </wpt>
+<wpt lat="23.4608" lon="120.8719">
+    <ele>2885</ele>
+  <name>P2885</name>
+  <cmt>185:prom=285,rank=183</cmt>
+  </wpt>
+<wpt lat="23.5081" lon="120.6539">
+    <ele>1461</ele>
+  <name>P1461</name>
+  <cmt>186:prom=283,rank=186</cmt>
+  </wpt>
+<wpt lat="22.8358" lon="120.7817">
+    <ele>2434</ele>
+  <name>P2434</name>
+  <cmt>187:prom=283,rank=186</cmt>
+  </wpt>
+<wpt lat="23.8892" lon="120.6314">
+    <ele>442</ele>
+  <name>橫山(二等)</name>
+  <cmt>188:prom=283,rank=186</cmt>
+  </wpt>
+<wpt lat="22.7208" lon="120.7392">
+    <ele>2061</ele>
+  <name>井步山</name>
+  <cmt>189:prom=282,rank=189</cmt>
+  </wpt>
+<wpt lat="24.0297" lon="120.7878">
+    <ele>776</ele>
+  <name>P776</name>
+  <cmt>190:prom=282,rank=189</cmt>
+  </wpt>
+<wpt lat="24.8111" lon="121.6211">
+    <ele>1285</ele>
+  <name>P1285</name>
+  <cmt>191:prom=281,rank=191</cmt>
+  </wpt>
+<wpt lat="23.5544" lon="121.1458">
+    <ele>3056</ele>
+  <name>僕落西擴山</name>
+  <cmt>192:prom=281,rank=191</cmt>
+  </wpt>
+<wpt lat="23.3953" lon="120.7706">
+    <ele>2396</ele>
+  <name>P2396</name>
+  <cmt>193:prom=280,rank=193</cmt>
+  </wpt>
+<wpt lat="23.4369" lon="120.6578">
+    <ele>1465</ele>
+  <name>隙頂山</name>
+  <cmt>194:prom=279,rank=194</cmt>
+  </wpt>
+<wpt lat="23.4681" lon="121.1600">
+    <ele>3332</ele>
+  <name>布干山</name>
+  <cmt>195:prom=278,rank=195</cmt>
+  </wpt>
+<wpt lat="24.8664" lon="121.3353">
+    <ele>651</ele>
+  <name>金面山</name>
+  <cmt>196:prom=278,rank=195</cmt>
+  </wpt>
+<wpt lat="24.9211" lon="121.5689">
+    <ele>726</ele>
+  <name>P726</name>
+  <cmt>197:prom=276,rank=197</cmt>
+  </wpt>
+<wpt lat="25.0061" lon="121.7144">
+    <ele>599</ele>
+  <name>P599</name>
+  <cmt>198:prom=275,rank=198</cmt>
+  </wpt>
+<wpt lat="25.1775" lon="121.6700">
+    <ele>467</ele>
+  <name>中幅子山</name>
+  <cmt>199:prom=272,rank=199</cmt>
+  </wpt>
+<wpt lat="22.6525" lon="121.4831">
+    <ele>271</ele>
+  <name>火燒山</name>
+  <cmt>200:prom=271,rank=200</cmt>
+  </wpt>
+<wpt lat="24.4464" lon="121.0244">
+    <ele>2236</ele>
+  <name>東洗水山</name>
+  <cmt>201:prom=269,rank=201</cmt>
+  </wpt>
+<wpt lat="23.5494" lon="121.2928">
+    <ele>1927</ele>
+  <name>撫魯山</name>
+  <cmt>202:prom=266,rank=202</cmt>
+  </wpt>
+<wpt lat="23.2183" lon="121.3178">
+    <ele>955</ele>
+  <name>P955</name>
+  <cmt>203:prom=266,rank=202</cmt>
+  </wpt>
+<wpt lat="24.1417" lon="121.5511">
+    <ele>2439</ele>
+  <name>塔山</name>
+  <cmt>204:prom=265,rank=204</cmt>
+  </wpt>
+<wpt lat="24.1967" lon="121.1300">
+    <ele>3040</ele>
+  <name>白姑東南峰</name>
+  <cmt>205:prom=265,rank=204</cmt>
+  </wpt>
+<wpt lat="23.5936" lon="121.2444">
+    <ele>3051</ele>
+  <name>阿屘那來山</name>
+  <cmt>206:prom=265,rank=204</cmt>
+  </wpt>
+<wpt lat="24.0483" lon="121.5308">
+    <ele>2028</ele>
+  <name>嵐山</name>
+  <cmt>207:prom=265,rank=204</cmt>
+  </wpt>
+<wpt lat="23.9103" lon="120.8772">
+    <ele>948</ele>
+  <name>P948</name>
+  <cmt>208:prom=264,rank=208</cmt>
+  </wpt>
+<wpt lat="24.0294" lon="121.4936">
+    <ele>2315</ele>
+  <name>七腳川山</name>
+  <cmt>209:prom=264,rank=208</cmt>
+  </wpt>
+<wpt lat="23.6111" lon="120.7311">
+    <ele>1778</ele>
+  <name>P1778</name>
+  <cmt>210:prom=263,rank=210</cmt>
+  </wpt>
+<wpt lat="24.5378" lon="121.8500">
+    <ele>815</ele>
+  <name>P815</name>
+  <cmt>211:prom=263,rank=210</cmt>
+  </wpt>
+<wpt lat="23.2717" lon="120.7706">
+    <ele>2276</ele>
+  <name>P2276</name>
+  <cmt>212:prom=263,rank=210</cmt>
+  </wpt>
+<wpt lat="22.9347" lon="120.5453">
+    <ele>635</ele>
+  <name>月光山</name>
+  <cmt>213:prom=263,rank=210</cmt>
+  </wpt>
+<wpt lat="24.6158" lon="121.1411">
+    <ele>1202</ele>
+  <name>梅山</name>
+  <cmt>214:prom=263,rank=210</cmt>
+  </wpt>
+<wpt lat="24.2042" lon="120.8864">
+    <ele>1197</ele>
+  <name>P1197</name>
+  <cmt>215:prom=263,rank=210</cmt>
+  </wpt>
+<wpt lat="23.5428" lon="120.9817">
+    <ele>2943</ele>
+  <name>對關山</name>
+  <cmt>216:prom=262,rank=216</cmt>
+  </wpt>
+<wpt lat="23.0911" lon="121.1381">
+    <ele>1556</ele>
+  <name>本古山</name>
+  <cmt>217:prom=261,rank=217</cmt>
+  </wpt>
+<wpt lat="24.2683" lon="121.7197">
+    <ele>1399</ele>
+  <name>飛田盤山</name>
+  <cmt>218:prom=261,rank=217</cmt>
+  </wpt>
+<wpt lat="24.8761" lon="121.5631">
+    <ele>910</ele>
+  <name>大桶山</name>
+  <cmt>219:prom=260,rank=219</cmt>
+  </wpt>
+<wpt lat="23.0058" lon="120.8511">
+    <ele>2722</ele>
+  <name>P2722</name>
+  <cmt>220:prom=260,rank=219</cmt>
+  </wpt>
+<wpt lat="24.1700" lon="121.0714">
+    <ele>2974</ele>
+  <name>九仙山</name>
+  <cmt>221:prom=260,rank=219</cmt>
+  </wpt>
+<wpt lat="25.1189" lon="121.8492">
+    <ele>582</ele>
+  <name>基隆山</name>
+  <cmt>222:prom=259,rank=222</cmt>
+  </wpt>
+<wpt lat="22.4289" lon="120.7850">
+    <ele>1651</ele>
+  <name>穗花山</name>
+  <cmt>223:prom=257,rank=223</cmt>
+  </wpt>
+<wpt lat="22.8414" lon="120.3447">
+    <ele>310</ele>
+  <name>大崗山</name>
+  <cmt>224:prom=257,rank=223</cmt>
+  </wpt>
+<wpt lat="25.1772" lon="121.5222">
+    <ele>1091</ele>
+  <name>P1091</name>
+  <cmt>225:prom=257,rank=223</cmt>
+  </wpt>
+<wpt lat="24.4236" lon="121.5903">
+    <ele>1423</ele>
+  <name>P1423</name>
+  <cmt>226:prom=257,rank=223</cmt>
+  </wpt>
+<wpt lat="23.2214" lon="121.1303">
+    <ele>2560</ele>
+  <name>P2560</name>
+  <cmt>227:prom=256,rank=227</cmt>
+  </wpt>
+<wpt lat="24.1292" lon="120.8589">
+    <ele>1123</ele>
+  <name>頭拒山</name>
+  <cmt>228:prom=256,rank=227</cmt>
+  </wpt>
+<wpt lat="24.7647" lon="121.1419">
+    <ele>470</ele>
+  <name>P470</name>
+  <cmt>229:prom=255,rank=229</cmt>
+  </wpt>
+<wpt lat="22.9828" lon="120.6711">
+    <ele>1108</ele>
+  <name>大原山</name>
+  <cmt>230:prom=254,rank=230</cmt>
+  </wpt>
+<wpt lat="24.2961" lon="121.0394">
+    <ele>2993</ele>
+  <name>小雪山</name>
+  <cmt>231:prom=254,rank=230</cmt>
+  </wpt>
+<wpt lat="23.6011" lon="120.7900">
+    <ele>2283</ele>
+  <name>鹿屈</name>
+  <cmt>232:prom=254,rank=230</cmt>
+  </wpt>
+<wpt lat="22.9247" lon="121.2297">
+    <ele>950</ele>
+  <name>八里芒山</name>
+  <cmt>233:prom=254,rank=230</cmt>
+  </wpt>
+<wpt lat="23.8814" lon="120.9083">
+    <ele>1008</ele>
+  <name>貓囒山</name>
+  <cmt>234:prom=253,rank=234</cmt>
+  </wpt>
+<wpt lat="24.7872" lon="121.5917">
+    <ele>1450</ele>
+  <name>西阿玉山</name>
+  <cmt>235:prom=253,rank=234</cmt>
+  </wpt>
+<wpt lat="23.5914" lon="121.0592">
+    <ele>3241</ele>
+  <name>無雙山P</name>
+  <cmt>236:prom=252,rank=236</cmt>
+  </wpt>
+<wpt lat="24.0861" lon="121.3233">
+    <ele>3561</ele>
+  <name>奇萊主峰</name>
+  <cmt>237:prom=252,rank=236</cmt>
+  </wpt>
+<wpt lat="23.7817" lon="121.2206">
+    <ele>2938</ele>
+  <name>卡社大山</name>
+  <cmt>238:prom=251,rank=238</cmt>
+  </wpt>
+<wpt lat="24.3408" lon="121.2003">
+    <ele>3584</ele>
+  <name>大劍山</name>
+  <cmt>239:prom=250,rank=239</cmt>
+  </wpt>
+<wpt lat="23.3011" lon="121.2058">
+    <ele>2034</ele>
+  <name>大里仙山</name>
+  <cmt>240:prom=250,rank=239</cmt>
+  </wpt>
+<wpt lat="23.0506" lon="120.6422">
+    <ele>998</ele>
+  <name>水冬瓜山</name>
+  <cmt>241:prom=250,rank=239</cmt>
+  </wpt>
+<wpt lat="23.1653" lon="120.6242">
+    <ele>1002</ele>
+  <name>小林山</name>
+  <cmt>242:prom=249,rank=242</cmt>
+  </wpt>
+<wpt lat="23.0153" lon="120.9453">
+    <ele>2780</ele>
+  <name>P2780</name>
+  <cmt>243:prom=249,rank=242</cmt>
+  </wpt>
+<wpt lat="24.1606" lon="121.0272">
+    <ele>2441</ele>
+  <name>東八仙山</name>
+  <cmt>244:prom=249,rank=242</cmt>
+  </wpt>
+<wpt lat="24.4356" lon="121.5683">
+    <ele>1868</ele>
+  <name>山櫻山</name>
+  <cmt>245:prom=248,rank=245</cmt>
+  </wpt>
+<wpt lat="24.3817" lon="121.1750">
+    <ele>3297</ele>
+  <name>火石山</name>
+  <cmt>246:prom=247,rank=246</cmt>
+  </wpt>
+<wpt lat="24.4089" lon="121.6669">
+    <ele>1618</ele>
+  <name>飯包尖山</name>
+  <cmt>247:prom=247,rank=246</cmt>
+  </wpt>
+<wpt lat="24.3831" lon="120.7347">
+    <ele>610</ele>
+  <name>火炎山北峰</name>
+  <cmt>248:prom=247,rank=246</cmt>
+  </wpt>
+<wpt lat="23.6722" lon="120.9531">
+    <ele>3001</ele>
+  <name>金子山</name>
+  <cmt>249:prom=246,rank=249</cmt>
+  </wpt>
+<wpt lat="24.9956" lon="121.3842">
+    <ele>401</ele>
+  <name>龜崙山</name>
+  <cmt>250:prom=245,rank=250</cmt>
+  </wpt>
+<wpt lat="23.5564" lon="120.6817">
+    <ele>1315</ele>
+  <name>P1315</name>
+  <cmt>251:prom=245,rank=250</cmt>
+  </wpt>
+<wpt lat="23.6200" lon="120.7125">
+    <ele>1658</ele>
+  <name>P1658</name>
+  <cmt>252:prom=245,rank=250</cmt>
+  </wpt>
+<wpt lat="23.8014" lon="120.7597">
+    <ele>636</ele>
+  <name>P636</name>
+  <cmt>253:prom=245,rank=250</cmt>
+  </wpt>
+<wpt lat="24.3992" lon="120.9564">
+    <ele>1449</ele>
+  <name>司馬限山</name>
+  <cmt>254:prom=244,rank=254</cmt>
+  </wpt>
+<wpt lat="24.3064" lon="121.1878">
+    <ele>3305</ele>
+  <name>佳陽山</name>
+  <cmt>255:prom=244,rank=254</cmt>
+  </wpt>
+<wpt lat="23.2475" lon="120.4964">
+    <ele>850</ele>
+  <name>二尖山</name>
+  <cmt>256:prom=243,rank=256</cmt>
+  </wpt>
+<wpt lat="24.7936" lon="121.2531">
+    <ele>658</ele>
+  <name>石牛山</name>
+  <cmt>257:prom=241,rank=257</cmt>
+  </wpt>
+<wpt lat="23.7244" lon="121.2394">
+    <ele>3002</ele>
+  <name>六順山</name>
+  <cmt>258:prom=240,rank=258</cmt>
+  </wpt>
+<wpt lat="24.5878" lon="121.3858">
+    <ele>2422</ele>
+  <name>西丘斯山</name>
+  <cmt>259:prom=240,rank=258</cmt>
+  </wpt>
+<wpt lat="23.6233" lon="121.1172">
+    <ele>3504</ele>
+  <name>可樂可樂安</name>
+  <cmt>260:prom=240,rank=258</cmt>
+  </wpt>
+<wpt lat="24.2442" lon="121.3517">
+    <ele>3264</ele>
+  <name>鈴鳴山</name>
+  <cmt>261:prom=239,rank=261</cmt>
+  </wpt>
+<wpt lat="22.2386" lon="120.7278">
+    <ele>687</ele>
+  <name>中心崙山</name>
+  <cmt>262:prom=238,rank=262</cmt>
+  </wpt>
+<wpt lat="24.4206" lon="120.7864">
+    <ele>565</ele>
+  <name>三角山</name>
+  <cmt>263:prom=238,rank=262</cmt>
+  </wpt>
+<wpt lat="24.3544" lon="121.1372">
+    <ele>3511</ele>
+  <name>奇峻山</name>
+  <cmt>264:prom=238,rank=262</cmt>
+  </wpt>
+<wpt lat="22.9611" lon="120.4367">
+    <ele>350</ele>
+  <name>P350</name>
+  <cmt>265:prom=236,rank=265</cmt>
+  </wpt>
+<wpt lat="23.8792" lon="121.3297">
+    <ele>2445</ele>
+  <name>南二子山北峰</name>
+  <cmt>266:prom=236,rank=265</cmt>
+  </wpt>
+<wpt lat="22.9486" lon="120.9683">
+    <ele>2588</ele>
+  <name>小禿山</name>
+  <cmt>267:prom=236,rank=265</cmt>
+  </wpt>
+<wpt lat="22.3083" lon="120.7783">
+    <ele>1081</ele>
+  <name>佳菩安山</name>
+  <cmt>268:prom=236,rank=265</cmt>
+  </wpt>
+<wpt lat="24.9178" lon="121.6081">
+    <ele>396</ele>
+  <name>九紀山</name>
+  <cmt>269:prom=235,rank=269</cmt>
+  </wpt>
+<wpt lat="23.9775" lon="121.4542">
+    <ele>974</ele>
+  <name>烏帽子山</name>
+  <cmt>270:prom=234,rank=270</cmt>
+  </wpt>
+<wpt lat="23.4903" lon="121.0097">
+    <ele>3322</ele>
+  <name>八通關大山</name>
+  <cmt>271:prom=234,rank=270</cmt>
+  </wpt>
+<wpt lat="24.9278" lon="121.8536">
+    <ele>736</ele>
+  <name>叢雲山北峰</name>
+  <cmt>272:prom=233,rank=272</cmt>
+  </wpt>
+<wpt lat="23.5222" lon="121.2303">
+    <ele>1669</ele>
+  <name>環流坵峰</name>
+  <cmt>273:prom=233,rank=272</cmt>
+  </wpt>
+<wpt lat="24.3375" lon="121.5453">
+    <ele>2452</ele>
+  <name>高律山</name>
+  <cmt>274:prom=232,rank=274</cmt>
+  </wpt>
+<wpt lat="22.1544" lon="120.8361">
+    <ele>555</ele>
+  <name>東牡丹山</name>
+  <cmt>275:prom=231,rank=275</cmt>
+  </wpt>
+<wpt lat="24.8881" lon="121.4106">
+    <ele>773</ele>
+  <name>雞罩山</name>
+  <cmt>276:prom=231,rank=275</cmt>
+  </wpt>
+<wpt lat="22.7950" lon="120.9533">
+    <ele>2124</ele>
+  <name>小屋山南峰</name>
+  <cmt>277:prom=229,rank=277</cmt>
+  </wpt>
+<wpt lat="23.0244" lon="121.3081">
+    <ele>783</ele>
+  <name>P783</name>
+  <cmt>278:prom=229,rank=277</cmt>
+  </wpt>
+<wpt lat="24.9578" lon="121.8450">
+    <ele>710</ele>
+  <name>P710</name>
+  <cmt>279:prom=228,rank=279</cmt>
+  </wpt>
+<wpt lat="22.5397" lon="120.6444">
+    <ele>619</ele>
+  <name>新置山</name>
+  <cmt>280:prom=228,rank=279</cmt>
+  </wpt>
+<wpt lat="22.0097" lon="120.8556">
+    <ele>407</ele>
+  <name>P407</name>
+  <cmt>281:prom=227,rank=281</cmt>
+  </wpt>
+<wpt lat="23.3781" lon="120.7661">
+    <ele>2271</ele>
+  <name>P2271</name>
+  <cmt>282:prom=227,rank=281</cmt>
+  </wpt>
+<wpt lat="23.8728" lon="121.2664">
+    <ele>3064</ele>
+  <name>安東軍山</name>
+  <cmt>283:prom=226,rank=283</cmt>
+  </wpt>
+<wpt lat="24.7919" lon="121.4525">
+    <ele>1722</ele>
+  <name>北插天山</name>
+  <cmt>284:prom=226,rank=283</cmt>
+  </wpt>
+<wpt lat="22.9550" lon="120.6906">
+    <ele>1406</ele>
+  <name>鳴海山</name>
+  <cmt>285:prom=226,rank=283</cmt>
+  </wpt>
+<wpt lat="24.4092" lon="121.6197">
+    <ele>779</ele>
+  <name>P779</name>
+  <cmt>286:prom=226,rank=283</cmt>
+  </wpt>
+<wpt lat="24.6958" lon="121.1283">
+    <ele>701</ele>
+  <name>P701</name>
+  <cmt>287:prom=225,rank=287</cmt>
+  </wpt>
+<wpt lat="24.5125" lon="121.0350">
+    <ele>1989</ele>
+  <name>哈堪尼山</name>
+  <cmt>288:prom=224,rank=288</cmt>
+  </wpt>
+<wpt lat="22.6908" lon="120.8192">
+    <ele>2059</ele>
+  <name>松山(高)</name>
+  <cmt>289:prom=223,rank=289</cmt>
+  </wpt>
+<wpt lat="23.7169" lon="121.2753">
+    <ele>2791</ele>
+  <name>P2791</name>
+  <cmt>290:prom=223,rank=289</cmt>
+  </wpt>
+<wpt lat="23.2092" lon="121.3469">
+    <ele>1414</ele>
+  <name>P1414</name>
+  <cmt>291:prom=222,rank=291</cmt>
+  </wpt>
+<wpt lat="24.7078" lon="121.5461">
+    <ele>1544</ele>
+  <name>拳頭母山</name>
+  <cmt>292:prom=221,rank=292</cmt>
+  </wpt>
+<wpt lat="24.7228" lon="121.4025">
+    <ele>1853</ele>
+  <name>夫婦山</name>
+  <cmt>293:prom=220,rank=293</cmt>
+  </wpt>
+<wpt lat="24.1444" lon="121.4961">
+    <ele>2441</ele>
+  <name>P2441</name>
+  <cmt>294:prom=220,rank=293</cmt>
+  </wpt>
+<wpt lat="24.6014" lon="121.8436">
+    <ele>237</ele>
+  <name>P237</name>
+  <cmt>295:prom=220,rank=293</cmt>
+  </wpt>
+<wpt lat="24.6411" lon="121.0961">
+    <ele>1058</ele>
+  <name>五指山</name>
+  <cmt>296:prom=220,rank=293</cmt>
+  </wpt>
+<wpt lat="23.8828" lon="120.8533">
+    <ele>1261</ele>
+  <name>車坪崙山</name>
+  <cmt>297:prom=220,rank=293</cmt>
+  </wpt>
+<wpt lat="24.3897" lon="121.5211">
+    <ele>2011</ele>
+  <name>P2011</name>
+  <cmt>298:prom=220,rank=293</cmt>
+  </wpt>
+<wpt lat="23.9344" lon="120.8278">
+    <ele>1158</ele>
+  <name>P1158</name>
+  <cmt>299:prom=218,rank=299</cmt>
+  </wpt>
+<wpt lat="23.2972" lon="121.0286">
+    <ele>3488</ele>
+  <name>三叉山</name>
+  <cmt>300:prom=218,rank=299</cmt>
+  </wpt>
+<wpt lat="22.4789" lon="120.7511">
+    <ele>1588</ele>
+  <name>P1588</name>
+  <cmt>301:prom=217,rank=301</cmt>
+  </wpt>
+<wpt lat="23.9983" lon="121.4975">
+    <ele>1977</ele>
+  <name>白葉山</name>
+  <cmt>302:prom=217,rank=301</cmt>
+  </wpt>
+<wpt lat="24.5128" lon="121.3850">
+    <ele>2318</ele>
+  <name>眉有岩</name>
+  <cmt>303:prom=216,rank=303</cmt>
+  </wpt>
+<wpt lat="23.2083" lon="120.9783">
+    <ele>2179</ele>
+  <name>麻須保留</name>
+  <cmt>304:prom=216,rank=303</cmt>
+  </wpt>
+<wpt lat="24.0617" lon="121.0228">
+    <ele>1705</ele>
+  <name>小出山</name>
+  <cmt>305:prom=216,rank=303</cmt>
+  </wpt>
+<wpt lat="24.3594" lon="121.1567">
+    <ele>3363</ele>
+  <name>弓水山</name>
+  <cmt>306:prom=216,rank=303</cmt>
+  </wpt>
+<wpt lat="22.9050" lon="121.2044">
+    <ele>1029</ele>
+  <name>P1029</name>
+  <cmt>307:prom=216,rank=303</cmt>
+  </wpt>
+<wpt lat="23.2028" lon="120.5800">
+    <ele>1128</ele>
+  <name>P1128</name>
+  <cmt>308:prom=216,rank=303</cmt>
+  </wpt>
+<wpt lat="24.7142" lon="121.5703">
+    <ele>1102</ele>
+  <name>P1102</name>
+  <cmt>309:prom=215,rank=309</cmt>
+  </wpt>
+<wpt lat="23.9528" lon="121.1183">
+    <ele>1333</ele>
+  <name>上台</name>
+  <cmt>310:prom=215,rank=309</cmt>
+  </wpt>
+<wpt lat="21.9683" lon="120.7792">
+    <ele>319</ele>
+  <name>大山母山</name>
+  <cmt>311:prom=214,rank=311</cmt>
+  </wpt>
+<wpt lat="23.1617" lon="120.8956">
+    <ele>3207</ele>
+  <name>小關山北峰</name>
+  <cmt>312:prom=214,rank=311</cmt>
+  </wpt>
+<wpt lat="23.6764" lon="121.2322">
+    <ele>2987</ele>
+  <name>關門山</name>
+  <cmt>313:prom=214,rank=311</cmt>
+  </wpt>
+<wpt lat="25.0533" lon="121.7300">
+    <ele>726</ele>
+  <name>姜子頭山</name>
+  <cmt>314:prom=214,rank=311</cmt>
+  </wpt>
+<wpt lat="24.9669" lon="121.6189">
+    <ele>669</ele>
+  <name>P669</name>
+  <cmt>315:prom=213,rank=315</cmt>
+  </wpt>
+<wpt lat="24.5894" lon="120.9372">
+    <ele>410</ele>
+  <name>P410</name>
+  <cmt>316:prom=213,rank=315</cmt>
+  </wpt>
+<wpt lat="23.9314" lon="120.9486">
+    <ele>850</ele>
+  <name>白葉山(一)</name>
+  <cmt>317:prom=212,rank=317</cmt>
+  </wpt>
+<wpt lat="23.1636" lon="120.9156">
+    <ele>2932</ele>
+  <name>P2932</name>
+  <cmt>318:prom=212,rank=317</cmt>
+  </wpt>
+<wpt lat="22.8597" lon="120.8414">
+    <ele>2380</ele>
+  <name>P2380</name>
+  <cmt>319:prom=212,rank=317</cmt>
+  </wpt>
+<wpt lat="24.2714" lon="121.5483">
+    <ele>2397</ele>
+  <name>P2397</name>
+  <cmt>320:prom=212,rank=317</cmt>
+  </wpt>
+<wpt lat="22.7425" lon="120.6625">
+    <ele>1046</ele>
+  <name>三地山</name>
+  <cmt>321:prom=212,rank=317</cmt>
+  </wpt>
+<wpt lat="22.8733" lon="121.0747">
+    <ele>950</ele>
+  <name>大派蘭</name>
+  <cmt>322:prom=212,rank=317</cmt>
+  </wpt>
+<wpt lat="22.8647" lon="120.8544">
+    <ele>2415</ele>
+  <name>遙拜山</name>
+  <cmt>323:prom=212,rank=317</cmt>
+  </wpt>
+<wpt lat="22.7256" lon="120.8806">
+    <ele>2226</ele>
+  <name>知本主山</name>
+  <cmt>324:prom=212,rank=317</cmt>
+  </wpt>
+<wpt lat="23.2625" lon="120.9003">
+    <ele>3102</ele>
+  <name>庫哈諾辛山</name>
+  <cmt>325:prom=211,rank=325</cmt>
+  </wpt>
+<wpt lat="23.5533" lon="120.6067">
+    <ele>1166</ele>
+  <name>P1166</name>
+  <cmt>326:prom=211,rank=325</cmt>
+  </wpt>
+<wpt lat="24.5444" lon="121.7833">
+    <ele>1369</ele>
+  <name>大白山</name>
+  <cmt>327:prom=211,rank=325</cmt>
+  </wpt>
+<wpt lat="23.0369" lon="121.3136">
+    <ele>744</ele>
+  <name>P744</name>
+  <cmt>328:prom=211,rank=325</cmt>
+  </wpt>
+<wpt lat="23.6333" lon="121.2239">
+    <ele>3040</ele>
+  <name>大石公山</name>
+  <cmt>329:prom=210,rank=329</cmt>
+  </wpt>
+<wpt lat="22.8942" lon="120.8528">
+    <ele>2542</ele>
+  <name>P2542</name>
+  <cmt>330:prom=210,rank=329</cmt>
+  </wpt>
+<wpt lat="24.8114" lon="121.3353">
+    <ele>632</ele>
+  <name>P632</name>
+  <cmt>331:prom=209,rank=331</cmt>
+  </wpt>
+<wpt lat="23.9233" lon="121.1525">
+    <ele>2482</ele>
+  <name>尖台山</name>
+  <cmt>332:prom=209,rank=331</cmt>
+  </wpt>
+<wpt lat="23.7592" lon="121.5183">
+    <ele>587</ele>
+  <name>六階鼻山</name>
+  <cmt>333:prom=208,rank=333</cmt>
+  </wpt>
+<wpt lat="24.3311" lon="121.4797">
+    <ele>2890</ele>
+  <name>P2890</name>
+  <cmt>334:prom=208,rank=333</cmt>
+  </wpt>
+<wpt lat="22.5839" lon="120.8319">
+    <ele>1071</ele>
+  <name>密老老山</name>
+  <cmt>335:prom=208,rank=333</cmt>
+  </wpt>
+<wpt lat="24.2972" lon="121.6422">
+    <ele>2273</ele>
+  <name>P2273</name>
+  <cmt>336:prom=208,rank=333</cmt>
+  </wpt>
+<wpt lat="22.7406" lon="120.8217">
+    <ele>1749</ele>
+  <name>松山越</name>
+  <cmt>337:prom=207,rank=337</cmt>
+  </wpt>
+<wpt lat="24.6225" lon="121.6483">
+    <ele>741</ele>
+  <name>P741</name>
+  <cmt>338:prom=206,rank=338</cmt>
+  </wpt>
+<wpt lat="23.1194" lon="120.7478">
+    <ele>1383</ele>
+  <name>美龍山</name>
+  <cmt>339:prom=206,rank=338</cmt>
+  </wpt>
+<wpt lat="22.5006" lon="120.9269">
+    <ele>889</ele>
+  <name>呀里叭山</name>
+  <cmt>340:prom=206,rank=338</cmt>
+  </wpt>
+<wpt lat="24.5511" lon="121.2756">
+    <ele>2570</ele>
+  <name>P2570</name>
+  <cmt>341:prom=206,rank=338</cmt>
+  </wpt>
+<wpt lat="24.3950" lon="121.0558">
+    <ele>2148</ele>
+  <name>P2148</name>
+  <cmt>342:prom=205,rank=342</cmt>
+  </wpt>
+<wpt lat="24.4589" lon="120.9050">
+    <ele>755</ele>
+  <name>P755</name>
+  <cmt>343:prom=205,rank=342</cmt>
+  </wpt>
+<wpt lat="25.1889" lon="121.5428">
+    <ele>1064</ele>
+  <name>P1064</name>
+  <cmt>344:prom=205,rank=342</cmt>
+  </wpt>
+<wpt lat="23.6981" lon="120.8664">
+    <ele>1145</ele>
+  <name>內茅埔山</name>
+  <cmt>345:prom=205,rank=342</cmt>
+  </wpt>
+<wpt lat="24.1994" lon="121.2350">
+    <ele>2606</ele>
+  <name>P2606</name>
+  <cmt>346:prom=205,rank=342</cmt>
+  </wpt>
+<wpt lat="23.5106" lon="120.7086">
+    <ele>1847</ele>
+  <name>奮箕山西北峰</name>
+  <cmt>347:prom=204,rank=347</cmt>
+  </wpt>
+<wpt lat="23.4561" lon="121.4742">
+    <ele>514</ele>
+  <name>P514</name>
+  <cmt>348:prom=204,rank=347</cmt>
+  </wpt>
+<wpt lat="23.9003" lon="121.0225">
+    <ele>1600</ele>
+  <name>P1600</name>
+  <cmt>349:prom=204,rank=347</cmt>
+  </wpt>
+<wpt lat="24.1856" lon="120.9581">
+    <ele>1687</ele>
+  <name>東卯山</name>
+  <cmt>350:prom=204,rank=347</cmt>
+  </wpt>
+<wpt lat="24.6681" lon="121.1661">
+    <ele>1139</ele>
+  <name>向天湖山</name>
+  <cmt>351:prom=204,rank=347</cmt>
+  </wpt>
+<wpt lat="23.3272" lon="120.4861">
+    <ele>641</ele>
+  <name>P641</name>
+  <cmt>352:prom=204,rank=347</cmt>
+  </wpt>
+<wpt lat="24.5733" lon="121.7150">
+    <ele>1012</ele>
+  <name>P1012</name>
+  <cmt>353:prom=204,rank=347</cmt>
+  </wpt>
+<wpt lat="24.8522" lon="121.5142">
+    <ele>1111</ele>
+  <name>拔刀爾山</name>
+  <cmt>354:prom=203,rank=354</cmt>
+  </wpt>
+<wpt lat="24.5511" lon="121.8144">
+    <ele>958</ele>
+  <name>P958</name>
+  <cmt>355:prom=203,rank=354</cmt>
+  </wpt>
+<wpt lat="23.4997" lon="120.8961">
+    <ele>2775</ele>
+  <name>東埔山</name>
+  <cmt>356:prom=203,rank=354</cmt>
+  </wpt>
+<wpt lat="24.6267" lon="121.0406">
+    <ele>810</ele>
+  <name>P810</name>
+  <cmt>357:prom=202,rank=357</cmt>
+  </wpt>
+<wpt lat="23.8975" lon="121.0722">
+    <ele>1756</ele>
+  <name>P1756</name>
+  <cmt>358:prom=202,rank=357</cmt>
+  </wpt>
+<wpt lat="24.7317" lon="121.5233">
+    <ele>1490</ele>
+  <name>P1490</name>
+  <cmt>359:prom=202,rank=357</cmt>
+  </wpt>
+<wpt lat="22.8333" lon="120.9903">
+    <ele>1860</ele>
+  <name>P1860</name>
+  <cmt>360:prom=202,rank=357</cmt>
+  </wpt>
+<wpt lat="25.1486" lon="121.5433">
+    <ele>641</ele>
+  <name>紗帽山(北)</name>
+  <cmt>361:prom=202,rank=357</cmt>
+  </wpt>
+<wpt lat="22.4306" lon="120.8942">
+    <ele>900</ele>
+  <name>P900</name>
+  <cmt>362:prom=201,rank=362</cmt>
+  </wpt>
+<wpt lat="23.3058" lon="121.0739">
+    <ele>3162</ele>
+  <name>連理山西峰</name>
+  <cmt>363:prom=201,rank=362</cmt>
+  </wpt>
+<wpt lat="22.3669" lon="120.7433">
+    <ele>1467</ele>
+  <name>羅馬寺山</name>
+  <cmt>364:prom=201,rank=362</cmt>
+  </wpt>
+<wpt lat="24.0511" lon="121.4772">
+    <ele>2378</ele>
+  <name>榮山</name>
+  <cmt>365:prom=201,rank=362</cmt>
+  </wpt>
+<wpt lat="23.0358" lon="121.0789">
+    <ele>1784</ele>
+  <name>P1784</name>
+  <cmt>366:prom=201,rank=362</cmt>
+  </wpt>
+<wpt lat="22.9675" lon="120.7331">
+    <ele>1328</ele>
+  <name>P1328</name>
+  <cmt>367:prom=201,rank=362</cmt>
+  </wpt>
+<wpt lat="24.5422" lon="120.9528">
+    <ele>956</ele>
+  <name>仙山</name>
+  <cmt>368:prom=201,rank=362</cmt>
+  </wpt>
+<wpt lat="23.5117" lon="120.6919">
+    <ele>1816</ele>
+  <name>P1816</name>
+  <cmt>369:prom=200,rank=369</cmt>
+  </wpt>
+<wpt lat="24.1186" lon="120.9892">
+    <ele>1794</ele>
+  <name>P1794</name>
+  <cmt>370:prom=200,rank=369</cmt>
+  </wpt>
+<wpt lat="23.3472" lon="120.6000">
+    <ele>1120</ele>
+  <name>P1120</name>
+  <cmt>371:prom=200,rank=369</cmt>
+  </wpt>
+<wpt lat="24.1567" lon="120.9219">
+    <ele>1520</ele>
+  <name>白毛山</name>
+  <cmt>372:prom=200,rank=369</cmt>
+  </wpt>
+<wpt lat="24.6100" lon="121.0756">
+    <ele>1580</ele>
+  <name>鵝公髻山</name>
+  <cmt>373:prom=200,rank=369</cmt>
+  </wpt>
+<wpt lat="23.9194" lon="121.4133">
+    <ele>2276</ele>
+  <name>P2276</name>
+  <cmt>374:prom=200,rank=369</cmt>
+  </wpt>
+<wpt lat="24.6650" lon="121.0856">
+    <ele>726</ele>
+  <name>P726</name>
+  <cmt>375:prom=200,rank=369</cmt>
+  </wpt>
+<wpt lat="22.8097" lon="120.6575">
+    <ele>945</ele>
+  <name>P945</name>
+  <cmt>376:prom=200,rank=369</cmt>
+  </wpt>
+<wpt lat="23.8347" lon="120.8761">
+    <ele>876</ele>
+  <name>P876</name>
+  <cmt>377:prom=200,rank=369</cmt>
+  </wpt>
+<wpt lat="23.0933" lon="120.8050">
+    <ele>2643</ele>
+  <name>溪南山</name>
+  <cmt>378:prom=199,rank=378</cmt>
+  </wpt>
+<wpt lat="24.2903" lon="121.3897">
+    <ele>3149</ele>
+  <name>甘薯峰</name>
+  <cmt>379:prom=199,rank=378</cmt>
+  </wpt>
+<wpt lat="24.4325" lon="121.3047">
+    <ele>3314</ele>
+  <name>桃山</name>
+  <cmt>380:prom=199,rank=378</cmt>
+  </wpt>
+<wpt lat="22.1792" lon="120.8164">
+    <ele>624</ele>
+  <name>P624</name>
+  <cmt>381:prom=199,rank=378</cmt>
+  </wpt>
+<wpt lat="22.8414" lon="121.0228">
+    <ele>1561</ele>
+  <name>P1561</name>
+  <cmt>382:prom=199,rank=378</cmt>
+  </wpt>
+<wpt lat="23.2642" lon="120.5392">
+    <ele>642</ele>
+  <name>P642</name>
+  <cmt>383:prom=198,rank=383</cmt>
+  </wpt>
+<wpt lat="23.4333" lon="121.4403">
+    <ele>1193</ele>
+  <name>P1193</name>
+  <cmt>384:prom=198,rank=383</cmt>
+  </wpt>
+<wpt lat="23.8625" lon="120.8900">
+    <ele>948</ele>
+  <name>P948</name>
+  <cmt>385:prom=198,rank=383</cmt>
+  </wpt>
+<wpt lat="24.1383" lon="120.7531">
+    <ele>487</ele>
+  <name>P487</name>
+  <cmt>386:prom=198,rank=383</cmt>
+  </wpt>
+<wpt lat="23.2317" lon="120.5314">
+    <ele>512</ele>
+  <name>P512</name>
+  <cmt>387:prom=197,rank=387</cmt>
+  </wpt>
+<wpt lat="23.9878" lon="121.1164">
+    <ele>1556</ele>
+  <name>P1556</name>
+  <cmt>388:prom=197,rank=387</cmt>
+  </wpt>
+<wpt lat="22.0503" lon="120.7608">
+    <ele>432</ele>
+  <name>P432</name>
+  <cmt>389:prom=197,rank=387</cmt>
+  </wpt>
+<wpt lat="22.8175" lon="120.3361">
+    <ele>246</ele>
+  <name>P246</name>
+  <cmt>390:prom=197,rank=387</cmt>
+  </wpt>
+<wpt lat="24.3806" lon="121.5406">
+    <ele>1879</ele>
+  <name>P1879</name>
+  <cmt>391:prom=196,rank=391</cmt>
+  </wpt>
+<wpt lat="22.9778" lon="121.2867">
+    <ele>679</ele>
+  <name>P679</name>
+  <cmt>392:prom=196,rank=391</cmt>
+  </wpt>
+<wpt lat="24.8247" lon="121.2792">
+    <ele>545</ele>
+  <name>P545</name>
+  <cmt>393:prom=194,rank=393</cmt>
+  </wpt>
+<wpt lat="24.4806" lon="121.3408">
+    <ele>2844</ele>
+  <name>P2844</name>
+  <cmt>394:prom=194,rank=393</cmt>
+  </wpt>
+<wpt lat="24.5028" lon="121.3658">
+    <ele>2503</ele>
+  <name>P2503</name>
+  <cmt>395:prom=193,rank=395</cmt>
+  </wpt>
+<wpt lat="22.6114" lon="120.8603">
+    <ele>1159</ele>
+  <name>P1159</name>
+  <cmt>396:prom=193,rank=395</cmt>
+  </wpt>
+<wpt lat="23.2447" lon="120.9378">
+    <ele>3293</ele>
+  <name>鷹仔嘴山</name>
+  <cmt>397:prom=193,rank=395</cmt>
+  </wpt>
+<wpt lat="23.1036" lon="120.4186">
+    <ele>285</ele>
+  <name>P285</name>
+  <cmt>398:prom=193,rank=395</cmt>
+  </wpt>
+<wpt lat="24.8361" lon="121.3806">
+    <ele>986</ele>
+  <name>金平山</name>
+  <cmt>399:prom=192,rank=399</cmt>
+  </wpt>
+<wpt lat="22.4992" lon="120.8986">
+    <ele>985</ele>
+  <name>剎剎加倫山</name>
+  <cmt>400:prom=192,rank=399</cmt>
+  </wpt>
+<wpt lat="23.7181" lon="121.5203">
+    <ele>559</ele>
+  <name>P559</name>
+  <cmt>401:prom=192,rank=399</cmt>
+  </wpt>
+<wpt lat="23.8139" lon="120.8981">
+    <ele>995</ele>
+  <name>後尖山</name>
+  <cmt>402:prom=192,rank=399</cmt>
+  </wpt>
+<wpt lat="23.0511" lon="120.7161">
+    <ele>1527</ele>
+  <name>P1527</name>
+  <cmt>403:prom=192,rank=399</cmt>
+  </wpt>
+<wpt lat="22.9897" lon="120.8411">
+    <ele>2693</ele>
+  <name>P2693</name>
+  <cmt>404:prom=192,rank=399</cmt>
+  </wpt>
+<wpt lat="24.8633" lon="121.6058">
+    <ele>919</ele>
+  <name>落鳳山</name>
+  <cmt>405:prom=191,rank=405</cmt>
+  </wpt>
+<wpt lat="22.2306" lon="120.8128">
+    <ele>644</ele>
+  <name>P644</name>
+  <cmt>406:prom=191,rank=405</cmt>
+  </wpt>
+<wpt lat="25.0256" lon="121.5861">
+    <ele>370</ele>
+  <name>南港山</name>
+  <cmt>407:prom=191,rank=405</cmt>
+  </wpt>
+<wpt lat="23.6892" lon="121.1739">
+    <ele>1754</ele>
+  <name>P1754</name>
+  <cmt>408:prom=191,rank=405</cmt>
+  </wpt>
+<wpt lat="24.4656" lon="121.0408">
+    <ele>2159</ele>
+  <name>北坑山</name>
+  <cmt>409:prom=190,rank=409</cmt>
+  </wpt>
+<wpt lat="23.2581" lon="121.3653">
+    <ele>1077</ele>
+  <name>P1077</name>
+  <cmt>410:prom=190,rank=409</cmt>
+  </wpt>
+<wpt lat="23.9517" lon="121.2747">
+    <ele>3154</ele>
+  <name>光頭北峰</name>
+  <cmt>411:prom=190,rank=409</cmt>
+  </wpt>
+<wpt lat="24.2058" lon="121.1428">
+    <ele>3039</ele>
+  <name>白姑大山中鋒</name>
+  <cmt>412:prom=190,rank=409</cmt>
+  </wpt>
+<wpt lat="23.4156" lon="120.7158">
+    <ele>1680</ele>
+  <name>頂笨子山</name>
+  <cmt>413:prom=190,rank=409</cmt>
+  </wpt>
+<wpt lat="24.8181" lon="121.4839">
+    <ele>1578</ele>
+  <name>加母山</name>
+  <cmt>414:prom=190,rank=409</cmt>
+  </wpt>
+<wpt lat="22.8369" lon="120.9422">
+    <ele>1488</ele>
+  <name>間場內</name>
+  <cmt>415:prom=189,rank=415</cmt>
+  </wpt>
+<wpt lat="24.4292" lon="121.7942">
+    <ele>414</ele>
+  <name>P414</name>
+  <cmt>416:prom=189,rank=415</cmt>
+  </wpt>
+<wpt lat="23.4058" lon="121.0267">
+    <ele>3060</ele>
+  <name>塔芬山</name>
+  <cmt>417:prom=189,rank=415</cmt>
+  </wpt>
+<wpt lat="23.7647" lon="120.8264">
+    <ele>1293</ele>
+  <name>P1293</name>
+  <cmt>418:prom=189,rank=415</cmt>
+  </wpt>
+<wpt lat="24.5844" lon="121.7481">
+    <ele>1042</ele>
+  <name>P1042</name>
+  <cmt>419:prom=189,rank=415</cmt>
+  </wpt>
+<wpt lat="22.9072" lon="120.5958">
+    <ele>454</ele>
+  <name>P454</name>
+  <cmt>420:prom=189,rank=415</cmt>
+  </wpt>
+<wpt lat="22.7264" lon="121.0036">
+    <ele>1220</ele>
+  <name>P1220</name>
+  <cmt>421:prom=189,rank=415</cmt>
+  </wpt>
+<wpt lat="25.1744" lon="121.5050">
+    <ele>974</ele>
+  <name>面天山</name>
+  <cmt>422:prom=189,rank=415</cmt>
+  </wpt>
+<wpt lat="23.6111" lon="121.0856">
+    <ele>3448</ele>
+  <name>本鄉山</name>
+  <cmt>423:prom=188,rank=423</cmt>
+  </wpt>
+<wpt lat="24.4503" lon="121.6567">
+    <ele>1382</ele>
+  <name>富太山最高峰</name>
+  <cmt>424:prom=188,rank=423</cmt>
+  </wpt>
+<wpt lat="24.3486" lon="121.4856">
+    <ele>3215</ele>
+  <name>馬比杉山</name>
+  <cmt>425:prom=188,rank=423</cmt>
+  </wpt>
+<wpt lat="22.2519" lon="120.7564">
+    <ele>899</ele>
+  <name>草埔後</name>
+  <cmt>426:prom=188,rank=423</cmt>
+  </wpt>
+<wpt lat="24.2986" lon="120.7675">
+    <ele>553</ele>
+  <name>石圍牆山</name>
+  <cmt>427:prom=187,rank=427</cmt>
+  </wpt>
+<wpt lat="22.8044" lon="120.9667">
+    <ele>2088</ele>
+  <name>小屋</name>
+  <cmt>428:prom=187,rank=427</cmt>
+  </wpt>
+<wpt lat="22.8486" lon="121.1153">
+    <ele>432</ele>
+  <name>P432</name>
+  <cmt>429:prom=186,rank=429</cmt>
+  </wpt>
+<wpt lat="23.1856" lon="120.9117">
+    <ele>3163</ele>
+  <name>海諾南山</name>
+  <cmt>430:prom=186,rank=429</cmt>
+  </wpt>
+<wpt lat="22.9417" lon="120.9019">
+    <ele>1530</ele>
+  <name>P1530</name>
+  <cmt>431:prom=186,rank=429</cmt>
+  </wpt>
+<wpt lat="22.1953" lon="120.7850">
+    <ele>798</ele>
+  <name>女仍山</name>
+  <cmt>432:prom=186,rank=429</cmt>
+  </wpt>
+<wpt lat="24.7817" lon="121.4456">
+    <ele>1689</ele>
+  <name>P1689</name>
+  <cmt>433:prom=186,rank=429</cmt>
+  </wpt>
+<wpt lat="22.2764" lon="120.7981">
+    <ele>803</ele>
+  <name>P803</name>
+  <cmt>434:prom=186,rank=429</cmt>
+  </wpt>
+<wpt lat="23.8211" lon="121.2400">
+    <ele>2806</ele>
+  <name>草山(投)</name>
+  <cmt>435:prom=185,rank=435</cmt>
+  </wpt>
+<wpt lat="23.2331" lon="121.0786">
+    <ele>3017</ele>
+  <name>布拉克桑山</name>
+  <cmt>436:prom=185,rank=435</cmt>
+  </wpt>
+<wpt lat="22.7167" lon="120.8558">
+    <ele>1953</ele>
+  <name>P1953</name>
+  <cmt>437:prom=185,rank=435</cmt>
+  </wpt>
+<wpt lat="23.3892" lon="120.8947">
+    <ele>2803</ele>
+  <name>新素左屈</name>
+  <cmt>438:prom=185,rank=435</cmt>
+  </wpt>
+<wpt lat="23.4328" lon="121.0131">
+    <ele>3199</ele>
+  <name>達芬尖山</name>
+  <cmt>439:prom=184,rank=439</cmt>
+  </wpt>
+<wpt lat="23.2081" lon="120.7439">
+    <ele>2062</ele>
+  <name>P2062</name>
+  <cmt>440:prom=184,rank=439</cmt>
+  </wpt>
+<wpt lat="22.7708" lon="120.9694">
+    <ele>1935</ele>
+  <name>肯都爾山</name>
+  <cmt>441:prom=183,rank=441</cmt>
+  </wpt>
+<wpt lat="23.5986" lon="121.4558">
+    <ele>600</ele>
+  <name>P600</name>
+  <cmt>442:prom=183,rank=441</cmt>
+  </wpt>
+<wpt lat="24.4964" lon="121.5478">
+    <ele>2175</ele>
+  <name>P2175</name>
+  <cmt>443:prom=183,rank=441</cmt>
+  </wpt>
+<wpt lat="24.5031" lon="121.6442">
+    <ele>1965</ele>
+  <name>P1965</name>
+  <cmt>444:prom=183,rank=441</cmt>
+  </wpt>
+<wpt lat="24.5656" lon="121.1711">
+    <ele>1916</ele>
+  <name>P1916</name>
+  <cmt>445:prom=183,rank=441</cmt>
+  </wpt>
+<wpt lat="23.7342" lon="121.5400">
+    <ele>481</ele>
+  <name>P481</name>
+  <cmt>446:prom=183,rank=441</cmt>
+  </wpt>
+<wpt lat="24.4425" lon="121.7286">
+    <ele>1169</ele>
+  <name>大南澳嶺</name>
+  <cmt>447:prom=183,rank=441</cmt>
+  </wpt>
+<wpt lat="24.2444" lon="121.5492">
+    <ele>2320</ele>
+  <name>P2320</name>
+  <cmt>448:prom=183,rank=441</cmt>
+  </wpt>
+<wpt lat="23.6131" lon="121.0133">
+    <ele>1686</ele>
+  <name>P1686</name>
+  <cmt>449:prom=183,rank=441</cmt>
+  </wpt>
+<wpt lat="23.4872" lon="120.9594">
+    <ele>3850</ele>
+  <name>玉山北峰</name>
+  <cmt>450:prom=183,rank=441</cmt>
+  </wpt>
+<wpt lat="24.3364" lon="121.0778">
+    <ele>3163</ele>
+  <name>中雪山</name>
+  <cmt>451:prom=182,rank=451</cmt>
+  </wpt>
+<wpt lat="23.3119" lon="121.1033">
+    <ele>3141</ele>
+  <name>連理山</name>
+  <cmt>452:prom=182,rank=451</cmt>
+  </wpt>
+<wpt lat="24.8250" lon="121.4181">
+    <ele>1208</ele>
+  <name>P1208</name>
+  <cmt>453:prom=182,rank=451</cmt>
+  </wpt>
+<wpt lat="23.0436" lon="120.8208">
+    <ele>1881</ele>
+  <name>P1881</name>
+  <cmt>454:prom=182,rank=451</cmt>
+  </wpt>
+<wpt lat="22.9608" lon="121.2158">
+    <ele>704</ele>
+  <name>揍妙山</name>
+  <cmt>455:prom=182,rank=451</cmt>
+  </wpt>
+<wpt lat="24.2953" lon="121.1700">
+    <ele>3253</ele>
+  <name>劍山</name>
+  <cmt>456:prom=182,rank=451</cmt>
+  </wpt>
+<wpt lat="24.3719" lon="121.2372">
+    <ele>3508</ele>
+  <name>雪山南峰</name>
+  <cmt>457:prom=182,rank=451</cmt>
+  </wpt>
+<wpt lat="24.1847" lon="121.4783">
+    <ele>1124</ele>
+  <name>P1124</name>
+  <cmt>458:prom=182,rank=451</cmt>
+  </wpt>
+<wpt lat="24.1903" lon="121.0936">
+    <ele>3248</ele>
+  <name>白姑大山西峰</name>
+  <cmt>459:prom=181,rank=459</cmt>
+  </wpt>
+<wpt lat="24.6417" lon="121.0139">
+    <ele>507</ele>
+  <name>P507</name>
+  <cmt>460:prom=181,rank=459</cmt>
+  </wpt>
+<wpt lat="22.9117" lon="120.7658">
+    <ele>1855</ele>
+  <name>P1855</name>
+  <cmt>461:prom=181,rank=459</cmt>
+  </wpt>
+<wpt lat="24.2742" lon="121.0672">
+    <ele>2684</ele>
+  <name>三錐山</name>
+  <cmt>462:prom=181,rank=459</cmt>
+  </wpt>
+<wpt lat="23.8303" lon="121.2128">
+    <ele>2766</ele>
+  <name>P2766</name>
+  <cmt>463:prom=181,rank=459</cmt>
+  </wpt>
+<wpt lat="24.4556" lon="121.1886">
+    <ele>2872</ele>
+  <name>P2872</name>
+  <cmt>464:prom=180,rank=464</cmt>
+  </wpt>
+<wpt lat="22.6800" lon="120.8839">
+    <ele>1839</ele>
+  <name>P1839</name>
+  <cmt>465:prom=180,rank=464</cmt>
+  </wpt>
+<wpt lat="23.9325" lon="121.3619">
+    <ele>2448</ele>
+  <name>P2448</name>
+  <cmt>466:prom=180,rank=464</cmt>
+  </wpt>
+<wpt lat="24.5069" lon="121.6764">
+    <ele>1828</ele>
+  <name>P1828</name>
+  <cmt>467:prom=180,rank=464</cmt>
+  </wpt>
+<wpt lat="24.4597" lon="121.5958">
+    <ele>1842</ele>
+  <name>銘山</name>
+  <cmt>468:prom=178,rank=468</cmt>
+  </wpt>
+<wpt lat="23.4503" lon="120.6742">
+    <ele>1430</ele>
+  <name>巃頭坪山</name>
+  <cmt>469:prom=178,rank=468</cmt>
+  </wpt>
+<wpt lat="22.4728" lon="120.7925">
+    <ele>1384</ele>
+  <name>P1384</name>
+  <cmt>470:prom=178,rank=468</cmt>
+  </wpt>
+<wpt lat="23.2606" lon="120.6781">
+    <ele>1167</ele>
+  <name>拉比嶺山</name>
+  <cmt>471:prom=178,rank=468</cmt>
+  </wpt>
+<wpt lat="24.2831" lon="121.1631">
+    <ele>2882</ele>
+  <name>P2882</name>
+  <cmt>472:prom=178,rank=468</cmt>
+  </wpt>
+<wpt lat="24.5061" lon="121.1506">
+    <ele>2496</ele>
+  <name>P2496</name>
+  <cmt>473:prom=178,rank=468</cmt>
+  </wpt>
+<wpt lat="23.5922" lon="121.4397">
+    <ele>638</ele>
+  <name>秀朗山</name>
+  <cmt>474:prom=178,rank=468</cmt>
+  </wpt>
+<wpt lat="24.9744" lon="121.9103">
+    <ele>613</ele>
+  <name>灣頭坑山</name>
+  <cmt>475:prom=177,rank=475</cmt>
+  </wpt>
+<wpt lat="23.5111" lon="120.8233">
+    <ele>2491</ele>
+  <name>祝山</name>
+  <cmt>476:prom=177,rank=475</cmt>
+  </wpt>
+<wpt lat="23.1408" lon="121.0058">
+    <ele>2362</ele>
+  <name>P2362</name>
+  <cmt>477:prom=177,rank=475</cmt>
+  </wpt>
+<wpt lat="24.5686" lon="121.6867">
+    <ele>1062</ele>
+  <name>蕃社坑山</name>
+  <cmt>478:prom=177,rank=475</cmt>
+  </wpt>
+<wpt lat="22.6628" lon="120.7867">
+    <ele>2356</ele>
+  <name>茶埔岩</name>
+  <cmt>479:prom=177,rank=475</cmt>
+  </wpt>
+<wpt lat="23.9511" lon="120.9081">
+    <ele>765</ele>
+  <name>桃米坑山</name>
+  <cmt>480:prom=177,rank=475</cmt>
+  </wpt>
+<wpt lat="23.9967" lon="121.2217">
+    <ele>2458</ele>
+  <name>P2458</name>
+  <cmt>481:prom=176,rank=481</cmt>
+  </wpt>
+<wpt lat="24.3122" lon="121.5100">
+    <ele>2358</ele>
+  <name>P2358</name>
+  <cmt>482:prom=176,rank=481</cmt>
+  </wpt>
+<wpt lat="23.8711" lon="121.1728">
+    <ele>3130</ele>
+  <name>干卓萬山東南峰</name>
+  <cmt>483:prom=175,rank=483</cmt>
+  </wpt>
+<wpt lat="24.1489" lon="121.3431">
+    <ele>3244</ele>
+  <name>屏風山</name>
+  <cmt>484:prom=175,rank=483</cmt>
+  </wpt>
+<wpt lat="23.3389" lon="121.4058">
+    <ele>1234</ele>
+  <name>P1234</name>
+  <cmt>485:prom=175,rank=483</cmt>
+  </wpt>
+<wpt lat="22.8733" lon="120.7881">
+    <ele>2283</ele>
+  <name>P2283</name>
+  <cmt>486:prom=175,rank=483</cmt>
+  </wpt>
+<wpt lat="23.8519" lon="121.1853">
+    <ele>3249</ele>
+  <name>火山</name>
+  <cmt>487:prom=174,rank=487</cmt>
+  </wpt>
+<wpt lat="22.9919" lon="120.9286">
+    <ele>2333</ele>
+  <name>次沖(5)A</name>
+  <cmt>488:prom=174,rank=487</cmt>
+  </wpt>
+<wpt lat="23.4464" lon="120.9589">
+    <ele>3845</ele>
+  <name>玉山南峰</name>
+  <cmt>489:prom=174,rank=487</cmt>
+  </wpt>
+<wpt lat="22.6275" lon="120.7042">
+    <ele>1701</ele>
+  <name>P1701</name>
+  <cmt>490:prom=174,rank=487</cmt>
+  </wpt>
+<wpt lat="23.6428" lon="121.0881">
+    <ele>3523</ele>
+  <name>烏達佩山</name>
+  <cmt>491:prom=174,rank=487</cmt>
+  </wpt>
+<wpt lat="23.1753" lon="121.3617">
+    <ele>1124</ele>
+  <name>P1124</name>
+  <cmt>492:prom=174,rank=487</cmt>
+  </wpt>
+<wpt lat="24.1250" lon="120.9553">
+    <ele>1483</ele>
+  <name>東阿冷山</name>
+  <cmt>493:prom=173,rank=493</cmt>
+  </wpt>
+<wpt lat="22.6294" lon="120.8208">
+    <ele>1572</ele>
+  <name>P1572</name>
+  <cmt>494:prom=173,rank=493</cmt>
+  </wpt>
+<wpt lat="23.1667" lon="120.6989">
+    <ele>1673</ele>
+  <name>P1673</name>
+  <cmt>495:prom=173,rank=493</cmt>
+  </wpt>
+<wpt lat="23.1797" lon="121.0333">
+    <ele>1262</ele>
+  <name>P1262</name>
+  <cmt>496:prom=173,rank=493</cmt>
+  </wpt>
+<wpt lat="24.8150" lon="121.6661">
+    <ele>1160</ele>
+  <name>P1160</name>
+  <cmt>497:prom=173,rank=493</cmt>
+  </wpt>
+<wpt lat="23.9436" lon="121.3292">
+    <ele>2903</ele>
+  <name>望台山</name>
+  <cmt>498:prom=173,rank=493</cmt>
+  </wpt>
+<wpt lat="23.4806" lon="120.7300">
+    <ele>1961</ele>
+  <name>扶蓉山</name>
+  <cmt>499:prom=173,rank=493</cmt>
+  </wpt>
+<wpt lat="23.6214" lon="121.3106">
+    <ele>2121</ele>
+  <name>P2121</name>
+  <cmt>500:prom=173,rank=493</cmt>
+  </wpt>
+<wpt lat="24.0556" lon="120.9683">
+    <ele>912</ele>
+  <name>P912</name>
+  <cmt>501:prom=173,rank=493</cmt>
+  </wpt>
+<wpt lat="23.5625" lon="120.8208">
+    <ele>2551</ele>
+  <name>松山</name>
+  <cmt>502:prom=172,rank=502</cmt>
+  </wpt>
+<wpt lat="22.8653" lon="120.6911">
+    <ele>1347</ele>
+  <name>P1347</name>
+  <cmt>503:prom=172,rank=502</cmt>
+  </wpt>
+<wpt lat="23.9953" lon="120.9053">
+    <ele>832</ele>
+  <name>觀音山(投)</name>
+  <cmt>504:prom=172,rank=502</cmt>
+  </wpt>
+<wpt lat="25.1764" lon="121.6042">
+    <ele>918</ele>
+  <name>P918</name>
+  <cmt>505:prom=172,rank=502</cmt>
+  </wpt>
+<wpt lat="23.1572" lon="120.9261">
+    <ele>2897</ele>
+  <name>P2897</name>
+  <cmt>506:prom=172,rank=502</cmt>
+  </wpt>
+<wpt lat="23.3275" lon="121.2681">
+    <ele>1129</ele>
+  <name>卓溪山</name>
+  <cmt>507:prom=171,rank=507</cmt>
+  </wpt>
+<wpt lat="24.1783" lon="121.6422">
+    <ele>1272</ele>
+  <name>立霧山</name>
+  <cmt>508:prom=171,rank=507</cmt>
+  </wpt>
+<wpt lat="24.4142" lon="121.7792">
+    <ele>599</ele>
+  <name>P599</name>
+  <cmt>509:prom=171,rank=507</cmt>
+  </wpt>
+<wpt lat="23.2603" lon="120.4247">
+    <ele>276</ele>
+  <name>P276</name>
+  <cmt>510:prom=170,rank=510</cmt>
+  </wpt>
+<wpt lat="23.1178" lon="121.3217">
+    <ele>1539</ele>
+  <name>麒麟山</name>
+  <cmt>511:prom=170,rank=510</cmt>
+  </wpt>
+<wpt lat="22.8664" lon="120.8247">
+    <ele>2322</ele>
+  <name>歡喜山</name>
+  <cmt>512:prom=170,rank=510</cmt>
+  </wpt>
+<wpt lat="23.4386" lon="121.4633">
+    <ele>800</ele>
+  <name>P800</name>
+  <cmt>513:prom=170,rank=510</cmt>
+  </wpt>
+<wpt lat="24.8097" lon="121.2292">
+    <ele>550</ele>
+  <name>小竹坑山</name>
+  <cmt>514:prom=170,rank=510</cmt>
+  </wpt>
+<wpt lat="23.4256" lon="120.6531">
+    <ele>1450</ele>
+  <name>P1450</name>
+  <cmt>515:prom=169,rank=515</cmt>
+  </wpt>
+<wpt lat="23.9058" lon="120.9053">
+    <ele>879</ele>
+  <name>槌仔寮山</name>
+  <cmt>516:prom=169,rank=515</cmt>
+  </wpt>
+<wpt lat="22.3919" lon="120.7517">
+    <ele>1571</ele>
+  <name>P1571</name>
+  <cmt>517:prom=169,rank=515</cmt>
+  </wpt>
+<wpt lat="23.1317" lon="121.2492">
+    <ele>564</ele>
+  <name>P564</name>
+  <cmt>518:prom=169,rank=515</cmt>
+  </wpt>
+<wpt lat="24.9264" lon="121.3450">
+    <ele>315</ele>
+  <name>鳶山(北)</name>
+  <cmt>519:prom=169,rank=515</cmt>
+  </wpt>
+<wpt lat="23.1272" lon="121.0981">
+    <ele>1357</ele>
+  <name>唉唉山</name>
+  <cmt>520:prom=168,rank=520</cmt>
+  </wpt>
+<wpt lat="23.8836" lon="121.2683">
+    <ele>3016</ele>
+  <name>安東軍北峰</name>
+  <cmt>521:prom=168,rank=520</cmt>
+  </wpt>
+<wpt lat="24.8689" lon="121.4603">
+    <ele>974</ele>
+  <name>P974</name>
+  <cmt>522:prom=168,rank=520</cmt>
+  </wpt>
+<wpt lat="22.6347" lon="120.8611">
+    <ele>1533</ele>
+  <name>尖山</name>
+  <cmt>523:prom=167,rank=523</cmt>
+  </wpt>
+<wpt lat="22.5450" lon="120.8919">
+    <ele>1010</ele>
+  <name>P1010</name>
+  <cmt>524:prom=167,rank=523</cmt>
+  </wpt>
+<wpt lat="23.6108" lon="121.2450">
+    <ele>3046</ele>
+  <name>阿巴拉山</name>
+  <cmt>525:prom=167,rank=523</cmt>
+  </wpt>
+<wpt lat="24.0322" lon="120.9761">
+    <ele>986</ele>
+  <name>P986</name>
+  <cmt>526:prom=167,rank=523</cmt>
+  </wpt>
+<wpt lat="24.1561" lon="121.1114">
+    <ele>2871</ele>
+  <name>白狗南山2</name>
+  <cmt>527:prom=167,rank=523</cmt>
+  </wpt>
+<wpt lat="24.5103" lon="121.6161">
+    <ele>2045</ele>
+  <name>P2045</name>
+  <cmt>528:prom=167,rank=523</cmt>
+  </wpt>
+<wpt lat="23.6456" lon="121.3381">
+    <ele>1953</ele>
+  <name>P1953</name>
+  <cmt>529:prom=167,rank=523</cmt>
+  </wpt>
+<wpt lat="23.2175" lon="120.8808">
+    <ele>2661</ele>
+  <name>P2661</name>
+  <cmt>530:prom=167,rank=523</cmt>
+  </wpt>
+<wpt lat="24.4558" lon="121.8175">
+    <ele>181</ele>
+  <name>龜山(宜)</name>
+  <cmt>531:prom=167,rank=523</cmt>
+  </wpt>
+<wpt lat="23.8183" lon="121.3133">
+    <ele>2825</ele>
+  <name>大安山(花)</name>
+  <cmt>532:prom=167,rank=523</cmt>
+  </wpt>
+<wpt lat="23.0861" lon="120.5706">
+    <ele>779</ele>
+  <name>吳酒桶頭</name>
+  <cmt>533:prom=167,rank=523</cmt>
+  </wpt>
+<wpt lat="23.7372" lon="120.9742">
+    <ele>2853</ele>
+  <name>P2853</name>
+  <cmt>534:prom=166,rank=534</cmt>
+  </wpt>
+<wpt lat="24.6244" lon="121.4714">
+    <ele>1707</ele>
+  <name>P1707</name>
+  <cmt>535:prom=166,rank=534</cmt>
+  </wpt>
+<wpt lat="23.0728" lon="121.3192">
+    <ele>1013</ele>
+  <name>加只來山</name>
+  <cmt>536:prom=166,rank=534</cmt>
+  </wpt>
+<wpt lat="23.3339" lon="121.0325">
+    <ele>3056</ele>
+  <name>世新山</name>
+  <cmt>537:prom=166,rank=534</cmt>
+  </wpt>
+<wpt lat="21.9733" lon="120.8186">
+    <ele>307</ele>
+  <name>P307</name>
+  <cmt>538:prom=166,rank=534</cmt>
+  </wpt>
+<wpt lat="24.4281" lon="121.2667">
+    <ele>3517</ele>
+  <name>品田山</name>
+  <cmt>539:prom=166,rank=534</cmt>
+  </wpt>
+<wpt lat="25.0028" lon="121.9756">
+    <ele>429</ele>
+  <name>P429</name>
+  <cmt>540:prom=166,rank=534</cmt>
+  </wpt>
+<wpt lat="24.1428" lon="120.8264">
+    <ele>1053</ele>
+  <name>P1053</name>
+  <cmt>541:prom=165,rank=541</cmt>
+  </wpt>
+<wpt lat="24.2542" lon="121.3719">
+    <ele>3224</ele>
+  <name>無名西峰</name>
+  <cmt>542:prom=165,rank=541</cmt>
+  </wpt>
+<wpt lat="23.0119" lon="121.2211">
+    <ele>998</ele>
+  <name>嗄嘮吧灣</name>
+  <cmt>543:prom=165,rank=541</cmt>
+  </wpt>
+<wpt lat="23.5908" lon="120.6689">
+    <ele>1157</ele>
+  <name>P1157</name>
+  <cmt>544:prom=165,rank=541</cmt>
+  </wpt>
+<wpt lat="23.9306" lon="120.9750">
+    <ele>806</ele>
+  <name>紅仙水</name>
+  <cmt>545:prom=165,rank=541</cmt>
+  </wpt>
+<wpt lat="24.2572" lon="121.5842">
+    <ele>2390</ele>
+  <name>P2390</name>
+  <cmt>546:prom=165,rank=541</cmt>
+  </wpt>
+<wpt lat="22.8100" lon="121.1092">
+    <ele>399</ele>
+  <name>P399</name>
+  <cmt>547:prom=164,rank=547</cmt>
+  </wpt>
+<wpt lat="24.2783" lon="120.9267">
+    <ele>1252</ele>
+  <name>觀音山(中)</name>
+  <cmt>548:prom=164,rank=547</cmt>
+  </wpt>
+<wpt lat="23.3664" lon="121.4269">
+    <ele>1325</ele>
+  <name>P1325</name>
+  <cmt>549:prom=164,rank=547</cmt>
+  </wpt>
+<wpt lat="24.4931" lon="121.2756">
+    <ele>2981</ele>
+  <name>P2981</name>
+  <cmt>550:prom=164,rank=547</cmt>
+  </wpt>
+<wpt lat="22.5472" lon="120.7214">
+    <ele>1855</ele>
+  <name>來社山</name>
+  <cmt>551:prom=164,rank=547</cmt>
+  </wpt>
+<wpt lat="22.0092" lon="120.6986">
+    <ele>189</ele>
+  <name>P189</name>
+  <cmt>552:prom=164,rank=547</cmt>
+  </wpt>
+<wpt lat="23.8369" lon="121.5683">
+    <ele>551</ele>
+  <name>P551</name>
+  <cmt>553:prom=163,rank=553</cmt>
+  </wpt>
+<wpt lat="22.7008" lon="120.3136">
+    <ele>175</ele>
+  <name>P175</name>
+  <cmt>554:prom=163,rank=553</cmt>
+  </wpt>
+<wpt lat="23.0375" lon="121.1036">
+    <ele>1824</ele>
+  <name>加奈鹿山</name>
+  <cmt>555:prom=163,rank=553</cmt>
+  </wpt>
+<wpt lat="23.3281" lon="120.6419">
+    <ele>960</ele>
+  <name>P960</name>
+  <cmt>556:prom=163,rank=553</cmt>
+  </wpt>
+<wpt lat="23.1458" lon="120.9511">
+    <ele>2784</ele>
+  <name>屯古嶺</name>
+  <cmt>557:prom=163,rank=553</cmt>
+  </wpt>
+<wpt lat="24.0731" lon="121.0636">
+    <ele>2104</ele>
+  <name>有勝山</name>
+  <cmt>558:prom=163,rank=553</cmt>
+  </wpt>
+<wpt lat="23.4508" lon="121.0517">
+    <ele>3384</ele>
+  <name>南大水窟山</name>
+  <cmt>559:prom=163,rank=553</cmt>
+  </wpt>
+<wpt lat="25.0947" lon="121.8756">
+    <ele>714</ele>
+  <name>P714</name>
+  <cmt>560:prom=163,rank=553</cmt>
+  </wpt>
+<wpt lat="24.0292" lon="121.0239">
+    <ele>2012</ele>
+  <name>P2012</name>
+  <cmt>561:prom=162,rank=561</cmt>
+  </wpt>
+<wpt lat="24.3425" lon="121.5078">
+    <ele>2687</ele>
+  <name>P2687</name>
+  <cmt>562:prom=162,rank=561</cmt>
+  </wpt>
+<wpt lat="23.5169" lon="120.9283">
+    <ele>1827</ele>
+  <name>P1827</name>
+  <cmt>563:prom=162,rank=561</cmt>
+  </wpt>
+<wpt lat="24.4261" lon="120.8394">
+    <ele>714</ele>
+  <name>雞隆</name>
+  <cmt>564:prom=161,rank=564</cmt>
+  </wpt>
+<wpt lat="24.9953" lon="121.6881">
+    <ele>584</ele>
+  <name>P584</name>
+  <cmt>565:prom=161,rank=564</cmt>
+  </wpt>
+<wpt lat="22.0194" lon="121.5942">
+    <ele>378</ele>
+  <name>P378</name>
+  <cmt>566:prom=161,rank=564</cmt>
+  </wpt>
+<wpt lat="22.1778" lon="120.7572">
+    <ele>797</ele>
+  <name>P797</name>
+  <cmt>567:prom=161,rank=564</cmt>
+  </wpt>
+<wpt lat="21.9492" lon="121.6119">
+    <ele>161</ele>
+  <name>小蘭嶼</name>
+  <cmt>568:prom=161,rank=564</cmt>
+  </wpt>
+<wpt lat="24.0467" lon="121.0936">
+    <ele>1873</ele>
+  <name>南東眼山</name>
+  <cmt>569:prom=161,rank=564</cmt>
+  </wpt>
+<wpt lat="23.8000" lon="121.3481">
+    <ele>2141</ele>
+  <name>向山</name>
+  <cmt>570:prom=161,rank=564</cmt>
+  </wpt>
+<wpt lat="23.5428" lon="121.0411">
+    <ele>3112</ele>
+  <name>駒盆中峰</name>
+  <cmt>571:prom=161,rank=564</cmt>
+  </wpt>
+<wpt lat="24.2661" lon="120.9903">
+    <ele>2443</ele>
+  <name>P2443</name>
+  <cmt>572:prom=161,rank=564</cmt>
+  </wpt>
+<wpt lat="24.5819" lon="121.1986">
+    <ele>2204</ele>
+  <name>P2204</name>
+  <cmt>573:prom=161,rank=564</cmt>
+  </wpt>
+<wpt lat="24.4347" lon="120.9083">
+    <ele>886</ele>
+  <name>耀婆山</name>
+  <cmt>574:prom=160,rank=574</cmt>
+  </wpt>
+<wpt lat="25.0419" lon="121.8906">
+    <ele>297</ele>
+  <name>九分坑山</name>
+  <cmt>575:prom=160,rank=574</cmt>
+  </wpt>
+<wpt lat="22.7756" lon="120.8556">
+    <ele>1984</ele>
+  <name>朗吾呂東北峰</name>
+  <cmt>576:prom=160,rank=574</cmt>
+  </wpt>
+<wpt lat="22.9786" lon="120.4853">
+    <ele>381</ele>
+  <name>P381</name>
+  <cmt>577:prom=160,rank=574</cmt>
+  </wpt>
+<wpt lat="24.4625" lon="121.5414">
+    <ele>2022</ele>
+  <name>P2022</name>
+  <cmt>578:prom=160,rank=574</cmt>
+  </wpt>
+<wpt lat="23.5469" lon="121.0681">
+    <ele>3197</ele>
+  <name>黃當擴山</name>
+  <cmt>579:prom=160,rank=574</cmt>
+  </wpt>
+<wpt lat="24.9044" lon="121.4914">
+    <ele>862</ele>
+  <name>獅仔頭山</name>
+  <cmt>580:prom=159,rank=580</cmt>
+  </wpt>
+<wpt lat="24.1425" lon="121.2711">
+    <ele>3411</ele>
+  <name>合歡山</name>
+  <cmt>581:prom=159,rank=580</cmt>
+  </wpt>
+<wpt lat="23.3050" lon="121.1389">
+    <ele>3000</ele>
+  <name>南可可爾博山</name>
+  <cmt>582:prom=159,rank=580</cmt>
+  </wpt>
+<wpt lat="24.3947" lon="120.8253">
+    <ele>847</ele>
+  <name>P847</name>
+  <cmt>583:prom=159,rank=580</cmt>
+  </wpt>
+<wpt lat="23.1561" lon="120.4631">
+    <ele>301</ele>
+  <name>斗六山</name>
+  <cmt>584:prom=159,rank=580</cmt>
+  </wpt>
+<wpt lat="24.0461" lon="120.9539">
+    <ele>928</ele>
+  <name>P928</name>
+  <cmt>585:prom=159,rank=580</cmt>
+  </wpt>
+<wpt lat="23.3883" lon="120.5656">
+    <ele>602</ele>
+  <name>P602</name>
+  <cmt>586:prom=159,rank=580</cmt>
+  </wpt>
+<wpt lat="23.1847" lon="120.6808">
+    <ele>1654</ele>
+  <name>鞍輪名山</name>
+  <cmt>587:prom=158,rank=587</cmt>
+  </wpt>
+<wpt lat="23.2283" lon="120.7533">
+    <ele>2138</ele>
+  <name>可那部山</name>
+  <cmt>588:prom=158,rank=587</cmt>
+  </wpt>
+<wpt lat="22.5722" lon="120.9417">
+    <ele>998</ele>
+  <name>P998</name>
+  <cmt>589:prom=158,rank=587</cmt>
+  </wpt>
+<wpt lat="23.7772" lon="121.3817">
+    <ele>2001</ele>
+  <name>P2001</name>
+  <cmt>590:prom=158,rank=587</cmt>
+  </wpt>
+<wpt lat="24.2147" lon="121.4989">
+    <ele>1288</ele>
+  <name>P1288</name>
+  <cmt>591:prom=158,rank=587</cmt>
+  </wpt>
+<wpt lat="23.2708" lon="120.9597">
+    <ele>3170</ele>
+  <name>關山嶺山</name>
+  <cmt>592:prom=158,rank=587</cmt>
+  </wpt>
+<wpt lat="23.5339" lon="121.1461">
+    <ele>3020</ele>
+  <name>烏可冬克山</name>
+  <cmt>593:prom=158,rank=587</cmt>
+  </wpt>
+<wpt lat="23.5364" lon="120.8914">
+    <ele>2279</ele>
+  <name>P2279</name>
+  <cmt>594:prom=157,rank=594</cmt>
+  </wpt>
+<wpt lat="23.8794" lon="120.9372">
+    <ele>888</ele>
+  <name>P888</name>
+  <cmt>595:prom=157,rank=594</cmt>
+  </wpt>
+<wpt lat="22.8817" lon="120.7211">
+    <ele>1670</ele>
+  <name>京大山</name>
+  <cmt>596:prom=157,rank=594</cmt>
+  </wpt>
+<wpt lat="23.1758" lon="120.5656">
+    <ele>1103</ele>
+  <name>竹子尖山</name>
+  <cmt>597:prom=157,rank=594</cmt>
+  </wpt>
+<wpt lat="22.8825" lon="120.8547">
+    <ele>2538</ele>
+  <name>P2538</name>
+  <cmt>598:prom=157,rank=594</cmt>
+  </wpt>
+<wpt lat="23.1478" lon="120.6819">
+    <ele>1601</ele>
+  <name>P1601</name>
+  <cmt>599:prom=156,rank=599</cmt>
+  </wpt>
+<wpt lat="24.2739" lon="121.0261">
+    <ele>2735</ele>
+  <name>P2735</name>
+  <cmt>600:prom=156,rank=599</cmt>
+  </wpt>
+<wpt lat="24.5989" lon="121.7314">
+    <ele>705</ele>
+  <name>P705</name>
+  <cmt>601:prom=156,rank=599</cmt>
+  </wpt>
+<wpt lat="24.0522" lon="121.3678">
+    <ele>2417</ele>
+  <name>P2417</name>
+  <cmt>602:prom=156,rank=599</cmt>
+  </wpt>
+<wpt lat="23.3847" lon="120.6431">
+    <ele>1078</ele>
+  <name>P1078</name>
+  <cmt>603:prom=156,rank=599</cmt>
+  </wpt>
+<wpt lat="23.3608" lon="120.7003">
+    <ele>1460</ele>
+  <name>P1460</name>
+  <cmt>604:prom=156,rank=599</cmt>
+  </wpt>
+<wpt lat="23.5919" lon="120.6850">
+    <ele>1204</ele>
+  <name>P1204</name>
+  <cmt>605:prom=156,rank=599</cmt>
+  </wpt>
+<wpt lat="23.0036" lon="120.6747">
+    <ele>871</ele>
+  <name>西龜山</name>
+  <cmt>606:prom=156,rank=599</cmt>
+  </wpt>
+<wpt lat="23.5483" lon="121.2614">
+    <ele>2330</ele>
+  <name>P2330</name>
+  <cmt>607:prom=156,rank=599</cmt>
+  </wpt>
+<wpt lat="22.8869" lon="120.9011">
+    <ele>2219</ele>
+  <name>P2219</name>
+  <cmt>608:prom=156,rank=599</cmt>
+  </wpt>
+<wpt lat="22.9011" lon="120.8958">
+    <ele>2192</ele>
+  <name>P2192</name>
+  <cmt>609:prom=156,rank=599</cmt>
+  </wpt>
+<wpt lat="24.6158" lon="121.3592">
+    <ele>2296</ele>
+  <name>P2296</name>
+  <cmt>610:prom=156,rank=599</cmt>
+  </wpt>
+<wpt lat="23.8889" lon="121.1228">
+    <ele>2717</ele>
+  <name>P2717</name>
+  <cmt>611:prom=155,rank=611</cmt>
+  </wpt>
+<wpt lat="23.6828" lon="120.8067">
+    <ele>1744</ele>
+  <name>P1744</name>
+  <cmt>612:prom=155,rank=611</cmt>
+  </wpt>
+<wpt lat="23.5592" lon="121.1569">
+    <ele>2948</ele>
+  <name>P2948</name>
+  <cmt>613:prom=154,rank=613</cmt>
+  </wpt>
+<wpt lat="23.4200" lon="120.8214">
+    <ele>2398</ele>
+  <name>霞山</name>
+  <cmt>614:prom=154,rank=613</cmt>
+  </wpt>
+<wpt lat="23.3194" lon="121.1158">
+    <ele>3125</ele>
+  <name>新仙山P</name>
+  <cmt>615:prom=154,rank=613</cmt>
+  </wpt>
+<wpt lat="23.6061" lon="120.8575">
+    <ele>1666</ele>
+  <name>羅那山</name>
+  <cmt>616:prom=154,rank=613</cmt>
+  </wpt>
+<wpt lat="23.3506" lon="121.4306">
+    <ele>1031</ele>
+  <name>P1031</name>
+  <cmt>617:prom=154,rank=613</cmt>
+  </wpt>
+<wpt lat="22.0817" lon="120.7628">
+    <ele>323</ele>
+  <name>南勢港山</name>
+  <cmt>618:prom=153,rank=618</cmt>
+  </wpt>
+<wpt lat="24.1758" lon="121.2522">
+    <ele>3228</ele>
+  <name>合歡三叉峰</name>
+  <cmt>619:prom=153,rank=618</cmt>
+  </wpt>
+<wpt lat="22.9281" lon="120.9861">
+    <ele>2352</ele>
+  <name>P2352</name>
+  <cmt>620:prom=153,rank=618</cmt>
+  </wpt>
+<wpt lat="23.0361" lon="120.6086">
+    <ele>981</ele>
+  <name>P981</name>
+  <cmt>621:prom=153,rank=618</cmt>
+  </wpt>
+<wpt lat="24.2289" lon="120.9406">
+    <ele>2017</ele>
+  <name>橫嶺山</name>
+  <cmt>622:prom=152,rank=622</cmt>
+  </wpt>
+<wpt lat="24.8372" lon="121.9628">
+    <ele>224</ele>
+  <name>P224</name>
+  <cmt>623:prom=152,rank=622</cmt>
+  </wpt>
+<wpt lat="24.0953" lon="121.4128">
+    <ele>3070</ele>
+  <name>磐石東峰</name>
+  <cmt>624:prom=152,rank=622</cmt>
+  </wpt>
+<wpt lat="24.6964" lon="121.4742">
+    <ele>1876</ele>
+  <name>P1876</name>
+  <cmt>625:prom=151,rank=625</cmt>
+  </wpt>
+<wpt lat="22.7514" lon="120.8569">
+    <ele>1804</ele>
+  <name>屏保岩</name>
+  <cmt>626:prom=151,rank=625</cmt>
+  </wpt>
+<wpt lat="24.0622" lon="121.3000">
+    <ele>3377</ele>
+  <name>奇萊裡山</name>
+  <cmt>627:prom=151,rank=625</cmt>
+  </wpt>
+<wpt lat="22.1669" lon="120.8414">
+    <ele>552</ele>
+  <name>牡丹池山</name>
+  <cmt>628:prom=151,rank=625</cmt>
+  </wpt>
+<wpt lat="22.2489" lon="120.6875">
+    <ele>513</ele>
+  <name>竹坑山</name>
+  <cmt>629:prom=151,rank=625</cmt>
+  </wpt>
+<wpt lat="23.5150" lon="121.0919">
+    <ele>3487</ele>
+  <name>馬利亞文路山</name>
+  <cmt>630:prom=151,rank=625</cmt>
+  </wpt>
+<wpt lat="22.9686" lon="120.8381">
+    <ele>2669</ele>
+  <name>P2669</name>
+  <cmt>631:prom=151,rank=625</cmt>
+  </wpt>
+<wpt lat="23.9411" lon="121.0303">
+    <ele>1579</ele>
+  <name>P1579</name>
+  <cmt>632:prom=151,rank=625</cmt>
+  </wpt>
+<wpt lat="24.1192" lon="121.5386">
+    <ele>2380</ele>
+  <name>P2380</name>
+  <cmt>633:prom=151,rank=625</cmt>
+  </wpt>
+<wpt lat="22.1125" lon="120.7542">
+    <ele>379</ele>
+  <name>虱母山</name>
+  <cmt>634:prom=150,rank=634</cmt>
+  </wpt>
+<wpt lat="23.5814" lon="121.1828">
+    <ele>3255</ele>
+  <name>馬路巴拉讓山</name>
+  <cmt>635:prom=150,rank=634</cmt>
+  </wpt>
+<wpt lat="22.8011" lon="120.7606">
+    <ele>2260</ele>
+  <name>麻留賀山</name>
+  <cmt>636:prom=150,rank=634</cmt>
+  </wpt>
+<wpt lat="22.6258" lon="120.9125">
+    <ele>1157</ele>
+  <name>P1157</name>
+  <cmt>637:prom=150,rank=634</cmt>
+  </wpt>
+<wpt lat="23.5614" lon="121.3228">
+    <ele>1743</ele>
+  <name>虎頭山</name>
+  <cmt>638:prom=150,rank=634</cmt>
+  </wpt>
+<wpt lat="23.6794" lon="120.7217">
+    <ele>1199</ele>
+  <name>P1199</name>
+  <cmt>639:prom=150,rank=634</cmt>
+  </wpt>
+<wpt lat="23.5794" lon="120.8528">
+    <ele>1856</ele>
+  <name>P1856</name>
+  <cmt>640:prom=150,rank=634</cmt>
+  </wpt>
+<wpt lat="22.5450" lon="120.6817">
+    <ele>1002</ele>
+  <name>P1002</name>
+  <cmt>641:prom=149,rank=641</cmt>
+  </wpt>
+<wpt lat="24.0483" lon="120.8772">
+    <ele>554</ele>
+  <name>P554</name>
+  <cmt>642:prom=149,rank=641</cmt>
+  </wpt>
+<wpt lat="23.3131" lon="121.1489">
+    <ele>2926</ele>
+  <name>P2926</name>
+  <cmt>643:prom=149,rank=641</cmt>
+  </wpt>
+<wpt lat="23.5086" lon="120.9978">
+    <ele>2744</ele>
+  <name>P2744</name>
+  <cmt>644:prom=148,rank=644</cmt>
+  </wpt>
+<wpt lat="23.6683" lon="120.9336">
+    <ele>2505</ele>
+  <name>P2505</name>
+  <cmt>645:prom=148,rank=644</cmt>
+  </wpt>
+<wpt lat="22.9356" lon="120.8219">
+    <ele>2459</ele>
+  <name>內本鹿山</name>
+  <cmt>646:prom=148,rank=644</cmt>
+  </wpt>
+<wpt lat="23.1403" lon="120.9672">
+    <ele>2745</ele>
+  <name>P2745</name>
+  <cmt>647:prom=148,rank=644</cmt>
+  </wpt>
+<wpt lat="23.9603" lon="121.4414">
+    <ele>1004</ele>
+  <name>P1004</name>
+  <cmt>648:prom=148,rank=644</cmt>
+  </wpt>
+<wpt lat="24.8592" lon="121.7297">
+    <ele>1024</ele>
+  <name>三角崙山</name>
+  <cmt>649:prom=148,rank=644</cmt>
+  </wpt>
+<wpt lat="22.9308" lon="121.0358">
+    <ele>1790</ele>
+  <name>P1790</name>
+  <cmt>650:prom=148,rank=644</cmt>
+  </wpt>
+<wpt lat="23.2439" lon="121.2183">
+    <ele>1624</ele>
+  <name>苳苳園山</name>
+  <cmt>651:prom=148,rank=644</cmt>
+  </wpt>
+<wpt lat="23.9131" lon="121.4275">
+    <ele>2256</ele>
+  <name>P2256</name>
+  <cmt>652:prom=147,rank=652</cmt>
+  </wpt>
+<wpt lat="25.0050" lon="121.7631">
+    <ele>574</ele>
+  <name>P574</name>
+  <cmt>653:prom=147,rank=652</cmt>
+  </wpt>
+<wpt lat="23.5069" lon="120.6678">
+    <ele>1433</ele>
+  <name>P1433</name>
+  <cmt>654:prom=147,rank=652</cmt>
+  </wpt>
+<wpt lat="24.1556" lon="121.2808">
+    <ele>3275</ele>
+  <name>南哈哈山</name>
+  <cmt>655:prom=147,rank=652</cmt>
+  </wpt>
+<wpt lat="22.9406" lon="120.5917">
+    <ele>397</ele>
+  <name>P397</name>
+  <cmt>656:prom=146,rank=656</cmt>
+  </wpt>
+<wpt lat="23.1617" lon="120.9617">
+    <ele>2586</ele>
+  <name>P2586</name>
+  <cmt>657:prom=146,rank=656</cmt>
+  </wpt>
+<wpt lat="23.5531" lon="120.7561">
+    <ele>1717</ele>
+  <name>P1717</name>
+  <cmt>658:prom=146,rank=656</cmt>
+  </wpt>
+<wpt lat="24.7250" lon="121.3139">
+    <ele>1652</ele>
+  <name>P1652</name>
+  <cmt>659:prom=146,rank=656</cmt>
+  </wpt>
+<wpt lat="24.2267" lon="120.7806">
+    <ele>633</ele>
+  <name>P633</name>
+  <cmt>660:prom=146,rank=656</cmt>
+  </wpt>
+<wpt lat="24.4381" lon="121.2583">
+    <ele>3397</ele>
+  <name>巴紗拉雲山</name>
+  <cmt>661:prom=146,rank=656</cmt>
+  </wpt>
+<wpt lat="22.4497" lon="120.7767">
+    <ele>1508</ele>
+  <name>P1508</name>
+  <cmt>662:prom=146,rank=656</cmt>
+  </wpt>
+<wpt lat="24.9592" lon="121.8708">
+    <ele>586</ele>
+  <name>P586</name>
+  <cmt>663:prom=145,rank=663</cmt>
+  </wpt>
+<wpt lat="24.5069" lon="121.1769">
+    <ele>2473</ele>
+  <name>P2473</name>
+  <cmt>664:prom=145,rank=663</cmt>
+  </wpt>
+<wpt lat="23.4914" lon="120.6428">
+    <ele>1344</ele>
+  <name>大湖尖山(森)</name>
+  <cmt>665:prom=145,rank=663</cmt>
+  </wpt>
+<wpt lat="24.0603" lon="121.1156">
+    <ele>2010</ele>
+  <name>P2010</name>
+  <cmt>666:prom=145,rank=663</cmt>
+  </wpt>
+<wpt lat="23.9731" lon="121.3458">
+    <ele>2519</ele>
+  <name>武陵山</name>
+  <cmt>667:prom=145,rank=663</cmt>
+  </wpt>
+<wpt lat="25.1203" lon="121.7733">
+    <ele>211</ele>
+  <name>P211</name>
+  <cmt>668:prom=145,rank=663</cmt>
+  </wpt>
+<wpt lat="22.9711" lon="120.9625">
+    <ele>2586</ele>
+  <name>P2586</name>
+  <cmt>669:prom=145,rank=663</cmt>
+  </wpt>
+<wpt lat="24.7606" lon="121.4122">
+    <ele>1898</ele>
+  <name>南插天山</name>
+  <cmt>670:prom=145,rank=663</cmt>
+  </wpt>
+<wpt lat="25.1589" lon="121.7081">
+    <ele>228</ele>
+  <name>P228</name>
+  <cmt>671:prom=145,rank=663</cmt>
+  </wpt>
+<wpt lat="22.4925" lon="120.6892">
+    <ele>1510</ele>
+  <name>P1510</name>
+  <cmt>672:prom=145,rank=663</cmt>
+  </wpt>
+<wpt lat="24.5086" lon="121.1217">
+    <ele>2264</ele>
+  <name>P2264</name>
+  <cmt>673:prom=145,rank=663</cmt>
+  </wpt>
+<wpt lat="22.0736" lon="121.5567">
+    <ele>454</ele>
+  <name>尖禿山</name>
+  <cmt>674:prom=145,rank=663</cmt>
+  </wpt>
+<wpt lat="24.3617" lon="121.1683">
+    <ele>3232</ele>
+  <name>大南山P</name>
+  <cmt>675:prom=145,rank=663</cmt>
+  </wpt>
+<wpt lat="24.9244" lon="121.3967">
+    <ele>293</ele>
+  <name>P293</name>
+  <cmt>676:prom=145,rank=663</cmt>
+  </wpt>
+<wpt lat="23.1828" lon="120.6414">
+    <ele>965</ele>
+  <name>西阿里關山</name>
+  <cmt>677:prom=145,rank=663</cmt>
+  </wpt>
+<wpt lat="24.5444" lon="121.0344">
+    <ele>970</ele>
+  <name>P970</name>
+  <cmt>678:prom=144,rank=678</cmt>
+  </wpt>
+<wpt lat="24.6375" lon="121.1419">
+    <ele>950</ele>
+  <name>扇子排山</name>
+  <cmt>679:prom=144,rank=678</cmt>
+  </wpt>
+<wpt lat="23.8100" lon="121.5636">
+    <ele>525</ele>
+  <name>水連尾山</name>
+  <cmt>680:prom=144,rank=678</cmt>
+  </wpt>
+<wpt lat="24.3569" lon="121.6314">
+    <ele>1012</ele>
+  <name>P1012</name>
+  <cmt>681:prom=144,rank=678</cmt>
+  </wpt>
+<wpt lat="21.9797" lon="120.7903">
+    <ele>303</ele>
+  <name>模無路山</name>
+  <cmt>682:prom=144,rank=678</cmt>
+  </wpt>
+<wpt lat="22.5383" lon="120.7481">
+    <ele>2149</ele>
+  <name>P2149</name>
+  <cmt>683:prom=144,rank=678</cmt>
+  </wpt>
+<wpt lat="24.5783" lon="121.2900">
+    <ele>2175</ele>
+  <name>P2175</name>
+  <cmt>684:prom=144,rank=678</cmt>
+  </wpt>
+<wpt lat="24.3581" lon="121.5714">
+    <ele>1979</ele>
+  <name>清花山</name>
+  <cmt>685:prom=144,rank=678</cmt>
+  </wpt>
+<wpt lat="24.4556" lon="121.4781">
+    <ele>2488</ele>
+  <name>給里洛</name>
+  <cmt>686:prom=144,rank=678</cmt>
+  </wpt>
+<wpt lat="22.7856" lon="120.6569">
+    <ele>894</ele>
+  <name>P894</name>
+  <cmt>687:prom=143,rank=687</cmt>
+  </wpt>
+<wpt lat="23.4806" lon="121.4450">
+    <ele>627</ele>
+  <name>里牙津山</name>
+  <cmt>688:prom=143,rank=687</cmt>
+  </wpt>
+<wpt lat="23.9486" lon="121.3439">
+    <ele>2757</ele>
+  <name>P2757</name>
+  <cmt>689:prom=143,rank=687</cmt>
+  </wpt>
+<wpt lat="23.1103" lon="120.8894">
+    <ele>3020</ele>
+  <name>馬西巴秀山</name>
+  <cmt>690:prom=143,rank=687</cmt>
+  </wpt>
+<wpt lat="23.6353" lon="120.8144">
+    <ele>2118</ele>
+  <name>P2118</name>
+  <cmt>691:prom=143,rank=687</cmt>
+  </wpt>
+<wpt lat="24.0711" lon="121.4811">
+    <ele>2369</ele>
+  <name>P2369</name>
+  <cmt>692:prom=143,rank=687</cmt>
+  </wpt>
+<wpt lat="24.3086" lon="121.4047">
+    <ele>3407</ele>
+  <name>中央尖西峰</name>
+  <cmt>693:prom=143,rank=687</cmt>
+  </wpt>
+<wpt lat="24.2692" lon="121.6294">
+    <ele>2598</ele>
+  <name>P2598</name>
+  <cmt>694:prom=143,rank=687</cmt>
+  </wpt>
+<wpt lat="24.8086" lon="121.4708">
+    <ele>1563</ele>
+  <name>P1563</name>
+  <cmt>695:prom=142,rank=695</cmt>
+  </wpt>
+<wpt lat="23.4739" lon="121.0383">
+    <ele>3639</ele>
+  <name>大水窟山</name>
+  <cmt>696:prom=142,rank=695</cmt>
+  </wpt>
+<wpt lat="25.0231" lon="121.6353">
+    <ele>382</ele>
+  <name>土庫岳</name>
+  <cmt>697:prom=142,rank=695</cmt>
+  </wpt>
+<wpt lat="23.7086" lon="121.2600">
+    <ele>2780</ele>
+  <name>P2780</name>
+  <cmt>698:prom=142,rank=695</cmt>
+  </wpt>
+<wpt lat="24.3786" lon="121.4864">
+    <ele>2762</ele>
+  <name>東穗山</name>
+  <cmt>699:prom=142,rank=695</cmt>
+  </wpt>
+<wpt lat="24.1772" lon="121.3933">
+    <ele>2440</ele>
+  <name>P2440</name>
+  <cmt>700:prom=142,rank=695</cmt>
+  </wpt>
+<wpt lat="23.3683" lon="121.2972">
+    <ele>872</ele>
+  <name>新吞山</name>
+  <cmt>701:prom=142,rank=695</cmt>
+  </wpt>
+<wpt lat="25.0142" lon="121.7389">
+    <ele>557</ele>
+  <name>P557</name>
+  <cmt>702:prom=142,rank=695</cmt>
+  </wpt>
+<wpt lat="24.9878" lon="121.9439">
+    <ele>483</ele>
+  <name>P483</name>
+  <cmt>703:prom=142,rank=695</cmt>
+  </wpt>
+<wpt lat="24.7669" lon="121.2086">
+    <ele>420</ele>
+  <name>P420</name>
+  <cmt>704:prom=142,rank=695</cmt>
+  </wpt>
+<wpt lat="23.4883" lon="121.2881">
+    <ele>1400</ele>
+  <name>P1400</name>
+  <cmt>705:prom=142,rank=695</cmt>
+  </wpt>
+<wpt lat="23.7964" lon="120.8133">
+    <ele>608</ele>
+  <name>P608</name>
+  <cmt>706:prom=141,rank=706</cmt>
+  </wpt>
+<wpt lat="23.5019" lon="121.1986">
+    <ele>2735</ele>
+  <name>P2735</name>
+  <cmt>707:prom=141,rank=706</cmt>
+  </wpt>
+<wpt lat="24.0808" lon="121.1719">
+    <ele>2221</ele>
+  <name>立鷹</name>
+  <cmt>708:prom=141,rank=706</cmt>
+  </wpt>
+<wpt lat="23.2142" lon="120.6228">
+    <ele>621</ele>
+  <name>青倉山</name>
+  <cmt>709:prom=141,rank=706</cmt>
+  </wpt>
+<wpt lat="24.1806" lon="120.8536">
+    <ele>842</ele>
+  <name>P842</name>
+  <cmt>710:prom=141,rank=706</cmt>
+  </wpt>
+<wpt lat="22.4211" lon="120.8792">
+    <ele>867</ele>
+  <name>西老山</name>
+  <cmt>711:prom=140,rank=711</cmt>
+  </wpt>
+<wpt lat="24.3558" lon="121.6908">
+    <ele>1172</ele>
+  <name>P1172</name>
+  <cmt>712:prom=140,rank=711</cmt>
+  </wpt>
+<wpt lat="22.6233" lon="120.8553">
+    <ele>1132</ele>
+  <name>P1132</name>
+  <cmt>713:prom=140,rank=711</cmt>
+  </wpt>
+<wpt lat="24.1936" lon="121.5564">
+    <ele>1881</ele>
+  <name>P1881</name>
+  <cmt>714:prom=140,rank=711</cmt>
+  </wpt>
+<wpt lat="23.8419" lon="121.3003">
+    <ele>2790</ele>
+  <name>見晴(花)</name>
+  <cmt>715:prom=140,rank=711</cmt>
+  </wpt>
+<wpt lat="23.8381" lon="120.9342">
+    <ele>1076</ele>
+  <name>P1076</name>
+  <cmt>716:prom=140,rank=711</cmt>
+  </wpt>
+<wpt lat="24.4444" lon="121.0019">
+    <ele>1840</ele>
+  <name>P1840</name>
+  <cmt>717:prom=140,rank=711</cmt>
+  </wpt>
+<wpt lat="24.4406" lon="121.0789">
+    <ele>2139</ele>
+  <name>佳仁山</name>
+  <cmt>718:prom=140,rank=711</cmt>
+  </wpt>
+<wpt lat="23.8919" lon="121.1658">
+    <ele>2829</ele>
+  <name>P2829</name>
+  <cmt>719:prom=140,rank=711</cmt>
+  </wpt>
+<wpt lat="23.6136" lon="120.8250">
+    <ele>2190</ele>
+  <name>P2190</name>
+  <cmt>720:prom=140,rank=711</cmt>
+  </wpt>
+<wpt lat="22.7531" lon="120.4200">
+    <ele>251</ele>
+  <name>生仙坑山</name>
+  <cmt>721:prom=140,rank=711</cmt>
+  </wpt>
+<wpt lat="23.3844" lon="120.7097">
+    <ele>1564</ele>
+  <name>P1564</name>
+  <cmt>722:prom=140,rank=711</cmt>
+  </wpt>
+<wpt lat="24.7236" lon="121.5906">
+    <ele>1100</ele>
+  <name>P1100</name>
+  <cmt>723:prom=140,rank=711</cmt>
+  </wpt>
+<wpt lat="23.3422" lon="120.5472">
+    <ele>1168</ele>
+  <name>凍子頂</name>
+  <cmt>724:prom=140,rank=711</cmt>
+  </wpt>
+<wpt lat="23.7525" lon="121.1606">
+    <ele>2555</ele>
+  <name>P2555</name>
+  <cmt>725:prom=140,rank=711</cmt>
+  </wpt>
+<wpt lat="22.7897" lon="120.4339">
+    <ele>255</ele>
+  <name>高尾山</name>
+  <cmt>726:prom=139,rank=726</cmt>
+  </wpt>
+<wpt lat="24.5572" lon="121.3908">
+    <ele>2079</ele>
+  <name>P2079</name>
+  <cmt>727:prom=139,rank=726</cmt>
+  </wpt>
+<wpt lat="23.1439" lon="120.8489">
+    <ele>2491</ele>
+  <name>P2491</name>
+  <cmt>728:prom=139,rank=726</cmt>
+  </wpt>
+<wpt lat="24.4083" lon="121.0022">
+    <ele>1875</ele>
+  <name>P1875</name>
+  <cmt>729:prom=139,rank=726</cmt>
+  </wpt>
+<wpt lat="24.5311" lon="121.2850">
+    <ele>2514</ele>
+  <name>P2514</name>
+  <cmt>730:prom=139,rank=726</cmt>
+  </wpt>
+<wpt lat="23.4058" lon="121.3264">
+    <ele>306</ele>
+  <name>三笠山</name>
+  <cmt>731:prom=139,rank=726</cmt>
+  </wpt>
+<wpt lat="24.3964" lon="121.1961">
+    <ele>3258</ele>
+  <name>博可爾山</name>
+  <cmt>732:prom=138,rank=732</cmt>
+  </wpt>
+<wpt lat="24.0611" lon="121.2800">
+    <ele>3358</ele>
+  <name>奇萊南峰</name>
+  <cmt>733:prom=138,rank=732</cmt>
+  </wpt>
+<wpt lat="23.8867" lon="121.4397">
+    <ele>2163</ele>
+  <name>P2163</name>
+  <cmt>734:prom=138,rank=732</cmt>
+  </wpt>
+<wpt lat="24.3794" lon="121.5025">
+    <ele>2607</ele>
+  <name>P2607</name>
+  <cmt>735:prom=138,rank=732</cmt>
+  </wpt>
+<wpt lat="23.0408" lon="120.9308">
+    <ele>2863</ele>
+  <name>P2863</name>
+  <cmt>736:prom=138,rank=732</cmt>
+  </wpt>
+<wpt lat="23.0619" lon="120.6142">
+    <ele>914</ele>
+  <name>P914</name>
+  <cmt>737:prom=137,rank=737</cmt>
+  </wpt>
+<wpt lat="23.1308" lon="120.5500">
+    <ele>691</ele>
+  <name>P691</name>
+  <cmt>738:prom=137,rank=737</cmt>
+  </wpt>
+<wpt lat="24.0347" lon="121.4631">
+    <ele>2119</ele>
+  <name>P2119</name>
+  <cmt>739:prom=137,rank=737</cmt>
+  </wpt>
+<wpt lat="24.0194" lon="120.7803">
+    <ele>763</ele>
+  <name>P763</name>
+  <cmt>740:prom=137,rank=737</cmt>
+  </wpt>
+<wpt lat="23.6022" lon="120.8147">
+    <ele>2265</ele>
+  <name>烏松坑山</name>
+  <cmt>741:prom=137,rank=737</cmt>
+  </wpt>
+<wpt lat="23.9717" lon="120.8111">
+    <ele>830</ele>
+  <name>P830</name>
+  <cmt>742:prom=137,rank=737</cmt>
+  </wpt>
+<wpt lat="24.4003" lon="121.4417">
+    <ele>3162</ele>
+  <name>拔都諾府山</name>
+  <cmt>743:prom=137,rank=737</cmt>
+  </wpt>
+<wpt lat="23.0850" lon="120.7731">
+    <ele>1858</ele>
+  <name>P1858</name>
+  <cmt>744:prom=137,rank=737</cmt>
+  </wpt>
+<wpt lat="24.7950" lon="121.1183">
+    <ele>299</ele>
+  <name>P299</name>
+  <cmt>745:prom=137,rank=737</cmt>
+  </wpt>
+<wpt lat="23.2819" lon="120.5478">
+    <ele>654</ele>
+  <name>P654</name>
+  <cmt>746:prom=137,rank=737</cmt>
+  </wpt>
+<wpt lat="23.5217" lon="120.6969">
+    <ele>1762</ele>
+  <name>P1762</name>
+  <cmt>747:prom=137,rank=737</cmt>
+  </wpt>
+<wpt lat="24.7433" lon="121.1967">
+    <ele>471</ele>
+  <name>P471</name>
+  <cmt>748:prom=136,rank=748</cmt>
+  </wpt>
+<wpt lat="23.0692" lon="121.1261">
+    <ele>1620</ele>
+  <name>楠山</name>
+  <cmt>749:prom=136,rank=748</cmt>
+  </wpt>
+<wpt lat="24.5094" lon="121.6544">
+    <ele>1911</ele>
+  <name>銅山</name>
+  <cmt>750:prom=136,rank=748</cmt>
+  </wpt>
+<wpt lat="23.6481" lon="120.6369">
+    <ele>545</ele>
+  <name>P545</name>
+  <cmt>751:prom=136,rank=748</cmt>
+  </wpt>
+<wpt lat="25.0125" lon="121.7828">
+    <ele>529</ele>
+  <name>上內坪林</name>
+  <cmt>752:prom=136,rank=748</cmt>
+  </wpt>
+<wpt lat="24.7856" lon="121.2325">
+    <ele>607</ele>
+  <name>P607</name>
+  <cmt>753:prom=136,rank=748</cmt>
+  </wpt>
+<wpt lat="22.8972" lon="121.0356">
+    <ele>1451</ele>
+  <name>P1451</name>
+  <cmt>754:prom=136,rank=748</cmt>
+  </wpt>
+<wpt lat="22.7403" lon="120.9022">
+    <ele>2203</ele>
+  <name>P2203</name>
+  <cmt>755:prom=136,rank=748</cmt>
+  </wpt>
+<wpt lat="23.2656" lon="120.6231">
+    <ele>970</ele>
+  <name>P970</name>
+  <cmt>756:prom=136,rank=748</cmt>
+  </wpt>
+<wpt lat="24.2494" lon="121.1203">
+    <ele>1833</ele>
+  <name>P1833</name>
+  <cmt>757:prom=136,rank=748</cmt>
+  </wpt>
+<wpt lat="24.1097" lon="121.3575">
+    <ele>3336</ele>
+  <name>磐石西峰</name>
+  <cmt>758:prom=136,rank=748</cmt>
+  </wpt>
+<wpt lat="23.5953" lon="120.8486">
+    <ele>1831</ele>
+  <name>P1831</name>
+  <cmt>759:prom=136,rank=748</cmt>
+  </wpt>
+<wpt lat="23.5172" lon="121.2236">
+    <ele>1174</ele>
+  <name>P1174</name>
+  <cmt>760:prom=135,rank=760</cmt>
+  </wpt>
+<wpt lat="24.5806" lon="121.0753">
+    <ele>1543</ele>
+  <name>鳥嘴山</name>
+  <cmt>761:prom=135,rank=760</cmt>
+  </wpt>
+<wpt lat="23.6075" lon="121.4972">
+    <ele>321</ele>
+  <name>丁子漏山</name>
+  <cmt>762:prom=135,rank=760</cmt>
+  </wpt>
+<wpt lat="23.2922" lon="121.3769">
+    <ele>1014</ele>
+  <name>P1014</name>
+  <cmt>763:prom=135,rank=760</cmt>
+  </wpt>
+<wpt lat="24.2125" lon="120.5992">
+    <ele>310</ele>
+  <name>P310</name>
+  <cmt>764:prom=135,rank=760</cmt>
+  </wpt>
+<wpt lat="23.4950" lon="120.8258">
+    <ele>2477</ele>
+  <name>P2477</name>
+  <cmt>765:prom=135,rank=760</cmt>
+  </wpt>
+<wpt lat="24.1489" lon="121.3700">
+    <ele>2618</ele>
+  <name>P2618</name>
+  <cmt>766:prom=135,rank=760</cmt>
+  </wpt>
+<wpt lat="24.4597" lon="121.5239">
+    <ele>2020</ele>
+  <name>P2020</name>
+  <cmt>767:prom=135,rank=760</cmt>
+  </wpt>
+<wpt lat="24.4308" lon="121.2881">
+    <ele>3292</ele>
+  <name>池有山</name>
+  <cmt>768:prom=135,rank=760</cmt>
+  </wpt>
+<wpt lat="22.5275" lon="120.3786">
+    <ele>149</ele>
+  <name>P149</name>
+  <cmt>769:prom=134,rank=769</cmt>
+  </wpt>
+<wpt lat="23.4322" lon="121.2844">
+    <ele>789</ele>
+  <name>P789</name>
+  <cmt>770:prom=134,rank=769</cmt>
+  </wpt>
+<wpt lat="23.6356" lon="121.1397">
+    <ele>3170</ele>
+  <name>九華山西峰</name>
+  <cmt>771:prom=134,rank=769</cmt>
+  </wpt>
+<wpt lat="24.3953" lon="121.7797">
+    <ele>605</ele>
+  <name>P605</name>
+  <cmt>772:prom=134,rank=769</cmt>
+  </wpt>
+<wpt lat="23.4053" lon="121.4714">
+    <ele>314</ele>
+  <name>P314</name>
+  <cmt>773:prom=134,rank=769</cmt>
+  </wpt>
+<wpt lat="24.1267" lon="121.4869">
+    <ele>2435</ele>
+  <name>P2435</name>
+  <cmt>774:prom=134,rank=769</cmt>
+  </wpt>
+<wpt lat="23.2661" lon="120.5047">
+    <ele>834</ele>
+  <name>崁頭山</name>
+  <cmt>775:prom=134,rank=769</cmt>
+  </wpt>
+<wpt lat="23.4778" lon="120.6122">
+    <ele>1068</ele>
+  <name>鳩州嶺</name>
+  <cmt>776:prom=134,rank=769</cmt>
+  </wpt>
+<wpt lat="24.4197" lon="121.3264">
+    <ele>2778</ele>
+  <name>P2778</name>
+  <cmt>777:prom=134,rank=769</cmt>
+  </wpt>
+<wpt lat="23.8017" lon="120.8903">
+    <ele>963</ele>
+  <name>P963</name>
+  <cmt>778:prom=133,rank=778</cmt>
+  </wpt>
+<wpt lat="25.1044" lon="121.6358">
+    <ele>262</ele>
+  <name>北港山</name>
+  <cmt>779:prom=133,rank=778</cmt>
+  </wpt>
+<wpt lat="23.4567" lon="121.1267">
+    <ele>2317</ele>
+  <name>P2317</name>
+  <cmt>780:prom=133,rank=778</cmt>
+  </wpt>
+<wpt lat="23.2583" lon="120.5164">
+    <ele>802</ele>
+  <name>P802</name>
+  <cmt>781:prom=133,rank=778</cmt>
+  </wpt>
+<wpt lat="24.9867" lon="121.7756">
+    <ele>671</ele>
+  <name>枋山坑</name>
+  <cmt>782:prom=133,rank=778</cmt>
+  </wpt>
+<wpt lat="24.8878" lon="121.6906">
+    <ele>739</ele>
+  <name>P739</name>
+  <cmt>783:prom=133,rank=778</cmt>
+  </wpt>
+<wpt lat="24.0922" lon="121.0294">
+    <ele>830</ele>
+  <name>松風山</name>
+  <cmt>784:prom=133,rank=778</cmt>
+  </wpt>
+<wpt lat="23.7514" lon="121.3142">
+    <ele>1686</ele>
+  <name>P1686</name>
+  <cmt>785:prom=133,rank=778</cmt>
+  </wpt>
+<wpt lat="23.9156" lon="121.4578">
+    <ele>2014</ele>
+  <name>P2014</name>
+  <cmt>786:prom=133,rank=778</cmt>
+  </wpt>
+<wpt lat="24.4503" lon="121.1581">
+    <ele>2709</ele>
+  <name>P2709</name>
+  <cmt>787:prom=133,rank=778</cmt>
+  </wpt>
+<wpt lat="24.2433" lon="121.5319">
+    <ele>2245</ele>
+  <name>朝暾山</name>
+  <cmt>788:prom=132,rank=788</cmt>
+  </wpt>
+<wpt lat="22.7775" lon="120.9039">
+    <ele>2379</ele>
+  <name>P2379</name>
+  <cmt>789:prom=132,rank=788</cmt>
+  </wpt>
+<wpt lat="24.1922" lon="121.3581">
+    <ele>3015</ele>
+  <name>黑岩山</name>
+  <cmt>790:prom=132,rank=788</cmt>
+  </wpt>
+<wpt lat="22.5108" lon="120.7533">
+    <ele>2067</ele>
+  <name>衣丁山</name>
+  <cmt>791:prom=132,rank=788</cmt>
+  </wpt>
+<wpt lat="23.7536" lon="120.9933">
+    <ele>2475</ele>
+  <name>P2475</name>
+  <cmt>792:prom=132,rank=788</cmt>
+  </wpt>
+<wpt lat="23.5794" lon="120.8217">
+    <ele>2467</ele>
+  <name>P2467</name>
+  <cmt>793:prom=131,rank=793</cmt>
+  </wpt>
+<wpt lat="22.3358" lon="120.7128">
+    <ele>1322</ele>
+  <name>南胡呂山</name>
+  <cmt>794:prom=131,rank=793</cmt>
+  </wpt>
+<wpt lat="24.1975" lon="120.9653">
+    <ele>1667</ele>
+  <name>P1667</name>
+  <cmt>795:prom=131,rank=793</cmt>
+  </wpt>
+<wpt lat="24.2231" lon="121.5583">
+    <ele>2153</ele>
+  <name>P2153</name>
+  <cmt>796:prom=131,rank=793</cmt>
+  </wpt>
+<wpt lat="24.3569" lon="121.2053">
+    <ele>3467</ele>
+  <name>雪山西南峰</name>
+  <cmt>797:prom=131,rank=793</cmt>
+  </wpt>
+<wpt lat="23.0397" lon="121.0653">
+    <ele>1904</ele>
+  <name>P1904</name>
+  <cmt>798:prom=131,rank=793</cmt>
+  </wpt>
+<wpt lat="22.9433" lon="120.6161">
+    <ele>537</ele>
+  <name>P537</name>
+  <cmt>799:prom=131,rank=793</cmt>
+  </wpt>
+<wpt lat="23.2025" lon="121.3169">
+    <ele>946</ele>
+  <name>P946</name>
+  <cmt>800:prom=131,rank=793</cmt>
+  </wpt>
+<wpt lat="23.8178" lon="120.6447">
+    <ele>432</ele>
+  <name>P432</name>
+  <cmt>801:prom=131,rank=793</cmt>
+  </wpt>
+<wpt lat="23.5458" lon="120.6778">
+    <ele>1246</ele>
+  <name>P1246</name>
+  <cmt>802:prom=131,rank=793</cmt>
+  </wpt>
+<wpt lat="23.0344" lon="120.8794">
+    <ele>3136</ele>
+  <name>卑南主山南峰</name>
+  <cmt>803:prom=130,rank=803</cmt>
+  </wpt>
+<wpt lat="22.8472" lon="120.7922">
+    <ele>2387</ele>
+  <name>P2387</name>
+  <cmt>804:prom=130,rank=803</cmt>
+  </wpt>
+<wpt lat="24.4339" lon="120.9803">
+    <ele>1725</ele>
+  <name>P1725</name>
+  <cmt>805:prom=130,rank=803</cmt>
+  </wpt>
+<wpt lat="23.9925" lon="121.1736">
+    <ele>2268</ele>
+  <name>P2268</name>
+  <cmt>806:prom=130,rank=803</cmt>
+  </wpt>
+<wpt lat="24.1511" lon="120.9314">
+    <ele>1507</ele>
+  <name>P1507</name>
+  <cmt>807:prom=130,rank=803</cmt>
+  </wpt>
+<wpt lat="25.0411" lon="121.6808">
+    <ele>635</ele>
+  <name>四份尾山</name>
+  <cmt>808:prom=130,rank=803</cmt>
+  </wpt>
+<wpt lat="23.9258" lon="121.4700">
+    <ele>1607</ele>
+  <name>P1607</name>
+  <cmt>809:prom=130,rank=803</cmt>
+  </wpt>
+<wpt lat="22.6969" lon="120.8381">
+    <ele>1897</ele>
+  <name>P1897</name>
+  <cmt>810:prom=130,rank=803</cmt>
+  </wpt>
+<wpt lat="23.7550" lon="121.1756">
+    <ele>2640</ele>
+  <name>卡阿郎山</name>
+  <cmt>811:prom=130,rank=803</cmt>
+  </wpt>
+<wpt lat="24.4983" lon="121.0261">
+    <ele>1993</ele>
+  <name>P1993</name>
+  <cmt>812:prom=130,rank=803</cmt>
+  </wpt>
+<wpt lat="24.7069" lon="121.6536">
+    <ele>220</ele>
+  <name>P220</name>
+  <cmt>813:prom=130,rank=803</cmt>
+  </wpt>
+<wpt lat="23.8036" lon="121.1297">
+    <ele>1698</ele>
+  <name>P1698</name>
+  <cmt>814:prom=129,rank=814</cmt>
+  </wpt>
+<wpt lat="24.0150" lon="121.2178">
+    <ele>2331</ele>
+  <name>再生</name>
+  <cmt>815:prom=129,rank=814</cmt>
+  </wpt>
+<wpt lat="24.3028" lon="121.5206">
+    <ele>2308</ele>
+  <name>P2308</name>
+  <cmt>816:prom=129,rank=814</cmt>
+  </wpt>
+<wpt lat="24.0533" lon="120.9986">
+    <ele>1297</ele>
+  <name>P1297</name>
+  <cmt>817:prom=129,rank=814</cmt>
+  </wpt>
+<wpt lat="24.1561" lon="121.2447">
+    <ele>3084</ele>
+  <name>巴魯莫安山</name>
+  <cmt>818:prom=129,rank=814</cmt>
+  </wpt>
+<wpt lat="24.0986" lon="120.7519">
+    <ele>440</ele>
+  <name>P440</name>
+  <cmt>819:prom=129,rank=814</cmt>
+  </wpt>
+<wpt lat="24.9542" lon="121.6797">
+    <ele>698</ele>
+  <name>獵狸尖</name>
+  <cmt>820:prom=129,rank=814</cmt>
+  </wpt>
+<wpt lat="24.5611" lon="121.1944">
+    <ele>2228</ele>
+  <name>P2228</name>
+  <cmt>821:prom=129,rank=814</cmt>
+  </wpt>
+<wpt lat="24.6089" lon="121.8217">
+    <ele>167</ele>
+  <name>P167</name>
+  <cmt>822:prom=129,rank=814</cmt>
+  </wpt>
+<wpt lat="24.3133" lon="121.3581">
+    <ele>2527</ele>
+  <name>羅閑山</name>
+  <cmt>823:prom=129,rank=814</cmt>
+  </wpt>
+<wpt lat="24.0239" lon="120.9872">
+    <ele>1130</ele>
+  <name>P1130</name>
+  <cmt>824:prom=129,rank=814</cmt>
+  </wpt>
+<wpt lat="22.6439" lon="120.9517">
+    <ele>1333</ele>
+  <name>P1333</name>
+  <cmt>825:prom=129,rank=814</cmt>
+  </wpt>
+<wpt lat="23.1669" lon="120.8506">
+    <ele>2787</ele>
+  <name>P2787</name>
+  <cmt>826:prom=129,rank=814</cmt>
+  </wpt>
+<wpt lat="22.7156" lon="120.9739">
+    <ele>1186</ele>
+  <name>P1186</name>
+  <cmt>827:prom=129,rank=814</cmt>
+  </wpt>
+<wpt lat="23.9128" lon="121.1494">
+    <ele>2478</ele>
+  <name>P2478</name>
+  <cmt>828:prom=129,rank=814</cmt>
+  </wpt>
+<wpt lat="23.4706" lon="120.9653">
+    <ele>3862</ele>
+  <name>玉山東峰</name>
+  <cmt>829:prom=128,rank=829</cmt>
+  </wpt>
+<wpt lat="23.4553" lon="121.1000">
+    <ele>2637</ele>
+  <name>伊波克山</name>
+  <cmt>830:prom=128,rank=829</cmt>
+  </wpt>
+<wpt lat="23.4633" lon="121.1925">
+    <ele>3271</ele>
+  <name>喀西帕南山</name>
+  <cmt>831:prom=128,rank=829</cmt>
+  </wpt>
+<wpt lat="22.2275" lon="120.8408">
+    <ele>510</ele>
+  <name>P510</name>
+  <cmt>832:prom=128,rank=829</cmt>
+  </wpt>
+<wpt lat="23.0703" lon="120.9364">
+    <ele>2762</ele>
+  <name>P2762</name>
+  <cmt>833:prom=128,rank=829</cmt>
+  </wpt>
+<wpt lat="24.1044" lon="121.3936">
+    <ele>3114</ele>
+  <name>磐石山P</name>
+  <cmt>834:prom=128,rank=829</cmt>
+  </wpt>
+<wpt lat="24.8997" lon="121.5078">
+    <ele>786</ele>
+  <name>P786</name>
+  <cmt>835:prom=128,rank=829</cmt>
+  </wpt>
+<wpt lat="22.2806" lon="120.6717">
+    <ele>516</ele>
+  <name>外獅頭</name>
+  <cmt>836:prom=128,rank=829</cmt>
+  </wpt>
+<wpt lat="24.8342" lon="121.4867">
+    <ele>1411</ele>
+  <name>P1411</name>
+  <cmt>837:prom=128,rank=829</cmt>
+  </wpt>
+<wpt lat="23.6139" lon="120.7500">
+    <ele>1794</ele>
+  <name>P1794</name>
+  <cmt>838:prom=128,rank=829</cmt>
+  </wpt>
+<wpt lat="22.0900" lon="120.8389">
+    <ele>357</ele>
+  <name>P357</name>
+  <cmt>839:prom=128,rank=829</cmt>
+  </wpt>
+<wpt lat="23.9839" lon="121.4469">
+    <ele>920</ele>
+  <name>P920</name>
+  <cmt>840:prom=127,rank=840</cmt>
+  </wpt>
+<wpt lat="23.1458" lon="121.2769">
+    <ele>580</ele>
+  <name>P580</name>
+  <cmt>841:prom=127,rank=840</cmt>
+  </wpt>
+<wpt lat="22.0378" lon="120.8664">
+    <ele>402</ele>
+  <name>P402</name>
+  <cmt>842:prom=127,rank=840</cmt>
+  </wpt>
+<wpt lat="24.3561" lon="120.6550">
+    <ele>235</ele>
+  <name>鐵砧山</name>
+  <cmt>843:prom=127,rank=840</cmt>
+  </wpt>
+<wpt lat="23.6364" lon="121.0061">
+    <ele>1721</ele>
+  <name>P1721</name>
+  <cmt>844:prom=127,rank=840</cmt>
+  </wpt>
+<wpt lat="22.8428" lon="120.8650">
+    <ele>2295</ele>
+  <name>P2295</name>
+  <cmt>845:prom=127,rank=840</cmt>
+  </wpt>
+<wpt lat="23.4136" lon="120.6833">
+    <ele>1150</ele>
+  <name>P1150</name>
+  <cmt>846:prom=127,rank=840</cmt>
+  </wpt>
+<wpt lat="23.9625" lon="120.7553">
+    <ele>469</ele>
+  <name>P469</name>
+  <cmt>847:prom=126,rank=847</cmt>
+  </wpt>
+<wpt lat="23.2447" lon="120.9267">
+    <ele>3413</ele>
+  <name>關山北峰</name>
+  <cmt>848:prom=126,rank=847</cmt>
+  </wpt>
+<wpt lat="23.4411" lon="121.4106">
+    <ele>606</ele>
+  <name>P606</name>
+  <cmt>849:prom=126,rank=847</cmt>
+  </wpt>
+<wpt lat="24.5675" lon="121.1353">
+    <ele>1795</ele>
+  <name>P1795</name>
+  <cmt>850:prom=126,rank=847</cmt>
+  </wpt>
+<wpt lat="24.5950" lon="121.2178">
+    <ele>2189</ele>
+  <name>P2189</name>
+  <cmt>851:prom=126,rank=847</cmt>
+  </wpt>
+<wpt lat="22.5125" lon="120.9450">
+    <ele>731</ele>
+  <name>P731</name>
+  <cmt>852:prom=126,rank=847</cmt>
+  </wpt>
+<wpt lat="23.1128" lon="121.2672">
+    <ele>985</ele>
+  <name>堵開埔山</name>
+  <cmt>853:prom=126,rank=847</cmt>
+  </wpt>
+<wpt lat="24.6483" lon="121.2589">
+    <ele>1770</ele>
+  <name>P1770</name>
+  <cmt>854:prom=126,rank=847</cmt>
+  </wpt>
+<wpt lat="23.1183" lon="120.6647">
+    <ele>1326</ele>
+  <name>番子寮山</name>
+  <cmt>855:prom=126,rank=847</cmt>
+  </wpt>
+<wpt lat="23.5392" lon="121.2942">
+    <ele>1885</ele>
+  <name>P1885</name>
+  <cmt>856:prom=125,rank=856</cmt>
+  </wpt>
+<wpt lat="24.7972" lon="121.5408">
+    <ele>1415</ele>
+  <name>P1415</name>
+  <cmt>857:prom=125,rank=856</cmt>
+  </wpt>
+<wpt lat="24.3458" lon="120.9072">
+    <ele>1184</ele>
+  <name>司令山</name>
+  <cmt>858:prom=125,rank=856</cmt>
+  </wpt>
+<wpt lat="23.7247" lon="120.8986">
+    <ele>1655</ele>
+  <name>P1655</name>
+  <cmt>859:prom=125,rank=856</cmt>
+  </wpt>
+<wpt lat="23.9214" lon="121.0250">
+    <ele>1437</ele>
+  <name>P1437</name>
+  <cmt>860:prom=125,rank=856</cmt>
+  </wpt>
+<wpt lat="23.4467" lon="121.2025">
+    <ele>2939</ele>
+  <name>P2939</name>
+  <cmt>861:prom=125,rank=856</cmt>
+  </wpt>
+<wpt lat="24.0194" lon="120.8892">
+    <ele>828</ele>
+  <name>中觀音山</name>
+  <cmt>862:prom=125,rank=856</cmt>
+  </wpt>
+<wpt lat="24.0597" lon="121.4019">
+    <ele>2912</ele>
+  <name>P2912</name>
+  <cmt>863:prom=125,rank=856</cmt>
+  </wpt>
+<wpt lat="24.3044" lon="121.4461">
+    <ele>2985</ele>
+  <name>P2985</name>
+  <cmt>864:prom=125,rank=856</cmt>
+  </wpt>
+<wpt lat="23.1217" lon="120.9797">
+    <ele>2534</ele>
+  <name>坑頭山</name>
+  <cmt>865:prom=125,rank=856</cmt>
+  </wpt>
+<wpt lat="23.5308" lon="121.1850">
+    <ele>1771</ele>
+  <name>P1771</name>
+  <cmt>866:prom=125,rank=856</cmt>
+  </wpt>
+<wpt lat="25.0453" lon="121.8494">
+    <ele>302</ele>
+  <name>大竹林山</name>
+  <cmt>867:prom=124,rank=867</cmt>
+  </wpt>
+<wpt lat="23.1783" lon="121.0867">
+    <ele>1757</ele>
+  <name>P1757</name>
+  <cmt>868:prom=124,rank=867</cmt>
+  </wpt>
+<wpt lat="23.1789" lon="121.3231">
+    <ele>1414</ele>
+  <name>P1414</name>
+  <cmt>869:prom=124,rank=867</cmt>
+  </wpt>
+<wpt lat="24.5150" lon="121.5847">
+    <ele>2160</ele>
+  <name>P2160</name>
+  <cmt>870:prom=124,rank=867</cmt>
+  </wpt>
+<wpt lat="22.8072" lon="120.3958">
+    <ele>226</ele>
+  <name>P226</name>
+  <cmt>871:prom=123,rank=871</cmt>
+  </wpt>
+<wpt lat="23.8478" lon="121.1467">
+    <ele>3229</ele>
+  <name>卓社東峰</name>
+  <cmt>872:prom=123,rank=871</cmt>
+  </wpt>
+<wpt lat="24.0633" lon="121.3658">
+    <ele>2474</ele>
+  <name>P2474</name>
+  <cmt>873:prom=123,rank=871</cmt>
+  </wpt>
+<wpt lat="23.2025" lon="120.9986">
+    <ele>1690</ele>
+  <name>P1690</name>
+  <cmt>874:prom=123,rank=871</cmt>
+  </wpt>
+<wpt lat="21.9636" lon="120.7194">
+    <ele>149</ele>
+  <name>P149</name>
+  <cmt>875:prom=123,rank=871</cmt>
+  </wpt>
+<wpt lat="23.7492" lon="121.2333">
+    <ele>2974</ele>
+  <name>P2974</name>
+  <cmt>876:prom=123,rank=871</cmt>
+  </wpt>
+<wpt lat="23.7172" lon="120.7197">
+    <ele>876</ele>
+  <name>P876</name>
+  <cmt>877:prom=123,rank=871</cmt>
+  </wpt>
+<wpt lat="23.7706" lon="121.1797">
+    <ele>2786</ele>
+  <name>P2786</name>
+  <cmt>878:prom=123,rank=871</cmt>
+  </wpt>
+<wpt lat="23.4833" lon="121.5039">
+    <ele>243</ele>
+  <name>大港口山</name>
+  <cmt>879:prom=123,rank=871</cmt>
+  </wpt>
+<wpt lat="23.2083" lon="120.6514">
+    <ele>1054</ele>
+  <name>茅山</name>
+  <cmt>880:prom=123,rank=871</cmt>
+  </wpt>
+<wpt lat="23.3683" lon="120.5936">
+    <ele>1201</ele>
+  <name>P1201</name>
+  <cmt>881:prom=123,rank=871</cmt>
+  </wpt>
+<wpt lat="24.5908" lon="121.8231">
+    <ele>476</ele>
+  <name>P476</name>
+  <cmt>882:prom=123,rank=871</cmt>
+  </wpt>
+<wpt lat="22.1331" lon="120.8144">
+    <ele>513</ele>
+  <name>高士佛山</name>
+  <cmt>883:prom=122,rank=883</cmt>
+  </wpt>
+<wpt lat="23.9711" lon="121.3561">
+    <ele>2356</ele>
+  <name>P2356</name>
+  <cmt>884:prom=122,rank=883</cmt>
+  </wpt>
+<wpt lat="24.5572" lon="121.0625">
+    <ele>1638</ele>
+  <name>大窩山</name>
+  <cmt>885:prom=122,rank=883</cmt>
+  </wpt>
+<wpt lat="23.5186" lon="120.6497">
+    <ele>1442</ele>
+  <name>P1442</name>
+  <cmt>886:prom=122,rank=883</cmt>
+  </wpt>
+<wpt lat="23.9772" lon="121.4136">
+    <ele>1716</ele>
+  <name>長峰山</name>
+  <cmt>887:prom=122,rank=883</cmt>
+  </wpt>
+<wpt lat="24.3803" lon="120.7733">
+    <ele>545</ele>
+  <name>拐子湖</name>
+  <cmt>888:prom=122,rank=883</cmt>
+  </wpt>
+<wpt lat="24.0444" lon="121.0225">
+    <ele>1872</ele>
+  <name>P1872</name>
+  <cmt>889:prom=122,rank=883</cmt>
+  </wpt>
+<wpt lat="24.3031" lon="121.2764">
+    <ele>1742</ele>
+  <name>P1742</name>
+  <cmt>890:prom=122,rank=883</cmt>
+  </wpt>
+<wpt lat="24.4575" lon="121.2719">
+    <ele>3357</ele>
+  <name>東霸尖山</name>
+  <cmt>891:prom=122,rank=883</cmt>
+  </wpt>
+<wpt lat="23.4436" lon="121.4467">
+    <ele>1137</ele>
+  <name>織羅山</name>
+  <cmt>892:prom=122,rank=883</cmt>
+  </wpt>
+<wpt lat="24.2900" lon="121.5339">
+    <ele>2332</ele>
+  <name>P2332</name>
+  <cmt>893:prom=122,rank=883</cmt>
+  </wpt>
+<wpt lat="22.5972" lon="120.6789">
+    <ele>1037</ele>
+  <name>P1037</name>
+  <cmt>894:prom=122,rank=883</cmt>
+  </wpt>
+<wpt lat="23.8308" lon="120.9717">
+    <ele>2045</ele>
+  <name>P2045</name>
+  <cmt>895:prom=121,rank=895</cmt>
+  </wpt>
+<wpt lat="24.6144" lon="121.1228">
+    <ele>1038</ele>
+  <name>鬼澤山</name>
+  <cmt>896:prom=121,rank=895</cmt>
+  </wpt>
+<wpt lat="22.9361" lon="120.7589">
+    <ele>784</ele>
+  <name>P784</name>
+  <cmt>897:prom=121,rank=895</cmt>
+  </wpt>
+<wpt lat="23.9633" lon="121.3689">
+    <ele>2101</ele>
+  <name>P2101</name>
+  <cmt>898:prom=121,rank=895</cmt>
+  </wpt>
+<wpt lat="24.7147" lon="121.6308">
+    <ele>618</ele>
+  <name>P618</name>
+  <cmt>899:prom=121,rank=895</cmt>
+  </wpt>
+<wpt lat="24.4828" lon="121.6414">
+    <ele>1679</ele>
+  <name>雅音山</name>
+  <cmt>900:prom=121,rank=895</cmt>
+  </wpt>
+<wpt lat="23.5794" lon="121.2478">
+    <ele>2996</ele>
+  <name>阿屘那來南峰</name>
+  <cmt>901:prom=121,rank=895</cmt>
+  </wpt>
+<wpt lat="24.9200" lon="121.4086">
+    <ele>282</ele>
+  <name>P282</name>
+  <cmt>902:prom=121,rank=895</cmt>
+  </wpt>
+<wpt lat="23.3992" lon="120.6686">
+    <ele>1194</ele>
+  <name>P1194</name>
+  <cmt>903:prom=121,rank=895</cmt>
+  </wpt>
+<wpt lat="24.0367" lon="121.4886">
+    <ele>2260</ele>
+  <name>P2260</name>
+  <cmt>904:prom=121,rank=895</cmt>
+  </wpt>
+<wpt lat="23.2200" lon="121.3533">
+    <ele>1231</ele>
+  <name>P1231</name>
+  <cmt>905:prom=121,rank=895</cmt>
+  </wpt>
+<wpt lat="23.7728" lon="120.8150">
+    <ele>1168</ele>
+  <name>白石牙山</name>
+  <cmt>906:prom=121,rank=895</cmt>
+  </wpt>
+<wpt lat="24.5264" lon="121.7903">
+    <ele>1217</ele>
+  <name>P1217</name>
+  <cmt>907:prom=121,rank=895</cmt>
+  </wpt>
+<wpt lat="23.3633" lon="121.4397">
+    <ele>897</ele>
+  <name>P897</name>
+  <cmt>908:prom=121,rank=895</cmt>
+  </wpt>
+<wpt lat="23.4042" lon="121.0467">
+    <ele>2875</ele>
+  <name>P2875</name>
+  <cmt>909:prom=120,rank=909</cmt>
+  </wpt>
+<wpt lat="23.7886" lon="121.3922">
+    <ele>1975</ele>
+  <name>P1975</name>
+  <cmt>910:prom=120,rank=909</cmt>
+  </wpt>
+<wpt lat="24.2206" lon="121.2375">
+    <ele>2592</ele>
+  <name>P2592</name>
+  <cmt>911:prom=120,rank=909</cmt>
+  </wpt>
+<wpt lat="24.3781" lon="120.9456">
+    <ele>1304</ele>
+  <name>P1304</name>
+  <cmt>912:prom=120,rank=909</cmt>
+  </wpt>
+<wpt lat="22.1419" lon="120.7658">
+    <ele>525</ele>
+  <name>P525</name>
+  <cmt>913:prom=120,rank=909</cmt>
+  </wpt>
+<wpt lat="22.5456" lon="120.9094">
+    <ele>1007</ele>
+  <name>P1007</name>
+  <cmt>914:prom=120,rank=909</cmt>
+  </wpt>
+<wpt lat="24.6753" lon="121.0500">
+    <ele>339</ele>
+  <name>P339</name>
+  <cmt>915:prom=120,rank=909</cmt>
+  </wpt>
+<wpt lat="25.1742" lon="121.5919">
+    <ele>887</ele>
+  <name>P887</name>
+  <cmt>916:prom=119,rank=916</cmt>
+  </wpt>
+<wpt lat="22.8075" lon="120.4447">
+    <ele>234</ele>
+  <name>P234</name>
+  <cmt>917:prom=119,rank=916</cmt>
+  </wpt>
+<wpt lat="22.0583" lon="121.5183">
+    <ele>508</ele>
+  <name>P508</name>
+  <cmt>918:prom=119,rank=916</cmt>
+  </wpt>
+<wpt lat="22.8622" lon="120.8161">
+    <ele>2290</ele>
+  <name>P2290</name>
+  <cmt>919:prom=119,rank=916</cmt>
+  </wpt>
+<wpt lat="23.3397" lon="120.8750">
+    <ele>2829</ele>
+  <name>P2829</name>
+  <cmt>920:prom=119,rank=916</cmt>
+  </wpt>
+<wpt lat="22.8700" lon="120.5981">
+    <ele>273</ele>
+  <name>竹子門</name>
+  <cmt>921:prom=119,rank=916</cmt>
+  </wpt>
+<wpt lat="23.1325" lon="121.0725">
+    <ele>1552</ele>
+  <name>江坡古</name>
+  <cmt>922:prom=119,rank=916</cmt>
+  </wpt>
+<wpt lat="24.3178" lon="121.2483">
+    <ele>2682</ele>
+  <name>P2682</name>
+  <cmt>923:prom=119,rank=916</cmt>
+  </wpt>
+<wpt lat="23.0139" lon="120.7775">
+    <ele>1558</ele>
+  <name>新集山</name>
+  <cmt>924:prom=119,rank=916</cmt>
+  </wpt>
+<wpt lat="23.7878" lon="121.1625">
+    <ele>2368</ele>
+  <name>P2368</name>
+  <cmt>925:prom=118,rank=925</cmt>
+  </wpt>
+<wpt lat="23.8525" lon="121.2489">
+    <ele>2638</ele>
+  <name>P2638</name>
+  <cmt>926:prom=118,rank=925</cmt>
+  </wpt>
+<wpt lat="22.9647" lon="121.2703">
+    <ele>808</ele>
+  <name>P808</name>
+  <cmt>927:prom=118,rank=925</cmt>
+  </wpt>
+<wpt lat="24.8142" lon="121.6472">
+    <ele>1158</ele>
+  <name>大礁溪山</name>
+  <cmt>928:prom=118,rank=925</cmt>
+  </wpt>
+<wpt lat="23.9631" lon="121.3153">
+    <ele>3016</ele>
+  <name>奇萊大山</name>
+  <cmt>929:prom=118,rank=925</cmt>
+  </wpt>
+<wpt lat="23.3292" lon="121.3778">
+    <ele>551</ele>
+  <name>P551</name>
+  <cmt>930:prom=118,rank=925</cmt>
+  </wpt>
+<wpt lat="23.2619" lon="121.1206">
+    <ele>1462</ele>
+  <name>P1462</name>
+  <cmt>931:prom=118,rank=925</cmt>
+  </wpt>
+<wpt lat="23.4531" lon="121.1906">
+    <ele>3165</ele>
+  <name>喀西帕南山南峰</name>
+  <cmt>932:prom=118,rank=925</cmt>
+  </wpt>
+<wpt lat="23.9450" lon="121.3039">
+    <ele>2987</ele>
+  <name>P2987</name>
+  <cmt>933:prom=118,rank=925</cmt>
+  </wpt>
+<wpt lat="23.4756" lon="120.8939">
+    <ele>2848</ele>
+  <name>P2848</name>
+  <cmt>934:prom=118,rank=925</cmt>
+  </wpt>
+<wpt lat="23.2561" lon="120.7650">
+    <ele>2228</ele>
+  <name>P2228</name>
+  <cmt>935:prom=118,rank=925</cmt>
+  </wpt>
+<wpt lat="24.3144" lon="121.0631">
+    <ele>2927</ele>
+  <name>P2927</name>
+  <cmt>936:prom=118,rank=925</cmt>
+  </wpt>
+<wpt lat="24.6594" lon="121.4486">
+    <ele>1838</ele>
+  <name>復興尖山</name>
+  <cmt>937:prom=118,rank=925</cmt>
+  </wpt>
+<wpt lat="24.1264" lon="121.3000">
+    <ele>3152</ele>
+  <name>小奇萊</name>
+  <cmt>938:prom=118,rank=925</cmt>
+  </wpt>
+<wpt lat="24.9925" lon="121.5486">
+    <ele>137</ele>
+  <name>景美山</name>
+  <cmt>939:prom=118,rank=925</cmt>
+  </wpt>
+<wpt lat="24.0247" lon="121.1531">
+    <ele>1336</ele>
+  <name>P1336</name>
+  <cmt>940:prom=118,rank=925</cmt>
+  </wpt>
+<wpt lat="22.6297" lon="120.6325">
+    <ele>221</ele>
+  <name>P221</name>
+  <cmt>941:prom=117,rank=941</cmt>
+  </wpt>
+<wpt lat="24.6728" lon="121.0356">
+    <ele>336</ele>
+  <name>P336</name>
+  <cmt>942:prom=117,rank=941</cmt>
+  </wpt>
+<wpt lat="24.2981" lon="121.0514">
+    <ele>2988</ele>
+  <name>P2988</name>
+  <cmt>943:prom=117,rank=941</cmt>
+  </wpt>
+<wpt lat="23.5867" lon="121.1692">
+    <ele>3103</ele>
+  <name>義西請馬至東峰</name>
+  <cmt>944:prom=117,rank=941</cmt>
+  </wpt>
+<wpt lat="24.3283" lon="121.0067">
+    <ele>2324</ele>
+  <name>百志興保</name>
+  <cmt>945:prom=117,rank=941</cmt>
+  </wpt>
+<wpt lat="23.5222" lon="121.4550">
+    <ele>480</ele>
+  <name>P480</name>
+  <cmt>946:prom=117,rank=941</cmt>
+  </wpt>
+<wpt lat="22.6233" lon="120.7214">
+    <ele>1888</ele>
+  <name>P1888</name>
+  <cmt>947:prom=116,rank=947</cmt>
+  </wpt>
+<wpt lat="25.1672" lon="121.6964">
+    <ele>230</ele>
+  <name>P230</name>
+  <cmt>948:prom=116,rank=947</cmt>
+  </wpt>
+<wpt lat="22.9822" lon="121.3056">
+    <ele>235</ele>
+  <name>P235</name>
+  <cmt>949:prom=116,rank=947</cmt>
+  </wpt>
+<wpt lat="23.3725" lon="120.6247">
+    <ele>959</ele>
+  <name>P959</name>
+  <cmt>950:prom=116,rank=947</cmt>
+  </wpt>
+<wpt lat="23.6153" lon="120.7631">
+    <ele>2100</ele>
+  <name>獅子頭山</name>
+  <cmt>951:prom=116,rank=947</cmt>
+  </wpt>
+<wpt lat="23.4725" lon="120.9347">
+    <ele>3511</ele>
+  <name>玉山西峰</name>
+  <cmt>952:prom=116,rank=947</cmt>
+  </wpt>
+<wpt lat="24.5647" lon="121.1522">
+    <ele>1824</ele>
+  <name>P1824</name>
+  <cmt>953:prom=116,rank=947</cmt>
+  </wpt>
+<wpt lat="23.4819" lon="121.0478">
+    <ele>3629</ele>
+  <name>北大水窟山</name>
+  <cmt>954:prom=116,rank=947</cmt>
+  </wpt>
+<wpt lat="24.4964" lon="121.0958">
+    <ele>2443</ele>
+  <name>P2443</name>
+  <cmt>955:prom=116,rank=947</cmt>
+  </wpt>
+<wpt lat="24.0239" lon="120.8858">
+    <ele>794</ele>
+  <name>P794</name>
+  <cmt>956:prom=116,rank=947</cmt>
+  </wpt>
+<wpt lat="22.6356" lon="120.8750">
+    <ele>1463</ele>
+  <name>P1463</name>
+  <cmt>957:prom=116,rank=947</cmt>
+  </wpt>
+<wpt lat="23.6708" lon="120.9861">
+    <ele>2082</ele>
+  <name>P2082</name>
+  <cmt>958:prom=116,rank=947</cmt>
+  </wpt>
+<wpt lat="23.8861" lon="121.0033">
+    <ele>1514</ele>
+  <name>P1514</name>
+  <cmt>959:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="23.9856" lon="121.1875">
+    <ele>2399</ele>
+  <name>P2399</name>
+  <cmt>960:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="23.5167" lon="121.4850">
+    <ele>806</ele>
+  <name>大奇山</name>
+  <cmt>961:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="23.9439" lon="121.3122">
+    <ele>2893</ele>
+  <name>P2893</name>
+  <cmt>962:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="24.1953" lon="121.0606">
+    <ele>2517</ele>
+  <name>P2517</name>
+  <cmt>963:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="22.9308" lon="120.7306">
+    <ele>1211</ele>
+  <name>足母山</name>
+  <cmt>964:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="23.4408" lon="120.9369">
+    <ele>3578</ele>
+  <name>小南山</name>
+  <cmt>965:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="23.7917" lon="121.0311">
+    <ele>1464</ele>
+  <name>P1464</name>
+  <cmt>966:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="21.9589" lon="120.7983">
+    <ele>298</ele>
+  <name>P298</name>
+  <cmt>967:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="24.3789" lon="121.6736">
+    <ele>1538</ele>
+  <name>P1538</name>
+  <cmt>968:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="24.2867" lon="121.4506">
+    <ele>2920</ele>
+  <name>P2920</name>
+  <cmt>969:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="23.1553" lon="121.1308">
+    <ele>1325</ele>
+  <name>去部山</name>
+  <cmt>970:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="22.0986" lon="120.8019">
+    <ele>553</ele>
+  <name>P553</name>
+  <cmt>971:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="23.5053" lon="121.4894">
+    <ele>745</ele>
+  <name>P745</name>
+  <cmt>972:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="23.6725" lon="120.9211">
+    <ele>2324</ele>
+  <name>P2324</name>
+  <cmt>973:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="23.6969" lon="121.0197">
+    <ele>1230</ele>
+  <name>P1230</name>
+  <cmt>974:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="23.9072" lon="121.2347">
+    <ele>2337</ele>
+  <name>P2337</name>
+  <cmt>975:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="22.9578" lon="121.2725">
+    <ele>680</ele>
+  <name>P680</name>
+  <cmt>976:prom=115,rank=959</cmt>
+  </wpt>
+<wpt lat="23.6581" lon="120.7767">
+    <ele>1830</ele>
+  <name>P1830</name>
+  <cmt>977:prom=114,rank=977</cmt>
+  </wpt>
+<wpt lat="24.3894" lon="121.7133">
+    <ele>1638</ele>
+  <name>P1638</name>
+  <cmt>978:prom=114,rank=977</cmt>
+  </wpt>
+<wpt lat="24.9989" lon="121.8139">
+    <ele>561</ele>
+  <name>P561</name>
+  <cmt>979:prom=114,rank=977</cmt>
+  </wpt>
+<wpt lat="24.2047" lon="121.3964">
+    <ele>2695</ele>
+  <name>P2695</name>
+  <cmt>980:prom=114,rank=977</cmt>
+  </wpt>
+<wpt lat="23.4961" lon="120.7733">
+    <ele>2009</ele>
+  <name>P2009</name>
+  <cmt>981:prom=114,rank=977</cmt>
+  </wpt>
+<wpt lat="23.1669" lon="120.6878">
+    <ele>1665</ele>
+  <name>大竹溪山</name>
+  <cmt>982:prom=114,rank=977</cmt>
+  </wpt>
+<wpt lat="24.5369" lon="121.3078">
+    <ele>2504</ele>
+  <name>馬望海</name>
+  <cmt>983:prom=114,rank=977</cmt>
+  </wpt>
+<wpt lat="23.0083" lon="120.8147">
+    <ele>2131</ele>
+  <name>孟浪山</name>
+  <cmt>984:prom=114,rank=977</cmt>
+  </wpt>
+<wpt lat="25.2522" lon="121.5614">
+    <ele>339</ele>
+  <name>P339</name>
+  <cmt>985:prom=114,rank=977</cmt>
+  </wpt>
+<wpt lat="23.7489" lon="120.7650">
+    <ele>749</ele>
+  <name>P749</name>
+  <cmt>986:prom=114,rank=977</cmt>
+  </wpt>
+<wpt lat="23.6778" lon="120.7625">
+    <ele>1538</ele>
+  <name>P1538</name>
+  <cmt>987:prom=114,rank=977</cmt>
+  </wpt>
+<wpt lat="23.2997" lon="121.3564">
+    <ele>650</ele>
+  <name>P650</name>
+  <cmt>988:prom=114,rank=977</cmt>
+  </wpt>
+<wpt lat="24.5678" lon="121.2642">
+    <ele>2259</ele>
+  <name>養老</name>
+  <cmt>989:prom=114,rank=977</cmt>
+  </wpt>
+<wpt lat="23.9028" lon="121.3056">
+    <ele>2800</ele>
+  <name>富士岳</name>
+  <cmt>990:prom=114,rank=977</cmt>
+  </wpt>
+<wpt lat="24.9389" lon="121.6000">
+    <ele>620</ele>
+  <name>P620</name>
+  <cmt>991:prom=114,rank=977</cmt>
+  </wpt>
+<wpt lat="23.2919" lon="120.4317">
+    <ele>218</ele>
+  <name>P218</name>
+  <cmt>992:prom=114,rank=977</cmt>
+  </wpt>
+<wpt lat="25.0783" lon="121.6042">
+    <ele>136</ele>
+  <name>P136</name>
+  <cmt>993:prom=113,rank=993</cmt>
+  </wpt>
+<wpt lat="24.4872" lon="120.8733">
+    <ele>746</ele>
+  <name>八角崠山</name>
+  <cmt>994:prom=113,rank=993</cmt>
+  </wpt>
+<wpt lat="23.5961" lon="121.2003">
+    <ele>3181</ele>
+  <name>盧利拉駱山</name>
+  <cmt>995:prom=113,rank=993</cmt>
+  </wpt>
+<wpt lat="23.5147" lon="121.1347">
+    <ele>3378</ele>
+  <name>馬利加南東峰</name>
+  <cmt>996:prom=113,rank=993</cmt>
+  </wpt>
+<wpt lat="23.9972" lon="120.7811">
+    <ele>568</ele>
+  <name>P568</name>
+  <cmt>997:prom=113,rank=993</cmt>
+  </wpt>
+<wpt lat="24.3942" lon="121.5039">
+    <ele>2230</ele>
+  <name>P2230</name>
+  <cmt>998:prom=113,rank=993</cmt>
+  </wpt>
+<wpt lat="25.0161" lon="121.9731">
+    <ele>382</ele>
+  <name>P382</name>
+  <cmt>999:prom=113,rank=993</cmt>
+  </wpt>
+<wpt lat="24.8403" lon="121.3031">
+    <ele>394</ele>
+  <name>P394</name>
+  <cmt>1000:prom=113,rank=993</cmt>
+  </wpt>
+<wpt lat="24.1325" lon="121.6036">
+    <ele>1444</ele>
+  <name>新城山</name>
+  <cmt>1001:prom=113,rank=993</cmt>
+  </wpt>
+<wpt lat="24.1183" lon="121.5081">
+    <ele>2197</ele>
+  <name>P2197</name>
+  <cmt>1002:prom=113,rank=993</cmt>
+  </wpt>
+<wpt lat="23.2586" lon="120.6242">
+    <ele>967</ele>
+  <name>P967</name>
+  <cmt>1003:prom=113,rank=993</cmt>
+  </wpt>
+<wpt lat="24.2069" lon="120.8981">
+    <ele>1195</ele>
+  <name>P1195</name>
+  <cmt>1004:prom=113,rank=993</cmt>
+  </wpt>
+<wpt lat="24.7472" lon="121.6261">
+    <ele>636</ele>
+  <name>P636</name>
+  <cmt>1005:prom=113,rank=993</cmt>
+  </wpt>
+<wpt lat="24.0200" lon="121.4042">
+    <ele>1679</ele>
+  <name>見晴台</name>
+  <cmt>1006:prom=113,rank=993</cmt>
+  </wpt>
+<wpt lat="24.0936" lon="120.7925">
+    <ele>531</ele>
+  <name>P531</name>
+  <cmt>1007:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="24.5761" lon="121.4772">
+    <ele>546</ele>
+  <name>P546</name>
+  <cmt>1008:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="23.4433" lon="120.8233">
+    <ele>2406</ele>
+  <name>P2406</name>
+  <cmt>1009:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="23.5733" lon="120.6158">
+    <ele>1255</ele>
+  <name>P1255</name>
+  <cmt>1010:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="24.8944" lon="121.6286">
+    <ele>485</ele>
+  <name>P485</name>
+  <cmt>1011:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="24.5119" lon="120.8861">
+    <ele>755</ele>
+  <name>P755</name>
+  <cmt>1012:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="24.6247" lon="121.7156">
+    <ele>331</ele>
+  <name>野分山</name>
+  <cmt>1013:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="24.6267" lon="121.6133">
+    <ele>366</ele>
+  <name>P366</name>
+  <cmt>1014:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="23.5733" lon="121.1367">
+    <ele>3100</ele>
+  <name>雪哥雲獸山</name>
+  <cmt>1015:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="23.8503" lon="120.7258">
+    <ele>398</ele>
+  <name>P398</name>
+  <cmt>1016:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="24.5031" lon="120.9469">
+    <ele>1012</ele>
+  <name>P1012</name>
+  <cmt>1017:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="23.3147" lon="121.3658">
+    <ele>545</ele>
+  <name>P545</name>
+  <cmt>1018:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="23.7981" lon="121.0014">
+    <ele>1008</ele>
+  <name>木束山</name>
+  <cmt>1019:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="24.5900" lon="121.0831">
+    <ele>1524</ele>
+  <name>P1524</name>
+  <cmt>1020:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="24.3564" lon="121.6508">
+    <ele>423</ele>
+  <name>P423</name>
+  <cmt>1021:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="23.2603" lon="120.6644">
+    <ele>1144</ele>
+  <name>P1144</name>
+  <cmt>1022:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="23.9892" lon="121.1006">
+    <ele>1533</ele>
+  <name>關頭山</name>
+  <cmt>1023:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="22.8333" lon="121.0131">
+    <ele>1545</ele>
+  <name>P1545</name>
+  <cmt>1024:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="24.3714" lon="121.5200">
+    <ele>2365</ele>
+  <name>P2365</name>
+  <cmt>1025:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="23.0306" lon="120.8578">
+    <ele>2711</ele>
+  <name>P2711</name>
+  <cmt>1026:prom=112,rank=1007</cmt>
+  </wpt>
+<wpt lat="24.5503" lon="120.8936">
+    <ele>400</ele>
+  <name>P400</name>
+  <cmt>1027:prom=111,rank=1027</cmt>
+  </wpt>
+<wpt lat="24.7022" lon="121.2589">
+    <ele>1312</ele>
+  <name>P1312</name>
+  <cmt>1028:prom=111,rank=1027</cmt>
+  </wpt>
+<wpt lat="24.8667" lon="121.1847">
+    <ele>396</ele>
+  <name>P396</name>
+  <cmt>1029:prom=111,rank=1027</cmt>
+  </wpt>
+<wpt lat="24.0897" lon="121.5756">
+    <ele>391</ele>
+  <name>比告</name>
+  <cmt>1030:prom=111,rank=1027</cmt>
+  </wpt>
+<wpt lat="24.5606" lon="120.9022">
+    <ele>375</ele>
+  <name>P375</name>
+  <cmt>1031:prom=111,rank=1027</cmt>
+  </wpt>
+<wpt lat="23.8406" lon="120.9928">
+    <ele>1865</ele>
+  <name>P1865</name>
+  <cmt>1032:prom=111,rank=1027</cmt>
+  </wpt>
+<wpt lat="24.3103" lon="121.0183">
+    <ele>2401</ele>
+  <name>P2401</name>
+  <cmt>1033:prom=111,rank=1027</cmt>
+  </wpt>
+<wpt lat="24.2439" lon="121.5719">
+    <ele>2425</ele>
+  <name>P2425</name>
+  <cmt>1034:prom=111,rank=1027</cmt>
+  </wpt>
+<wpt lat="24.3758" lon="121.7569">
+    <ele>1245</ele>
+  <name>P1245</name>
+  <cmt>1035:prom=111,rank=1027</cmt>
+  </wpt>
+<wpt lat="22.3194" lon="120.7108">
+    <ele>1116</ele>
+  <name>P1116</name>
+  <cmt>1036:prom=111,rank=1027</cmt>
+  </wpt>
+<wpt lat="24.4847" lon="121.5203">
+    <ele>2271</ele>
+  <name>P2271</name>
+  <cmt>1037:prom=111,rank=1027</cmt>
+  </wpt>
+<wpt lat="24.0808" lon="120.9444">
+    <ele>882</ele>
+  <name>眉冷山</name>
+  <cmt>1038:prom=111,rank=1027</cmt>
+  </wpt>
+<wpt lat="23.2525" lon="121.2461">
+    <ele>1133</ele>
+  <name>P1133</name>
+  <cmt>1039:prom=110,rank=1039</cmt>
+  </wpt>
+<wpt lat="24.2869" lon="121.1856">
+    <ele>2760</ele>
+  <name>P2760</name>
+  <cmt>1040:prom=110,rank=1039</cmt>
+  </wpt>
+<wpt lat="24.5725" lon="121.5778">
+    <ele>1458</ele>
+  <name>P1458</name>
+  <cmt>1041:prom=110,rank=1039</cmt>
+  </wpt>
+<wpt lat="23.4019" lon="120.6222">
+    <ele>1247</ele>
+  <name>P1247</name>
+  <cmt>1042:prom=110,rank=1039</cmt>
+  </wpt>
+<wpt lat="23.2472" lon="120.6411">
+    <ele>765</ele>
+  <name>頂平林山</name>
+  <cmt>1043:prom=110,rank=1039</cmt>
+  </wpt>
+<wpt lat="24.6789" lon="121.1928">
+    <ele>976</ele>
+  <name>梅花山</name>
+  <cmt>1044:prom=110,rank=1039</cmt>
+  </wpt>
+<wpt lat="24.1008" lon="121.0567">
+    <ele>964</ele>
+  <name>P964</name>
+  <cmt>1045:prom=110,rank=1039</cmt>
+  </wpt>
+<wpt lat="24.4903" lon="121.3617">
+    <ele>2588</ele>
+  <name>P2588</name>
+  <cmt>1046:prom=110,rank=1039</cmt>
+  </wpt>
+<wpt lat="22.2572" lon="120.6664">
+    <ele>167</ele>
+  <name>P167</name>
+  <cmt>1047:prom=110,rank=1039</cmt>
+  </wpt>
+<wpt lat="23.7714" lon="121.0672">
+    <ele>2073</ele>
+  <name>P2073</name>
+  <cmt>1048:prom=110,rank=1039</cmt>
+  </wpt>
+<wpt lat="24.0331" lon="121.1814">
+    <ele>1524</ele>
+  <name>P1524</name>
+  <cmt>1049:prom=110,rank=1039</cmt>
+  </wpt>
+<wpt lat="24.6606" lon="121.0128">
+    <ele>304</ele>
+  <name>P304</name>
+  <cmt>1050:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="23.0403" lon="120.7042">
+    <ele>1406</ele>
+  <name>寶山</name>
+  <cmt>1051:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="24.9950" lon="121.6394">
+    <ele>438</ele>
+  <name>三貢嶺山</name>
+  <cmt>1052:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="23.8811" lon="120.7278">
+    <ele>386</ele>
+  <name>P386</name>
+  <cmt>1053:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="23.6092" lon="120.6683">
+    <ele>1024</ele>
+  <name>P1024</name>
+  <cmt>1054:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="24.5461" lon="121.2611">
+    <ele>2430</ele>
+  <name>P2430</name>
+  <cmt>1055:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="23.0664" lon="121.0058">
+    <ele>2601</ele>
+  <name>P2601</name>
+  <cmt>1056:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="22.8739" lon="121.1281">
+    <ele>398</ele>
+  <name>P398</name>
+  <cmt>1057:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="22.5019" lon="120.8369">
+    <ele>925</ele>
+  <name>諸野葛</name>
+  <cmt>1058:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="24.4667" lon="121.2311">
+    <ele>3190</ele>
+  <name>耶巴奧山</name>
+  <cmt>1059:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="24.3675" lon="121.3808">
+    <ele>2788</ele>
+  <name>多加屯山</name>
+  <cmt>1060:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="23.2175" lon="120.9361">
+    <ele>2710</ele>
+  <name>P2710</name>
+  <cmt>1061:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="23.5017" lon="120.6642">
+    <ele>1349</ele>
+  <name>石盤龍山</name>
+  <cmt>1062:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="22.9353" lon="121.2503">
+    <ele>825</ele>
+  <name>即哈那拉山</name>
+  <cmt>1063:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="25.1719" lon="121.5656">
+    <ele>888</ele>
+  <name>P888</name>
+  <cmt>1064:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="22.6583" lon="121.4925">
+    <ele>270</ele>
+  <name>P270</name>
+  <cmt>1065:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="24.2408" lon="120.9550">
+    <ele>2178</ele>
+  <name>P2178</name>
+  <cmt>1066:prom=109,rank=1050</cmt>
+  </wpt>
+<wpt lat="23.5953" lon="121.1381">
+    <ele>3346</ele>
+  <name>裏門山</name>
+  <cmt>1067:prom=108,rank=1067</cmt>
+  </wpt>
+<wpt lat="22.3800" lon="120.6394">
+    <ele>431</ele>
+  <name>P431</name>
+  <cmt>1068:prom=108,rank=1067</cmt>
+  </wpt>
+<wpt lat="24.0922" lon="121.5483">
+    <ele>1921</ele>
+  <name>P1921</name>
+  <cmt>1069:prom=108,rank=1067</cmt>
+  </wpt>
+<wpt lat="23.4003" lon="121.1883">
+    <ele>2339</ele>
+  <name>P2339</name>
+  <cmt>1070:prom=108,rank=1067</cmt>
+  </wpt>
+<wpt lat="24.8189" lon="121.2967">
+    <ele>382</ele>
+  <name>P382</name>
+  <cmt>1071:prom=108,rank=1067</cmt>
+  </wpt>
+<wpt lat="22.9914" lon="120.7094">
+    <ele>1709</ele>
+  <name>P1709</name>
+  <cmt>1072:prom=108,rank=1067</cmt>
+  </wpt>
+<wpt lat="23.7161" lon="121.3342">
+    <ele>2015</ele>
+  <name>王武塔</name>
+  <cmt>1073:prom=108,rank=1067</cmt>
+  </wpt>
+<wpt lat="24.2947" lon="121.6872">
+    <ele>1550</ele>
+  <name>P1550</name>
+  <cmt>1074:prom=108,rank=1067</cmt>
+  </wpt>
+<wpt lat="22.9189" lon="120.7069">
+    <ele>466</ele>
+  <name>P466</name>
+  <cmt>1075:prom=108,rank=1067</cmt>
+  </wpt>
+<wpt lat="24.4511" lon="120.9303">
+    <ele>832</ele>
+  <name>P832</name>
+  <cmt>1076:prom=108,rank=1067</cmt>
+  </wpt>
+<wpt lat="23.4411" lon="121.0286">
+    <ele>3167</ele>
+  <name>達芬尖東峰</name>
+  <cmt>1077:prom=108,rank=1067</cmt>
+  </wpt>
+<wpt lat="24.2903" lon="120.8206">
+    <ele>587</ele>
+  <name>P587</name>
+  <cmt>1078:prom=108,rank=1067</cmt>
+  </wpt>
+<wpt lat="22.9250" lon="120.5964">
+    <ele>347</ele>
+  <name>P347</name>
+  <cmt>1079:prom=108,rank=1067</cmt>
+  </wpt>
+<wpt lat="23.5167" lon="121.4286">
+    <ele>463</ele>
+  <name>P463</name>
+  <cmt>1080:prom=108,rank=1067</cmt>
+  </wpt>
+<wpt lat="22.5567" lon="120.7394">
+    <ele>2308</ele>
+  <name>P2308</name>
+  <cmt>1081:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="22.8608" lon="120.4378">
+    <ele>224</ele>
+  <name>大廓庭山</name>
+  <cmt>1082:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="24.8500" lon="121.7672">
+    <ele>675</ele>
+  <name>鵲子山</name>
+  <cmt>1083:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="24.4331" lon="121.6869">
+    <ele>684</ele>
+  <name>P684</name>
+  <cmt>1084:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="23.5958" lon="121.4917">
+    <ele>306</ele>
+  <name>P306</name>
+  <cmt>1085:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="22.9131" lon="120.7281">
+    <ele>704</ele>
+  <name>P704</name>
+  <cmt>1086:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="23.9653" lon="120.7003">
+    <ele>324</ele>
+  <name>P324</name>
+  <cmt>1087:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="23.7089" lon="120.9867">
+    <ele>2081</ele>
+  <name>P2081</name>
+  <cmt>1088:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="22.8544" lon="120.7217">
+    <ele>1296</ele>
+  <name>P1296</name>
+  <cmt>1089:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="22.4886" lon="120.7586">
+    <ele>1555</ele>
+  <name>P1555</name>
+  <cmt>1090:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="24.0267" lon="120.7853">
+    <ele>738</ele>
+  <name>P738</name>
+  <cmt>1091:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="24.7111" lon="121.1517">
+    <ele>351</ele>
+  <name>P351</name>
+  <cmt>1092:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="23.4872" lon="120.6375">
+    <ele>1299</ele>
+  <name>大湖尖山</name>
+  <cmt>1093:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="23.4064" lon="120.9542">
+    <ele>2937</ele>
+  <name>安東昆山東北峰</name>
+  <cmt>1094:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="23.2081" lon="121.0272">
+    <ele>1888</ele>
+  <name>P1888</name>
+  <cmt>1095:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="24.6042" lon="121.0342">
+    <ele>628</ele>
+  <name>蕃婆石山</name>
+  <cmt>1096:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="25.1297" lon="121.4156">
+    <ele>469</ele>
+  <name>P469</name>
+  <cmt>1097:prom=107,rank=1081</cmt>
+  </wpt>
+<wpt lat="23.4269" lon="120.6722">
+    <ele>1267</ele>
+  <name>P1267</name>
+  <cmt>1098:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="24.3444" lon="121.6431">
+    <ele>1020</ele>
+  <name>琴山南峰</name>
+  <cmt>1099:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="24.7625" lon="121.1858">
+    <ele>308</ele>
+  <name>P308</name>
+  <cmt>1100:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="23.2444" lon="121.3608">
+    <ele>1001</ele>
+  <name>大莊越山</name>
+  <cmt>1101:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="24.0561" lon="121.2344">
+    <ele>2686</ele>
+  <name>P2686</name>
+  <cmt>1102:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="24.6422" lon="120.9903">
+    <ele>272</ele>
+  <name>P272</name>
+  <cmt>1103:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="24.5867" lon="121.3400">
+    <ele>2103</ele>
+  <name>東泰野寒</name>
+  <cmt>1104:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="22.9425" lon="121.1847">
+    <ele>547</ele>
+  <name>P547</name>
+  <cmt>1105:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="23.2828" lon="120.5225">
+    <ele>980</ele>
+  <name>P980</name>
+  <cmt>1106:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="24.3200" lon="121.4872">
+    <ele>2681</ele>
+  <name>西吉南山</name>
+  <cmt>1107:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="23.9347" lon="120.8417">
+    <ele>1165</ele>
+  <name>九分二山</name>
+  <cmt>1108:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="23.2597" lon="120.9522">
+    <ele>3127</ele>
+  <name>塔關山東北鋒</name>
+  <cmt>1109:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="24.2664" lon="120.9611">
+    <ele>1831</ele>
+  <name>P1831</name>
+  <cmt>1110:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="24.7242" lon="121.6689">
+    <ele>420</ele>
+  <name>P420</name>
+  <cmt>1111:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="24.5939" lon="121.5542">
+    <ele>1100</ele>
+  <name>P1100</name>
+  <cmt>1112:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="23.3250" lon="121.3997">
+    <ele>1132</ele>
+  <name>P1132</name>
+  <cmt>1113:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="23.5739" lon="121.1258">
+    <ele>3086</ele>
+  <name>雪哥雲獸西峰</name>
+  <cmt>1114:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="23.9003" lon="121.2628">
+    <ele>2994</ele>
+  <name>P2994</name>
+  <cmt>1115:prom=106,rank=1098</cmt>
+  </wpt>
+<wpt lat="24.0672" lon="121.5050">
+    <ele>2064</ele>
+  <name>南江口山</name>
+  <cmt>1116:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="24.3989" lon="121.5036">
+    <ele>2124</ele>
+  <name>P2124</name>
+  <cmt>1117:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="23.9136" lon="120.7361">
+    <ele>327</ele>
+  <name>P327</name>
+  <cmt>1118:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="23.3831" lon="121.0028">
+    <ele>3088</ele>
+  <name>轆轆山南峰</name>
+  <cmt>1119:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="24.5333" lon="121.3281">
+    <ele>2401</ele>
+  <name>留倉賀</name>
+  <cmt>1120:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="23.5056" lon="120.8128">
+    <ele>2467</ele>
+  <name>P2467</name>
+  <cmt>1121:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="24.1478" lon="121.3867">
+    <ele>2092</ele>
+  <name>杜鉾山</name>
+  <cmt>1122:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="23.9592" lon="120.7814">
+    <ele>472</ele>
+  <name>P472</name>
+  <cmt>1123:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="23.4678" lon="120.5586">
+    <ele>321</ele>
+  <name>P321</name>
+  <cmt>1124:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="23.3722" lon="120.5517">
+    <ele>665</ele>
+  <name>P665</name>
+  <cmt>1125:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="22.9719" lon="121.2986">
+    <ele>294</ele>
+  <name>志羅億</name>
+  <cmt>1126:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="22.7133" lon="120.6739">
+    <ele>483</ele>
+  <name>P483</name>
+  <cmt>1127:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="24.5594" lon="121.6461">
+    <ele>1480</ele>
+  <name>大元山</name>
+  <cmt>1128:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="24.2844" lon="120.8956">
+    <ele>731</ele>
+  <name>P731</name>
+  <cmt>1129:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="24.5547" lon="121.7794">
+    <ele>1282</ele>
+  <name>P1282</name>
+  <cmt>1130:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="24.8333" lon="121.2944">
+    <ele>493</ele>
+  <name>P493</name>
+  <cmt>1131:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="24.6517" lon="121.6022">
+    <ele>342</ele>
+  <name>P342</name>
+  <cmt>1132:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="24.5686" lon="121.7317">
+    <ele>973</ele>
+  <name>P973</name>
+  <cmt>1133:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="24.4392" lon="121.7908">
+    <ele>377</ele>
+  <name>P377</name>
+  <cmt>1134:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="24.5433" lon="121.4106">
+    <ele>1955</ele>
+  <name>P1955</name>
+  <cmt>1135:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="22.7369" lon="120.9625">
+    <ele>1177</ele>
+  <name>P1177</name>
+  <cmt>1136:prom=105,rank=1116</cmt>
+  </wpt>
+<wpt lat="23.1256" lon="120.4869">
+    <ele>249</ele>
+  <name>P249</name>
+  <cmt>1137:prom=104,rank=1137</cmt>
+  </wpt>
+<wpt lat="25.1608" lon="121.5875">
+    <ele>858</ele>
+  <name>P858</name>
+  <cmt>1138:prom=104,rank=1137</cmt>
+  </wpt>
+<wpt lat="24.1378" lon="120.8181">
+    <ele>989</ele>
+  <name>暗影山</name>
+  <cmt>1139:prom=104,rank=1137</cmt>
+  </wpt>
+<wpt lat="23.2311" lon="120.5178">
+    <ele>496</ele>
+  <name>P496</name>
+  <cmt>1140:prom=104,rank=1137</cmt>
+  </wpt>
+<wpt lat="24.4144" lon="121.2403">
+    <ele>3694</ele>
+  <name>雪山北峰</name>
+  <cmt>1141:prom=104,rank=1137</cmt>
+  </wpt>
+<wpt lat="24.2569" lon="121.0472">
+    <ele>2266</ele>
+  <name>P2266</name>
+  <cmt>1142:prom=104,rank=1137</cmt>
+  </wpt>
+<wpt lat="22.9914" lon="120.9844">
+    <ele>2856</ele>
+  <name>P2856</name>
+  <cmt>1143:prom=104,rank=1137</cmt>
+  </wpt>
+<wpt lat="23.6281" lon="120.7117">
+    <ele>1648</ele>
+  <name>番子田山</name>
+  <cmt>1144:prom=104,rank=1137</cmt>
+  </wpt>
+<wpt lat="23.9492" lon="121.0492">
+    <ele>1570</ele>
+  <name>P1570</name>
+  <cmt>1145:prom=104,rank=1137</cmt>
+  </wpt>
+<wpt lat="24.5092" lon="121.7903">
+    <ele>1191</ele>
+  <name>P1191</name>
+  <cmt>1146:prom=104,rank=1137</cmt>
+  </wpt>
+<wpt lat="22.9867" lon="120.8994">
+    <ele>2043</ele>
+  <name>P2043</name>
+  <cmt>1147:prom=104,rank=1137</cmt>
+  </wpt>
+<wpt lat="23.1517" lon="120.5611">
+    <ele>775</ele>
+  <name>P775</name>
+  <cmt>1148:prom=104,rank=1137</cmt>
+  </wpt>
+<wpt lat="22.8642" lon="120.7553">
+    <ele>2090</ele>
+  <name>P2090</name>
+  <cmt>1149:prom=104,rank=1137</cmt>
+  </wpt>
+<wpt lat="23.3383" lon="120.5975">
+    <ele>1067</ele>
+  <name>P1067</name>
+  <cmt>1150:prom=104,rank=1137</cmt>
+  </wpt>
+<wpt lat="23.7869" lon="120.9631">
+    <ele>608</ele>
+  <name>P608</name>
+  <cmt>1151:prom=104,rank=1137</cmt>
+  </wpt>
+<wpt lat="22.2869" lon="120.7928">
+    <ele>773</ele>
+  <name>P773</name>
+  <cmt>1152:prom=104,rank=1137</cmt>
+  </wpt>
+<wpt lat="24.2086" lon="121.4975">
+    <ele>1124</ele>
+  <name>P1124</name>
+  <cmt>1153:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="22.9442" lon="120.7758">
+    <ele>1471</ele>
+  <name>萬頭蘭</name>
+  <cmt>1154:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="23.3944" lon="120.6478">
+    <ele>1154</ele>
+  <name>南阿郡</name>
+  <cmt>1155:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="23.7311" lon="121.2022">
+    <ele>2476</ele>
+  <name>P2476</name>
+  <cmt>1156:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="23.8919" lon="121.0192">
+    <ele>1577</ele>
+  <name>P1577</name>
+  <cmt>1157:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="24.8481" lon="121.6886">
+    <ele>1092</ele>
+  <name>P1092</name>
+  <cmt>1158:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="23.5947" lon="121.1894">
+    <ele>3128</ele>
+  <name>盧利拉駱山西峰</name>
+  <cmt>1159:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="24.0267" lon="121.1203">
+    <ele>1421</ele>
+  <name>眉溪山</name>
+  <cmt>1160:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="23.1786" lon="120.7103">
+    <ele>1621</ele>
+  <name>P1621</name>
+  <cmt>1161:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="24.6211" lon="121.3367">
+    <ele>2273</ele>
+  <name>虎禮山</name>
+  <cmt>1162:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="23.6667" lon="121.5375">
+    <ele>414</ele>
+  <name>P414</name>
+  <cmt>1163:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="23.0619" lon="120.5414">
+    <ele>665</ele>
+  <name>P665</name>
+  <cmt>1164:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="23.7503" lon="121.5642">
+    <ele>296</ele>
+  <name>P296</name>
+  <cmt>1165:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="24.3719" lon="121.3233">
+    <ele>2386</ele>
+  <name>P2386</name>
+  <cmt>1166:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="23.0947" lon="120.9550">
+    <ele>2204</ele>
+  <name>周溪山</name>
+  <cmt>1167:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="24.9375" lon="121.4414">
+    <ele>396</ele>
+  <name>P396</name>
+  <cmt>1168:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="22.6025" lon="120.8161">
+    <ele>1010</ele>
+  <name>P1010</name>
+  <cmt>1169:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="24.1031" lon="120.8264">
+    <ele>1036</ele>
+  <name>P1036</name>
+  <cmt>1170:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="24.3267" lon="120.8669">
+    <ele>606</ele>
+  <name>P606</name>
+  <cmt>1171:prom=103,rank=1153</cmt>
+  </wpt>
+<wpt lat="24.3925" lon="120.7883">
+    <ele>529</ele>
+  <name>P529</name>
+  <cmt>1172:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="23.4689" lon="121.1400">
+    <ele>2699</ele>
+  <name>P2699</name>
+  <cmt>1173:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="23.3375" lon="120.8253">
+    <ele>2314</ele>
+  <name>P2314</name>
+  <cmt>1174:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="24.3517" lon="121.0039">
+    <ele>1990</ele>
+  <name>P1990</name>
+  <cmt>1175:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="22.5769" lon="120.9708">
+    <ele>688</ele>
+  <name>香蘭山</name>
+  <cmt>1176:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="23.3194" lon="120.5444">
+    <ele>1142</ele>
+  <name>P1142</name>
+  <cmt>1177:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="24.0411" lon="121.2856">
+    <ele>3195</ele>
+  <name>南華山P</name>
+  <cmt>1178:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="22.3353" lon="120.6503">
+    <ele>529</ele>
+  <name>P529</name>
+  <cmt>1179:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="23.6614" lon="121.1294">
+    <ele>2398</ele>
+  <name>P2398</name>
+  <cmt>1180:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="23.8989" lon="121.1725">
+    <ele>2772</ele>
+  <name>P2772</name>
+  <cmt>1181:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="24.9961" lon="121.7831">
+    <ele>455</ele>
+  <name>P455</name>
+  <cmt>1182:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="23.3950" lon="120.5717">
+    <ele>480</ele>
+  <name>P480</name>
+  <cmt>1183:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="24.3631" lon="121.6442">
+    <ele>770</ele>
+  <name>P770</name>
+  <cmt>1184:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="22.6550" lon="120.6928">
+    <ele>1549</ele>
+  <name>P1549</name>
+  <cmt>1185:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="22.7881" lon="120.3942">
+    <ele>253</ele>
+  <name>P253</name>
+  <cmt>1186:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="23.2361" lon="120.7536">
+    <ele>2101</ele>
+  <name>P2101</name>
+  <cmt>1187:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="23.7956" lon="121.3578">
+    <ele>1698</ele>
+  <name>P1698</name>
+  <cmt>1188:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="25.1189" lon="121.7519">
+    <ele>201</ele>
+  <name>紅淡山</name>
+  <cmt>1189:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="23.6108" lon="121.1244">
+    <ele>3411</ele>
+  <name>橫郡西峰</name>
+  <cmt>1190:prom=102,rank=1172</cmt>
+  </wpt>
+<wpt lat="24.8992" lon="121.5558">
+    <ele>170</ele>
+  <name>P170</name>
+  <cmt>1191:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="24.5372" lon="121.1975">
+    <ele>2329</ele>
+  <name>佐藤山</name>
+  <cmt>1192:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="24.3219" lon="121.2050">
+    <ele>3304</ele>
+  <name>油婆蘭山</name>
+  <cmt>1193:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="24.9250" lon="121.5911">
+    <ele>680</ele>
+  <name>P680</name>
+  <cmt>1194:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="22.7450" lon="120.9417">
+    <ele>1481</ele>
+  <name>P1481</name>
+  <cmt>1195:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="23.1153" lon="120.7803">
+    <ele>1340</ele>
+  <name>小田原山</name>
+  <cmt>1196:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="22.7836" lon="120.7231">
+    <ele>1219</ele>
+  <name>戶亞羅</name>
+  <cmt>1197:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="23.8117" lon="121.0739">
+    <ele>2024</ele>
+  <name>冠山</name>
+  <cmt>1198:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="24.6022" lon="121.4161">
+    <ele>2073</ele>
+  <name>唐穗山</name>
+  <cmt>1199:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="23.3672" lon="121.4042">
+    <ele>985</ele>
+  <name>P985</name>
+  <cmt>1200:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="24.0003" lon="120.7092">
+    <ele>247</ele>
+  <name>P247</name>
+  <cmt>1201:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="23.6156" lon="120.6353">
+    <ele>859</ele>
+  <name>樟湖山</name>
+  <cmt>1202:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="24.3364" lon="121.5372">
+    <ele>2403</ele>
+  <name>P2403</name>
+  <cmt>1203:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="22.9156" lon="121.2281">
+    <ele>882</ele>
+  <name>P882</name>
+  <cmt>1204:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="23.4919" lon="121.4844">
+    <ele>611</ele>
+  <name>P611</name>
+  <cmt>1205:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="23.4756" lon="120.9178">
+    <ele>3227</ele>
+  <name>玉山前峰</name>
+  <cmt>1206:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="23.4144" lon="121.0250">
+    <ele>2885</ele>
+  <name>P2885</name>
+  <cmt>1207:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="23.0578" lon="120.5844">
+    <ele>473</ele>
+  <name>P473</name>
+  <cmt>1208:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="23.0142" lon="120.5483">
+    <ele>337</ele>
+  <name>P337</name>
+  <cmt>1209:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="23.4919" lon="121.1522">
+    <ele>3180</ele>
+  <name>馬西山西峰</name>
+  <cmt>1210:prom=101,rank=1191</cmt>
+  </wpt>
+<wpt lat="24.7258" lon="121.3206">
+    <ele>1600</ele>
+  <name>P1600</name>
+  <cmt>1211:prom=100,rank=1211</cmt>
+  </wpt>
+<wpt lat="24.0436" lon="121.1264">
+    <ele>1629</ele>
+  <name>P1629</name>
+  <cmt>1212:prom=100,rank=1211</cmt>
+  </wpt>
+<wpt lat="24.4214" lon="121.5167">
+    <ele>1535</ele>
+  <name>P1535</name>
+  <cmt>1213:prom=100,rank=1211</cmt>
+  </wpt>
+<wpt lat="24.3083" lon="121.4236">
+    <ele>3573</ele>
+  <name>中央尖東峰</name>
+  <cmt>1214:prom=100,rank=1211</cmt>
+  </wpt>
+<wpt lat="23.1550" lon="120.4986">
+    <ele>258</ele>
+  <name>鹿陶洋</name>
+  <cmt>1215:prom=100,rank=1211</cmt>
+  </wpt>
+<wpt lat="22.9522" lon="121.0611">
+    <ele>1748</ele>
+  <name>P1748</name>
+  <cmt>1216:prom=100,rank=1211</cmt>
+  </wpt>
+<wpt lat="24.6811" lon="121.5025">
+    <ele>1923</ele>
+  <name>P1923</name>
+  <cmt>1217:prom=100,rank=1211</cmt>
+  </wpt>
+<wpt lat="24.5625" lon="121.0258">
+    <ele>1279</ele>
+  <name>P1279</name>
+  <cmt>1218:prom=100,rank=1211</cmt>
+  </wpt>
+<wpt lat="24.8772" lon="121.6542">
+    <ele>727</ele>
+  <name>P727</name>
+  <cmt>1219:prom=100,rank=1211</cmt>
+  </wpt>
+<wpt lat="23.3217" lon="120.5336">
+    <ele>1209</ele>
+  <name>P1209</name>
+  <cmt>1220:prom=100,rank=1211</cmt>
+  </wpt>
+<wpt lat="24.6572" lon="121.6092">
+    <ele>299</ele>
+  <name>P299</name>
+  <cmt>1221:prom=100,rank=1211</cmt>
+  </wpt>
+<wpt lat="22.4492" lon="120.9108">
+    <ele>461</ele>
+  <name>P461</name>
+  <cmt>1222:prom=100,rank=1211</cmt>
+  </wpt>
+<wpt lat="24.4928" lon="121.2306">
+    <ele>2723</ele>
+  <name>P2723</name>
+  <cmt>1223:prom=100,rank=1211</cmt>
+  </wpt>
+<wpt lat="22.7678" lon="120.8358">
+    <ele>1603</ele>
+  <name>朗吾呂</name>
+  <cmt>1224:prom=100,rank=1211</cmt>
+  </wpt>
+</gpx>
