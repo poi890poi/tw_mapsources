@@ -758,12 +758,12 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
     </layer>
     <!-- mapstyles -->
     <layer id="elmt-hiking" visible="true">
-      <name lang="de" value="Wandern v2020.03.05"/>
-      <name lang="en" value="Hiking v2020.03.05"/>
-      <name lang="es" value="Excursionismo v2020.03.05"/>
-      <name lang="fr" value="Randonnées v2020.03.05"/>
-      <name lang="it" value="Escursioni v2020.03.05"/>
-      <name lang="zh" value="登山 v2020.03.05"/>
+      <name lang="de" value="Wandern v__version__"/>
+      <name lang="en" value="Hiking v__version__"/>
+      <name lang="es" value="Excursionismo v__version__"/>
+      <name lang="fr" value="Randonnées v__version__"/>
+      <name lang="it" value="Escursioni v__version__"/>
+      <name lang="zh" value="登山 v__version__"/>
       <cat id="hike"/>
       <cat id="nobike"/>
       <cat id="nocity"/>
@@ -1211,6 +1211,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       </rule>
     </rule>
   </rule>
+  <!-- coastlines -->
   <!-- contours-begin -->
   <rule e="any" k="*" v="*" cat="contour">
     <rule e="way" k="ele" v="1000|2000|3000" zoom-min="9" zoom-max="10">
@@ -2076,10 +2077,10 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
         <line stroke="#664329" stroke-width="1.2" stroke-linecap="butt"/>
       </rule>
       <rule e="way" k="highway" v="track|byway" zoom-min="14">
-        <rule e="way" k="tracktype" v="grade1|grade2">
+        <rule e="way" k="tracktype|surface" v="grade1|grade2|paved">
           <line stroke="#664329" stroke-width="0.95" stroke-linecap="butt"/>
         </rule>
-        <rule e="way" k="tracktype" v="grade3">
+        <rule e="way" k="tracktype" v="grade3|~">
           <line stroke="#664329" stroke-width="0.95" stroke-dasharray="21,5" stroke-linecap="butt"/>
         </rule>
         <rule e="way" k="tracktype" v="grade4">
@@ -2087,9 +2088,6 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
         </rule>
         <rule e="way" k="tracktype" v="grade5">
           <line stroke="#664329" stroke-width="0.95" stroke-dasharray="8,5" stroke-linecap="butt"/>
-        </rule>
-        <rule e="way" k="tracktype" v="~">
-          <line stroke="#664329" stroke-width="0.95" stroke-dasharray="4,1,11,1,4,5" stroke-linecap="butt"/>
         </rule>
       </rule>
       <rule e="way" k="bridge" v="~">
@@ -3101,22 +3099,22 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
             <line stroke="#E10600" stroke-width="0.88" stroke-dasharray="5,3" stroke-linecap="butt"/>
           </rule>
           <rule e="way" k="*" v="*" zoom-min="13" zoom-max="13">
-            <line stroke="#00E13D38" stroke-width="3.00"/>
+            <line stroke="#80E13D38" stroke-width="3.00"/>
           </rule>
           <rule e="way" k="*" v="*" zoom-min="14" zoom-max="14">
-            <line stroke="#00E15854" stroke-width="2.25"/>
+            <line stroke="#80E15854" stroke-width="2.25"/>
           </rule>
           <rule e="way" k="*" v="*" zoom-min="15" zoom-max="15">
-            <line stroke="#00E1726F" stroke-width="1.69"/>
+            <line stroke="#80E1726F" stroke-width="1.69"/>
           </rule>
           <rule e="way" k="*" v="*" zoom-min="16" zoom-max="16">
-            <line stroke="#00E1726F" stroke-width="1.27"/>
+            <line stroke="#80E1726F" stroke-width="1.27"/>
           </rule>
           <rule e="way" k="*" v="*" zoom-min="17" zoom-max="17">
-            <line stroke="#00E1726F" stroke-width="0.95"/>
+            <line stroke="#80E1726F" stroke-width="0.95"/>
           </rule>
           <rule e="way" k="*" v="*" zoom-min="18">
-            <line stroke="#00E1726F" stroke-width="0.71"/>
+            <line stroke="#80E1726F" stroke-width="0.71"/>
           </rule>
         </rule>
         <rule e="way" k="highlight" v="yes" zoom-min="11" zoom-max="12">
@@ -3248,11 +3246,18 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
   <!-- highway captions etc. -->
   <rule e="way" k="tunnel" v="~|no" zoom-min="9">
     <rule e="any" k="area" v="~">
-      <rule cat="h_routes" e="way" k="highway" v="footway|path" zoom-max="16">
-        <pathText display="always" k="name" font-style="bold" font-size="7" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
-      </rule>
-      <rule cat="h_routes" e="way" k="highway" v="footway|path" zoom-min="17">
-        <pathText display="always" k="name" font-style="bold" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="h_routes" e="way" k="highway" v="footway|path">
+        <rule e="way" k="access" v="destination|private|~">
+          <rule cat="hike-tough" e="way" k="trail_visibility|sac_scale" v="bad|horrible|no|demanding_alpine_hiking|difficult_alpine_hiking">
+            <pathText display="always" k="name" font-style="bold" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+          </rule>
+          <rule e="way" k="trail_visibility" v="excellent|good|intermediate|~">
+            <pathText display="always" k="name" font-style="bold" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+          </rule>
+        </rule>
+        <rule cat="hike-no_access" e="way" k="access" v="acc_no">
+          <pathText display="always" k="name" font-style="bold" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+        </rule>
       </rule>
       <rule e="way" k="highway" v="track|bridleway|steps|byway|cycleway|service|construction|road|pedestrian|unclassified|residential|living_street|tertiary|tertiary_link" zoom-max="16">
         <pathText display="always" k="name" font-style="bold" font-size="7" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
@@ -3625,6 +3630,14 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
     </rule>
   </rule>
   <!-- POIS -->
+  <!-- meta -->
+  <rule e="any" k="*" v="*">
+    <rule e="node" k="meta" v="map_version">
+      <rule e="any" k="zl" v="0" zoom-min="7" zoom-max="8">
+        <caption k="name" priority="300" display="always" position="center" font-size="12" font-style="bold" fill="#193480" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
+    </rule>
+  </rule>
   <!-- settlements -->
   <rule cat="settlements" e="any" k="*" v="*">
     <rule e="node" k="place" v="city|town|village|hamlet|quarter|neighbourhood|isolated_dwelling|farm">
@@ -4032,11 +4045,11 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
         <caption k="ele" priority="-5" dy="21" font-style="bold" font-size="10" fill="#666666" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
     </rule>
-    <rule e="any" k="natural" v="saddle" zoom-min="15">
+    <rule e="any" k="natural" v="saddle">
       <circle radius="0.8" scale-radius="true" fill="#CCCCCC" stroke="#666666" stroke-width="0.4"/>
-      <caption k="name" dy="-18" font-style="bold" font-size="9" fill="#666666" stroke="#E5FFFFFF" stroke-width="1.8"/>
+      <caption k="name" dy="-21" font-style="bold" font-size="10" fill="#666666" stroke="#E5FFFFFF" stroke-width="2"/>
       <rule e="any" k="*" v="*">
-        <caption k="ele" priority="-5" dy="18" font-style="bold" font-size="9" fill="#666666" stroke="#E5FFFFFF" stroke-width="1.8"/>
+        <caption k="ele" priority="-5" dy="21" font-style="bold" font-size="10" fill="#666666" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
     </rule>
     <rule e="any" k="waterway|natural" v="rapids">
@@ -5081,6 +5094,10 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
         <symbol id="s_pt_subway_kaohsiung" priority="78" src="file:moiosm_res/s_pt_subway_kaohsiung.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
         <caption priority="78" k="name" symbol-id="s_pt_subway_kaohsiung" position="above" font-style="bold" font-size="10" fill="#115D91" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
+      <rule e="any" k="network" v="臺中捷運">
+        <symbol id="s_pt_subway_taichung" priority="78" src="file:moiosm_res/s_pt_subway_taichung.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
+        <caption priority="78" k="name" symbol-id="s_pt_subway_taichung" position="above" font-style="bold" font-size="10" fill="#115D91" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
       <rule e="any" k="network" v="臺北捷運|~">
         <symbol id="s_pt_subway_taipei" priority="78" src="file:moiosm_res/s_pt_subway_taipei.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
         <caption priority="78" k="name" symbol-id="s_pt_subway_taipei" position="above" font-style="bold" font-size="10" fill="#115D91" stroke="#E5FFFFFF" stroke-width="2"/>
@@ -6038,534 +6055,6 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
     </rule>
     <rule e="any" k="*" v="*" zoom-min="19">
       <line stroke="#799079" stroke-width="0.04" stroke-linecap="butt"/>
-    </rule>
-  </rule>
-  <!-- Hiking waymarks -->
-  <rule cat="waymarks" e="node" k="osmc" v="osmc_yes">
-    <!--zm-->
-    <rule e="node" k="osmc_background" v="*" zoom-max="14" zoom-min="12">
-      <rule e="node" k="osmc_background" v="wmbg_black|wmbg_black_circle">
-        <symbol src="file:/moiosm_res/wm_bcg_black.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_blue|wmbg_blue_circle|wmbg_blue_frame|wmbg_blue_round">
-        <symbol src="file:/moiosm_res/wm_bcg_blue.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_brown">
-        <symbol src="file:/moiosm_res/wm_bcg_brown.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_green|wmbg_green_frame|wmbg_green_round">
-        <symbol src="file:/moiosm_res/wm_bcg_green.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_orange">
-        <symbol src="file:/moiosm_res/wm_bcg_orange.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_purple">
-        <symbol src="file:/moiosm_res/wm_bcg_purple.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_red|wmbg_red_circle|wmbg_red_frame|wmbg_red_round">
-        <symbol src="file:/moiosm_res/wm_bcg_red.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_white|wmbg_white_circle|wmbg_white_round">
-        <symbol src="file:/moiosm_res/wm_bcg_white.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_yellow|wmbg_yellow_circle|wmbg_yellow_frame">
-        <symbol src="file:/moiosm_res/wm_bcg_yellow.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-    </rule>
-    <rule e="node" k="osmc_foreground" v="*" zoom-min="15">
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_l">
-        <symbol src="file:/moiosm_res/wm_frg_blue_L.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_bar">
-        <symbol src="file:/moiosm_res/wm_frg_blue_bar.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_bowl">
-        <symbol src="file:/moiosm_res/wm_frg_blue_bowl.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_circle">
-        <symbol src="file:/moiosm_res/wm_frg_blue_circle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_corner">
-        <symbol src="file:/moiosm_res/wm_frg_blue_corner.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_cross">
-        <symbol src="file:/moiosm_res/wm_frg_blue_cross.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_diamond">
-        <symbol src="file:/moiosm_res/wm_frg_blue_diamond.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_dot">
-        <symbol src="file:/moiosm_res/wm_frg_blue_dot.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_fork">
-        <symbol src="file:/moiosm_res/wm_frg_blue_fork.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_lower">
-        <symbol src="file:/moiosm_res/wm_frg_blue_lower.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_pointer">
-        <symbol src="file:/moiosm_res/wm_frg_blue_pointer.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_rectangle">
-        <symbol src="file:/moiosm_res/wm_frg_blue_rectangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_right">
-        <symbol src="file:/moiosm_res/wm_frg_blue_right.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_slash">
-        <symbol src="file:/moiosm_res/wm_frg_blue_slash.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_stripe">
-        <symbol src="file:/moiosm_res/wm_frg_blue_stripe.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_triangle">
-        <symbol src="file:/moiosm_res/wm_frg_blue_triangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_triangle_turned">
-        <symbol src="file:/moiosm_res/wm_frg_blue_triangle_turned.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_turned_t">
-        <symbol src="file:/moiosm_res/wm_frg_blue_turned_T.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_x">
-        <symbol src="file:/moiosm_res/wm_frg_blue_x.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_l">
-        <symbol src="file:/moiosm_res/wm_frg_red_L.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_arch">
-        <symbol src="file:/moiosm_res/wm_frg_red_arch.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_backslash">
-        <symbol src="file:/moiosm_res/wm_frg_red_backslash.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_bar">
-        <symbol src="file:/moiosm_res/wm_frg_red_bar.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_circle">
-        <symbol src="file:/moiosm_res/wm_frg_red_circle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_corner">
-        <symbol src="file:/moiosm_res/wm_frg_red_corner.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_crest">
-        <symbol src="file:/moiosm_res/wm_frg_red_crest.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_cross">
-        <symbol src="file:/moiosm_res/wm_frg_red_cross.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_diamond">
-        <symbol src="file:/moiosm_res/wm_frg_red_diamond.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_dot">
-        <symbol src="file:/moiosm_res/wm_frg_red_dot.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_drop">
-        <symbol src="file:/moiosm_res/wm_frg_red_drop.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_drop_line">
-        <symbol src="file:/moiosm_res/wm_frg_red_drop_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_fork">
-        <symbol src="file:/moiosm_res/wm_frg_red_fork.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_hiker">
-        <symbol src="file:/moiosm_res/wm_frg_red_hiker.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_lower">
-        <symbol src="file:/moiosm_res/wm_frg_red_lower.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_pointer">
-        <symbol src="file:/moiosm_res/wm_frg_red_pointer.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_rectangle">
-        <symbol src="file:/moiosm_res/wm_frg_red_rectangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_right">
-        <symbol src="file:/moiosm_res/wm_frg_red_right.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_slash">
-        <symbol src="file:/moiosm_res/wm_frg_red_slash.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_stripe">
-        <symbol src="file:/moiosm_res/wm_frg_red_stripe.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_triangle">
-        <symbol src="file:/moiosm_res/wm_frg_red_triangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_triangle_turned">
-        <symbol src="file:/moiosm_res/wm_frg_red_triangle_turned.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_turned_t">
-        <symbol src="file:/moiosm_res/wm_frg_red_turned_T.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_x">
-        <symbol src="file:/moiosm_res/wm_frg_red_x.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_l">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_L.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_backslash">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_backslash.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_bar">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_bar.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_bowl">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_bowl.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_circle">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_circle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_corner">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_corner.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_cross">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_cross.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_diamond">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_diamond.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_dot">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_dot.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_fork">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_fork.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_hiker">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_hiker.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_lower">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_lower.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_pointer">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_pointer.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_rectangle">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_rectangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_rectangle_line">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_rectangle_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_slash">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_slash.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_stripe">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_stripe.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_triangle">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_triangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_turned_t">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_turned_T.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_x">
-        <symbol src="file:/moiosm_res/wm_frg_yellow_x.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_arch">
-        <symbol src="file:/moiosm_res/wm_frg_black_arch.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_bar">
-        <symbol src="file:/moiosm_res/wm_frg_black_bar.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_circle">
-        <symbol src="file:/moiosm_res/wm_frg_black_circle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_crest">
-        <symbol src="file:/moiosm_res/wm_frg_black_crest.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_cross">
-        <symbol src="file:/moiosm_res/wm_frg_black_cross.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_diamond">
-        <symbol src="file:/moiosm_res/wm_frg_black_diamond.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_dot">
-        <symbol src="file:/moiosm_res/wm_frg_black_dot.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_fork">
-        <symbol src="file:/moiosm_res/wm_frg_black_fork.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_horse">
-        <symbol src="file:/moiosm_res/wm_frg_black_horse.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_pointer">
-        <symbol src="file:/moiosm_res/wm_frg_black_pointer.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_rectangle">
-        <symbol src="file:/moiosm_res/wm_frg_black_rectangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_rectangle_line">
-        <symbol src="file:/moiosm_res/wm_frg_black_rectangle_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_red_diamond">
-        <symbol src="file:/moiosm_res/wm_frg_black_red_diamond.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_triangle">
-        <symbol src="file:/moiosm_res/wm_frg_black_triangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_triangle_line">
-        <symbol src="file:/moiosm_res/wm_frg_black_triangle_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_x">
-        <symbol src="file:/moiosm_res/wm_frg_black_x.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_l">
-        <symbol src="file:/moiosm_res/wm_frg_green_L.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_backslash">
-        <symbol src="file:/moiosm_res/wm_frg_green_backslash.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_bar">
-        <symbol src="file:/moiosm_res/wm_frg_green_bar.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_bowl">
-        <symbol src="file:/moiosm_res/wm_frg_green_bowl.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_circle">
-        <symbol src="file:/moiosm_res/wm_frg_green_circle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_corner">
-        <symbol src="file:/moiosm_res/wm_frg_green_corner.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_cross">
-        <symbol src="file:/moiosm_res/wm_frg_green_cross.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_diamond">
-        <symbol src="file:/moiosm_res/wm_frg_green_diamond.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_dot">
-        <symbol src="file:/moiosm_res/wm_frg_green_dot.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_drop_line">
-        <symbol src="file:/moiosm_res/wm_frg_green_drop_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_fork">
-        <symbol src="file:/moiosm_res/wm_frg_green_fork.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_hiker">
-        <symbol src="file:/moiosm_res/wm_frg_green_hiker.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_horse">
-        <symbol src="file:/moiosm_res/wm_frg_green_horse.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_lower">
-        <symbol src="file:/moiosm_res/wm_frg_green_lower.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_pointer">
-        <symbol src="file:/moiosm_res/wm_frg_green_pointer.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_rectangle">
-        <symbol src="file:/moiosm_res/wm_frg_green_rectangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_right">
-        <symbol src="file:/moiosm_res/wm_frg_green_right.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_slash">
-        <symbol src="file:/moiosm_res/wm_frg_green_slash.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_stripe">
-        <symbol src="file:/moiosm_res/wm_frg_green_stripe.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_triangle">
-        <symbol src="file:/moiosm_res/wm_frg_green_triangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_triangle_line">
-        <symbol src="file:/moiosm_res/wm_frg_green_triangle_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_triangle_turned">
-        <symbol src="file:/moiosm_res/wm_frg_green_triangle_turned.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_turned_t">
-        <symbol src="file:/moiosm_res/wm_frg_green_turned_T.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_x">
-        <symbol src="file:/moiosm_res/wm_frg_green_x.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_arch">
-        <symbol src="file:/moiosm_res/wm_frg_white_arch.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_bar">
-        <symbol src="file:/moiosm_res/wm_frg_white_bar.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_circle">
-        <symbol src="file:/moiosm_res/wm_frg_white_circle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_cross">
-        <symbol src="file:/moiosm_res/wm_frg_white_cross.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_diamond">
-        <symbol src="file:/moiosm_res/wm_frg_white_diamond.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_diamond_line">
-        <symbol src="file:/moiosm_res/wm_frg_white_diamond_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_dot">
-        <symbol src="file:/moiosm_res/wm_frg_white_dot.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_hiker">
-        <symbol src="file:/moiosm_res/wm_frg_white_hiker.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_lower">
-        <symbol src="file:/moiosm_res/wm_frg_white_lower.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_pointer">
-        <symbol src="file:/moiosm_res/wm_frg_white_pointer.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_rectangle">
-        <symbol src="file:/moiosm_res/wm_frg_white_rectangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_rectangle_line">
-        <symbol src="file:/moiosm_res/wm_frg_white_rectangle_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_red_diamond">
-        <symbol src="file:/moiosm_res/wm_frg_white_red_diamond.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_right">
-        <symbol src="file:/moiosm_res/wm_frg_white_right.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_slash">
-        <symbol src="file:/moiosm_res/wm_frg_white_slash.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_stripe">
-        <symbol src="file:/moiosm_res/wm_frg_white_stripe.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_triangle">
-        <symbol src="file:/moiosm_res/wm_frg_white_triangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_triangle_line">
-        <symbol src="file:/moiosm_res/wm_frg_white_triangle_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_turned_t">
-        <symbol src="file:/moiosm_res/wm_frg_white_turned_T.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_x">
-        <symbol src="file:/moiosm_res/wm_frg_white_x.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_ammonit">
-        <symbol src="file:/moiosm_res/wm_frg_ammonit.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_bridleway">
-        <symbol src="file:/moiosm_res/wm_frg_bridleway.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_heart">
-        <symbol src="file:/moiosm_res/wm_frg_heart.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_hiker">
-        <symbol src="file:/moiosm_res/wm_frg_hiker.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_mine">
-        <symbol src="file:/moiosm_res/wm_frg_mine.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_orange_bar">
-        <symbol src="file:/moiosm_res/wm_frg_orange_bar.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_orange_diamond_line">
-        <symbol src="file:/moiosm_res/wm_frg_orange_diamond_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_orange_dot">
-        <symbol src="file:/moiosm_res/wm_frg_orange_dot.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_orange_right">
-        <symbol src="file:/moiosm_res/wm_frg_orange_right.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_shell">
-        <symbol src="file:/moiosm_res/wm_frg_shell.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_shell_modern">
-        <symbol src="file:/moiosm_res/wm_frg_shell_modern.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_tower">
-        <symbol src="file:/moiosm_res/wm_frg_tower.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_wolfshook">
-        <symbol src="file:/moiosm_res/wm_frg_wolfshook.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-    </rule>
-    <rule e="node" k="osmc_background" v="*" zoom-min="15">
-      <rule e="node" k="osmc_background" v="wmbg_black">
-        <symbol src="file:/moiosm_res/wm_bcg_black.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_black_circle">
-        <symbol src="file:/moiosm_res/wm_bcg_black_circle.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_blue">
-        <symbol src="file:/moiosm_res/wm_bcg_blue.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_blue_circle">
-        <symbol src="file:/moiosm_res/wm_bcg_blue_circle.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_blue_frame">
-        <symbol src="file:/moiosm_res/wm_bcg_blue_frame.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_blue_round">
-        <symbol src="file:/moiosm_res/wm_bcg_blue_round.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_brown">
-        <symbol src="file:/moiosm_res/wm_bcg_brown.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_green">
-        <symbol src="file:/moiosm_res/wm_bcg_green.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_green_frame">
-        <symbol src="file:/moiosm_res/wm_bcg_green_frame.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_green_round">
-        <symbol src="file:/moiosm_res/wm_bcg_green_round.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_orange">
-        <symbol src="file:/moiosm_res/wm_bcg_orange.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_purple">
-        <symbol src="file:/moiosm_res/wm_bcg_purple.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_red">
-        <symbol src="file:/moiosm_res/wm_bcg_red.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_red_circle">
-        <symbol src="file:/moiosm_res/wm_bcg_red_circle.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_red_frame">
-        <symbol src="file:/moiosm_res/wm_bcg_red_frame.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_red_round">
-        <symbol src="file:/moiosm_res/wm_bcg_red_round.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_white">
-        <symbol src="file:/moiosm_res/wm_bcg_white.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_white_circle">
-        <symbol src="file:/moiosm_res/wm_bcg_white_circle.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_white_round">
-        <symbol src="file:/moiosm_res/wm_bcg_white_round.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_yellow">
-        <symbol src="file:/moiosm_res/wm_bcg_yellow.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_yellow_circle">
-        <symbol src="file:/moiosm_res/wm_bcg_yellow_circle.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_yellow_frame">
-        <symbol src="file:/moiosm_res/wm_bcg_yellow_frame.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-    </rule>
-    <!-- Waymarks text -->
-    <rule e="node" k="osmc_textcolor" v="~|wmtc_black|wmtc_brown|wmtc_purple|wmtc_red|wmtc_green|wmtc_blue|wmtc_orange" zoom-min="15">
-      <rule e="node" k="osmc_text_len" v="wmtl_1|wmtl_2|wmtl_3" zoom-min="13">
-        <caption k="name" priority="1" display="always" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
-      </rule>
-      <rule e="node" k="osmc_text_len" v="wmtl_4|wmtl_5" zoom-min="13">
-        <caption k="name" priority="1" display="always" font-size="7" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
-      </rule>
-    </rule>
-    <rule e="node" k="osmc_textcolor" v="wmtc_gray|wmtc_white|wmtc_yellow" zoom-min="15">
-      <rule e="node" k="osmc_text_len" v="wmtl_1|wmtl_2|wmtl_3" zoom-min="13">
-        <caption k="name" priority="1" display="always" font-size="8" fill="#FFFFFF" stroke="#E5000000" stroke-width="2"/>
-      </rule>
-      <rule e="node" k="osmc_text_len" v="wmtl_4|wmtl_5" zoom-min="13">
-        <caption k="name" priority="1" display="always" font-size="7" fill="#FFFFFF" stroke="#E5000000" stroke-width="2"/>
-      </rule>
     </rule>
   </rule>
 </rendertheme>
