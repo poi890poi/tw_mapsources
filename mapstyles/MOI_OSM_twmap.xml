@@ -4,7 +4,7 @@
 MOI.OSM theme
 **************************
 
-Mapsforge map style for MOI.OSM Taiwan TOPO by Rudy
+Mapsforge map style for MOI.OSM Taiwan TOPO
 
 Symbols/patterns/code based on Elevate theme by Tobias Kühn, http://www.openandromaps.org/en/legend/elevate-mountain-hike-theme.
 
@@ -44,6 +44,15 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       <name lang="zh" value="建議路線"/>
       <cat id="h_s_routes"/>
     </layer>
+    <layer id="elmt-trail-label" enabled="true">
+      <name lang="de" value="Trail Labels"/>
+      <name lang="en" value="Trail Labels"/>
+      <name lang="es" value="Trail Labels"/>
+      <name lang="fr" value="Trail Labels"/>
+      <name lang="it" value="Trail Labels"/>
+      <name lang="zh" value="山徑名稱"/>
+      <cat id="trail-label"/>
+    </layer>
     <layer id="elmt-waymarks" enabled="false">
       <name lang="de" value="Wegzeichen"/>
       <name lang="en" value="waymarks"/>
@@ -52,6 +61,15 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       <name lang="it" value="segnavia"/>
       <name lang="zh" value="路標"/>
       <cat id="waymarks"/>
+    </layer>
+    <layer id="elmt-waypoint-label" enabled="true">
+      <name lang="de" value="Waypoint Labels"/>
+      <name lang="en" value="Waypoint Labels"/>
+      <name lang="es" value="Waypoint Labels"/>
+      <name lang="fr" value="Waypoint Labels"/>
+      <name lang="it" value="Waypoint Labels"/>
+      <name lang="zh" value="航點名稱"/>
+      <cat id="waypoint-label"/>
     </layer>
     <layer id="elmt-pt_network" enabled="false">
       <name lang="de" value="Öffentl. Verkehr Netzwerk"/>
@@ -218,7 +236,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       <name lang="es" value="compartments"/>
       <name lang="fr" value="compartments"/>
       <name lang="it" value="compartments"/>
-      <name lang="zh" value="林務局林班地"/>
+      <name lang="zh" value="林業保育署林班地"/>
       <cat id="compartments"/>
     </layer>
     <layer id="elmt-borders-c" enabled="true">
@@ -668,6 +686,24 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       <name lang="zh" value="航跡"/>
       <cat id="track"/>
     </layer>
+    <layer id="elmt-ads" enabled="false">
+      <name lang="de" value="Air Defense Shelters"/>
+      <name lang="en" value="Air Defense Shelters"/>
+      <name lang="es" value="Air Defense Shelters"/>
+      <name lang="fr" value="Air Defense Shelters"/>
+      <name lang="it" value="Air Defense Shelters"/>
+      <name lang="zh" value="防空避難處所"/>
+      <cat id="ads"/>
+    </layer>
+    <layer id="elmt-ads-label" enabled="false">
+      <name lang="de" value="Air Defense Shelters Info"/>
+      <name lang="en" value="Air Defense Shelters Info"/>
+      <name lang="es" value="Air Defense Shelters Info"/>
+      <name lang="fr" value="Air Defense Shelters Info"/>
+      <name lang="it" value="Air Defense Shelters Info"/>
+      <name lang="zh" value="防空避難處所資訊"/>
+      <cat id="ads-label"/>
+    </layer>
     <layer id="elmt-track-label" enabled="false">
       <name lang="de" value="Track Labels"/>
       <name lang="en" value="Track Labels"/>
@@ -722,6 +758,15 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       <name lang="zh" value="封閉路線"/>
       <cat id="hike-no_access"/>
     </layer>
+    <layer id="elmt-hiking-tough" enabled="true">
+      <name lang="de" value="Tough pathway"/>
+      <name lang="en" value="Tough pathway"/>
+      <name lang="es" value="Tough pathway"/>
+      <name lang="fr" value="Tough pathway"/>
+      <name lang="it" value="Tough pathway"/>
+      <name lang="zh" value="艱難路線"/>
+      <cat id="hike-tough"/>
+    </layer>
     <!-- mapstyles -->
     <layer id="elmt-hiking" enabled="true" visible="true">
       <name lang="de" value="Wandern v__version__"/>
@@ -737,9 +782,11 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       <overlay id="elmt-h_routes"/>
       <overlay id="elmt-h_s_routes"/>
       <overlay id="elmt-hiking-no_access"/>
+      <overlay id="elmt-hiking-tough"/>
       <overlay id="elmt-waymarks"/>
       <overlay id="elmt-settlements-h"/>
       <overlay id="elmt-landscapefeat-h"/>
+      <overlay id="elmt-trail-label"/>
       <overlay id="elmt-surveypoint-h"/>
       <overlay id="elmt-contour-c"/>
       <overlay id="elmt-borders-h"/>
@@ -758,6 +805,9 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       <overlay id="elmt-track"/>
       <overlay id="elmt-track-label"/>
       <overlay id="elmt-waypoint"/>
+      <overlay id="elmt-waypoint-label"/>
+      <overlay id="elmt-ads"/>
+      <overlay id="elmt-ads-label"/>
     </layer>
     <layer id="elmt-city" visible="false">
       <name lang="de" value="Stadt"/>
@@ -937,17 +987,6 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
           <area src="file:moiosm_twmap/p_marsh.svg" symbol-scaling="size" symbol-height="64" symbol-width="64"/>
         </rule>
       </rule>
-      <rule e="way" k="natural" v="rock" closed="yes">
-        <rule e="any" k="*" v="*" zoom-max="14">
-          <area src="file:moiosm_twmap/p_rock.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
-        </rule>
-        <rule e="any" k="*" v="*" zoom-min="15" zoom-max="16">
-          <area src="file:moiosm_twmap/p_rock.svg" symbol-scaling="size" symbol-height="32" symbol-width="32"/>
-        </rule>
-        <rule e="any" k="*" v="*" zoom-min="17">
-          <area src="file:moiosm_twmap/p_rock.svg" symbol-scaling="size" symbol-height="64" symbol-width="64"/>
-        </rule>
-      </rule>
       <rule e="way" k="natural" v="heath" closed="yes">
         <rule e="any" k="*" v="*" zoom-max="14">
           <area src="file:moiosm_twmap/p_heath.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
@@ -1054,6 +1093,17 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       </rule>
       <rule e="way" k="natural" v="crater" closed="yes">
         <area fill="#306E5050"/>
+      </rule>
+    </rule>
+    <rule e="way" k="natural" v="rock" closed="yes">
+      <rule e="any" k="*" v="*" zoom-max="14">
+        <area src="file:moiosm_twmap/p_rock.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
+      </rule>
+      <rule e="any" k="*" v="*" zoom-min="15" zoom-max="16">
+        <area src="file:moiosm_twmap/p_rock.svg" symbol-scaling="size" symbol-height="32" symbol-width="32"/>
+      </rule>
+      <rule e="any" k="*" v="*" zoom-min="17">
+        <area src="file:moiosm_twmap/p_rock.svg" symbol-scaling="size" symbol-height="64" symbol-width="64"/>
       </rule>
     </rule>
     <rule e="way" k="natural" v="scree|shingle" closed="yes">
@@ -1365,7 +1415,10 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
     </rule>
   </rule>
   <!-- waterways -->
-  <rule e="way" k="bridge" v="yes|viaduct|movable">
+  <rule e="way" k="waterway" v="*" zoom-min="11" zoom-max="15">
+    <caption k="name" font-style="bold" font-size="9" fill="#E577A5FC" stroke="#E5FFFFFF" stroke-width="1"/>
+  </rule>
+  <rule e="way" k="bridge" v="yes|viaduct|movable" zoom-min="9">
     <rule e="way" k="tunnel" v="no|~">
       <rule e="way" k="waterway" v="ditch|drain|stream">
         <line stroke="#333333" stroke-width="1.6" stroke-linecap="butt"/>
@@ -1377,45 +1430,45 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       </rule>
     </rule>
   </rule>
-  <rule e="way" k="waterway" v="ditch">
+  <rule e="way" k="waterway" v="ditch" zoom-min="9">
     <line stroke="#0a2676" stroke-width="0.6"/>
   </rule>
-  <rule e="way" k="waterway" v="drain">
+  <rule e="way" k="waterway" v="drain" zoom-min="9">
     <line stroke="#A69D9D" stroke-width="0.7" stroke-linecap="butt"/>
     <line stroke="#0a2676" stroke-width="0.5" stroke-linecap="butt"/>
   </rule>
-  <rule e="way" k="waterway" v="canal">
+  <rule e="way" k="waterway" v="canal" zoom-min="9">
     <line stroke="#A69D9D" stroke-width="1.1" stroke-linecap="butt"/>
     <line stroke="#0a2676" stroke-width="0.9" stroke-linecap="butt"/>
   </rule>
-  <rule e="way" k="waterway" v="stream">
-    <line stroke="#0a2676" stroke-width="0.6"/>
+  <rule e="way" k="waterway" v="stream" zoom-min="9">
+    <line stroke="#0a2676" stroke-width="0.9"/>
   </rule>
   <rule e="way" k="waterway" v="river">
-    <line stroke="#0a2676" stroke-width="1.1"/>
+    <line stroke="#0a2676" stroke-width="1.4"/>
   </rule>
-  <rule e="way" k="waterway" v="riverbank" closed="yes">
-    <area fill="#0a2676" stroke="#0a2676" stroke-width="0.2"/>
+  <rule e="way" k="waterway" v="riverbank" closed="yes" zoom-min="9">
+    <area fill="#0a2676" stroke="#0a2676" stroke-width="0.6"/>
   </rule>
-  <rule e="way" k="waterway" v="riverbank" closed="no">
+  <rule e="way" k="waterway" v="riverbank" closed="no" zoom-min="9">
     <line stroke="#0a2676" stroke-width="1"/>
   </rule>
   <rule e="way" k="natural" v="water" closed="yes">
-    <rule e="any" k="*" v="*" zoom-max="13">
-      <area fill="#0a2676" stroke="#0a2676" stroke-width="0.2"/>
+    <rule e="any" k="*" v="*" zoom-max="11">
+      <area fill="#0a2676" stroke="#0a2676" stroke-width="0.6"/>
     </rule>
-    <rule e="any" k="*" v="*" zoom-min="14">
-      <area fill="#0a2678" stroke="#0a2678" stroke-width="0.2"/>
+    <rule e="any" k="*" v="*" zoom-min="12">
+      <area fill="#0a2678" stroke="#0a2678" stroke-width="0.6"/>
     </rule>
   </rule>
   <rule e="way" k="natural" v="water" closed="no">
     <line stroke="#0a2676" stroke-width="1"/>
   </rule>
-  <rule e="way" k="landuse" v="reservoir|basin" closed="yes">
+  <rule e="way" k="landuse" v="reservoir|basin" closed="yes" zoom-min="9">
     <line stroke="#A69D9D" stroke-width="0.3"/>
     <area fill="#0a2676"/>
   </rule>
-  <rule e="way" k="landuse" v="reservoir|basin" closed="no">
+  <rule e="way" k="landuse" v="reservoir|basin" closed="no" zoom-min="9">
     <line stroke="#A69D9D" stroke-width="1"/>
     <line stroke="#0a2676" stroke-width="0.2"/>
   </rule>
@@ -1452,11 +1505,6 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
     <rule e="way" k="natural" v="cliff" closed="yes">
       <line stroke="#70606060" stroke-width="1" stroke-dasharray="1.5,1.5" stroke-linecap="butt"/>
       <caption k="name" dy="2.2" font-style="bold_italic" font-family="serif" font-size="20" fill="#666666" stroke="#E5FFFFFF" stroke-width="2"/>
-    </rule>
-    <rule e="way" k="natural" v="ridge|arete">
-      <line stroke="#80606060" stroke-width="0.4" stroke-dasharray="6,8" stroke-linecap="round"/>
-      <pathText k="name" dy="2" font-style="italic" font-family="serif" font-size="24" fill="#888888" stroke="#888888" stroke-width="0.1" display="always" priority="-20"/>
-      <lineSymbol src="file:moiosm_twmap/s_ridge.svg" align-center="true" repeat="true" repeat-gap="75" repeat-start="0" display="always" priority="-20" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
     </rule>
     <rule e="way" k="natural" v="crater">
       <line stroke="#306E5050" stroke-width="1" stroke-linecap="round"/>
@@ -1701,16 +1749,28 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
   <!-- national park -->
   <rule cat="borders" e="way" k="boundary" v="national_park">
     <rule e="any" k="*" v="*" zoom-min="7" zoom-max="8">
-      <line stroke="#408000" stroke-width="2.0" stroke-linecap="butt"/>
-      <!-- ;national_park -->
+      <line stroke="#A0408000" stroke-width="2.0"/>
     </rule>
     <rule e="any" k="*" v="*" zoom-min="9" zoom-max="13">
-      <line stroke="#C0408000" stroke-width="3" stroke-linecap="butt"/>
-      <!-- ;national_park -->
+      <line stroke="#70408000" stroke-width="6" stroke-linecap="butt"/>
+      <line stroke="#408000" stroke-width="0.7"/>
     </rule>
     <rule e="any" k="*" v="*" zoom-min="14">
-      <line stroke="#A0408000" stroke-width="1.5" stroke-linecap="butt"/>
-      <!-- ;national_park -->
+      <line stroke="#40408000" stroke-width="6" stroke-linecap="butt"/>
+      <line stroke="#408000" stroke-width="0.3"/>
+      <line stroke="#204000" stroke-width="0.3" stroke-dasharray="15, 15" stroke-linecap="butt"/>
+    </rule>
+  </rule>
+  <!-- strict protected -->
+  <rule cat="borders" e="way" k="boundary" v="strict_protected">
+    <rule e="any" k="*" v="*" zoom-min="11" zoom-max="13">
+      <line stroke="#70306000" stroke-width="3" stroke-linecap="butt"/>
+      <line stroke="#306000" stroke-width="0.7"/>
+    </rule>
+    <rule e="any" k="*" v="*" zoom-min="14">
+      <line stroke="#40306000" stroke-width="3" stroke-linecap="butt"/>
+      <line stroke="#306000" stroke-width="0.3"/>
+      <line stroke="#204000" stroke-width="0.3" stroke-dasharray="15, 15" stroke-linecap="butt"/>
     </rule>
   </rule>
   <!-- compartment boundaries -->
@@ -2026,10 +2086,10 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
         <line stroke="#664329" stroke-width="1.2" stroke-linecap="butt"/>
       </rule>
       <rule e="way" k="highway" v="track|byway" zoom-min="14">
-        <rule e="way" k="tracktype" v="grade1|grade2">
+        <rule e="way" k="tracktype|surface" v="grade1|grade2|paved">
           <line stroke="#664329" stroke-width="0.95" stroke-linecap="butt"/>
         </rule>
-        <rule e="way" k="tracktype" v="grade3">
+        <rule e="way" k="tracktype" v="grade3|~">
           <line stroke="#664329" stroke-width="0.95" stroke-dasharray="21,5" stroke-linecap="butt"/>
         </rule>
         <rule e="way" k="tracktype" v="grade4">
@@ -2037,9 +2097,6 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
         </rule>
         <rule e="way" k="tracktype" v="grade5">
           <line stroke="#664329" stroke-width="0.95" stroke-dasharray="8,5" stroke-linecap="butt"/>
-        </rule>
-        <rule e="way" k="tracktype" v="~">
-          <line stroke="#664329" stroke-width="0.95" stroke-dasharray="4,1,11,1,4,5" stroke-linecap="butt"/>
         </rule>
       </rule>
       <rule e="way" k="bridge" v="~">
@@ -2566,232 +2623,32 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       </rule>
       <!-- paths/footways -->
       <rule cat="hike" e="any" k="*" v="*">
-        <!--
-        <rule e="way" k="trail_visibility" v="excellent|good">
-          <rule e="way" k="highway" v="path|footway" zoom-min="13">
-            <rule e="way" k="sac_scale" v="T1">
-              <line stroke="#FFAA00" stroke-width="0.65" stroke-dasharray="17,1" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="sac_scale" v="T2">
-              <line stroke="#3052FF" stroke-width="0.65" stroke-dasharray="17,1" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="sac_scale" v="T3">
-              <line stroke="#FF0000" stroke-width="0.65" stroke-dasharray="17,1" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="sac_scale" v="T4">
-              <line stroke="#000000" stroke-width="0.65" stroke-dasharray="17,1" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="raw_sac_scale" v="RT5|RT6">
-              <line stroke="#C0FFFFFF" stroke-width="0.65" stroke-dasharray="0,2,1,2,1,2,1,2,1,2,1,3" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="raw_sac_scale" v="RT6">
-              <line stroke="#FFFFFF" stroke-width="0.15" stroke-dasharray="17,1" stroke-linecap="butt"/>
-            </rule>
-          </rule>
-          <rule e="way" k="sac_scale" v="~">
-            <rule e="way" k="surface" v="~">
-              <rule e="way" k="highway" v="path" zoom-min="13">
-                <line stroke="#9C6800" stroke-width="0.65" stroke-dasharray="17,1" stroke-linecap="butt"/>
-              </rule>
-              <rule e="way" k="highway" v="footway" zoom-min="13">
-                <line stroke="#888888" stroke-width="0.65" stroke-dasharray="17,1" stroke-linecap="butt"/>
-              </rule>
-            </rule>
-            <rule e="way" k="highway" v="path|footway" zoom-min="13">
-              <rule e="way" k="surface" v="asphalt|smooth_paved|rough_paved">
-                <line stroke="#888888" stroke-width="0.65" stroke-dasharray="17,1" stroke-linecap="butt"/>
-              </rule>
-              <rule e="way" k="surface" v="compacted|gravel|raw|winter|unpaved">
-                <line stroke="#9C6800" stroke-width="0.65" stroke-dasharray="17,1" stroke-linecap="butt"/>
-              </rule>
-              <rule e="way" k="bicycle" v="bic_yes|bic_permissive|bic_designated">
-                <line stroke="#3366FF" stroke-width="0.1" stroke-dasharray="17,1" stroke-linecap="butt"/>
-              </rule>
-            </rule>
-          </rule>
-        </rule>
-        <rule e="way" k="trail_visibility" v="intermediate">
-          <rule e="way" k="highway" v="path|footway" zoom-min="13">
-            <rule e="way" k="sac_scale" v="T1">
-              <line stroke="#FFAA00" stroke-width="0.65" stroke-dasharray="9,7" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="sac_scale" v="T2">
-              <line stroke="#3052FF" stroke-width="0.65" stroke-dasharray="9,7" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="sac_scale" v="T3">
-              <line stroke="#FF0000" stroke-width="0.65" stroke-dasharray="9,7" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="sac_scale" v="T4">
-              <line stroke="#000000" stroke-width="0.65" stroke-dasharray="9,7" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="raw_sac_scale" v="RT5|RT6">
-              <line stroke="#C0FFFFFF" stroke-width="0.65" stroke-dasharray="0,1,1,2,1,2,1,8" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="raw_sac_scale" v="RT6">
-              <line stroke="#FFFFFF" stroke-width="0.15" stroke-dasharray="9,7" stroke-linecap="butt"/>
-            </rule>
-          </rule>
-          <rule e="way" k="sac_scale" v="~">
-            <rule e="way" k="surface" v="~">
-              <rule e="way" k="highway" v="path" zoom-min="13">
-                <line stroke="#9C6800" stroke-width="0.65" stroke-dasharray="9,7" stroke-linecap="butt"/>
-              </rule>
-              <rule e="way" k="highway" v="footway" zoom-min="13">
-                <line stroke="#888888" stroke-width="0.65" stroke-dasharray="9,7" stroke-linecap="butt"/>
-              </rule>
-            </rule>
-            <rule e="way" k="highway" v="path|footway" zoom-min="13">
-              <rule e="way" k="surface" v="asphalt|smooth_paved|rough_paved">
-                <line stroke="#888888" stroke-width="0.65" stroke-dasharray="9,7" stroke-linecap="butt"/>
-              </rule>
-              <rule e="way" k="surface" v="compacted|gravel|raw|winter|unpaved">
-                <line stroke="#9C6800" stroke-width="0.65" stroke-dasharray="9,7" stroke-linecap="butt"/>
-              </rule>
-              <rule e="way" k="bicycle" v="bic_yes|bic_permissive|bic_designated">
-                <line stroke="#3366FF" stroke-width="0.1" stroke-dasharray="9,7" stroke-linecap="butt"/>
-              </rule>
-            </rule>
-          </rule>
-        </rule>
-        <rule e="way" k="trail_visibility" v="bad|horrible|no">
-          <rule e="way" k="highway" v="path|footway" zoom-min="13">
-            <rule e="way" k="sac_scale" v="T1">
-              <line stroke="#FFAA00" stroke-width="0.65" stroke-dasharray="4,6" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="sac_scale" v="T2">
-              <line stroke="#3052FF" stroke-width="0.65" stroke-dasharray="4,6" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="sac_scale" v="T3">
-              <line stroke="#FF0000" stroke-width="0.65" stroke-dasharray="4,6" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="sac_scale" v="T4">
-              <line stroke="#000000" stroke-width="0.65" stroke-dasharray="4,6" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="raw_sac_scale" v="RT5|RT6">
-              <line stroke="#C0FFFFFF" stroke-width="0.65" stroke-dasharray="0,1.5,1,7.5" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="raw_sac_scale" v="RT6">
-              <line stroke="#FFFFFF" stroke-width="0.15" stroke-dasharray="4,6" stroke-linecap="butt"/>
-            </rule>
-          </rule>
-          <rule e="way" k="sac_scale" v="~">
-            <rule e="way" k="surface" v="~">
-              <rule e="way" k="highway" v="path" zoom-min="13">
-                <line stroke="#9C6800" stroke-width="0.65" stroke-dasharray="4,6" stroke-linecap="butt"/>
-              </rule>
-              <rule e="way" k="highway" v="footway" zoom-min="13">
-                <line stroke="#888888" stroke-width="0.65" stroke-dasharray="4,6" stroke-linecap="butt"/>
-              </rule>
-            </rule>
-            <rule e="way" k="highway" v="path|footway" zoom-min="13">
-              <rule e="way" k="surface" v="asphalt|smooth_paved|rough_paved">
-                <line stroke="#888888" stroke-width="0.65" stroke-dasharray="4,6" stroke-linecap="butt"/>
-              </rule>
-              <rule e="way" k="surface" v="compacted|gravel|raw|winter|unpaved">
-                <line stroke="#9C6800" stroke-width="0.65" stroke-dasharray="4,6" stroke-linecap="butt"/>
-              </rule>
-              <rule e="way" k="bicycle" v="bic_yes|bic_permissive|bic_designated">
-                <line stroke="#3366FF" stroke-width="0.1" stroke-dasharray="4,6" stroke-linecap="butt"/>
-              </rule>
-            </rule>
-          </rule>
-        </rule>
-        <rule e="way" k="trail_visibility" v="~">
-          <rule e="way" k="highway" v="path|footway" zoom-min="13">
-            <rule e="way" k="sac_scale" v="T1">
-              <line stroke="#FFAA00" stroke-width="0.65" stroke-dasharray="11,1,1,1" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="sac_scale" v="T2">
-              <line stroke="#3052FF" stroke-width="0.65" stroke-dasharray="11,1,1,1" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="sac_scale" v="T3">
-              <line stroke="#FF0000" stroke-width="0.65" stroke-dasharray="11,1,1,1" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="sac_scale" v="T4">
-              <line stroke="#000000" stroke-width="0.65" stroke-dasharray="11,1,1,1" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="raw_sac_scale" v="RT5|RT6">
-              <line stroke="#C0FFFFFF" stroke-width="0.65" stroke-dasharray="0,3,1,3,1,6" stroke-linecap="butt"/>
-            </rule>
-            <rule e="way" k="raw_sac_scale" v="RT6">
-              <line stroke="#FFFFFF" stroke-width="0.15" stroke-dasharray="11,1,1,1" stroke-linecap="butt"/>
-            </rule>
-          </rule>
-          <rule e="way" k="sac_scale" v="~">
-            <rule e="way" k="surface" v="~">
-              <rule e="way" k="highway" v="path" zoom-min="13">
-                <line stroke="#9C6800" stroke-width="0.65" stroke-dasharray="11,1,1,1" stroke-linecap="butt"/>
-              </rule>
-              <rule e="way" k="highway" v="footway" zoom-min="13">
-                <line stroke="#888888" stroke-width="0.65" stroke-dasharray="11,1,1,1" stroke-linecap="butt"/>
-              </rule>
-            </rule>
-            <rule e="way" k="highway" v="path|footway" zoom-min="13">
-              <rule e="way" k="surface" v="asphalt|smooth_paved|rough_paved">
-                <line stroke="#888888" stroke-width="0.65" stroke-dasharray="11,1,1,1" stroke-linecap="butt"/>
-              </rule>
-              <rule e="way" k="surface" v="compacted|gravel|raw|winter|unpaved">
-                <line stroke="#9C6800" stroke-width="0.65" stroke-dasharray="11,1,1,1" stroke-linecap="butt"/>
-              </rule>
-              <rule e="way" k="bicycle" v="bic_yes|bic_permissive|bic_designated">
-                <line stroke="#3366FF" stroke-width="0.1" stroke-dasharray="11,1,1,1" stroke-linecap="butt"/>
-              </rule>
-            </rule>
-          </rule>
-        </rule>
-        <rule e="way" k="highway" v="steps" zoom-min="13">
-          <line stroke="#888888" stroke-width="0.65" stroke-linecap="butt"/>
-          <rule e="any" k="sac_scale" v="~">
-            <line stroke="#DDDDDD" stroke-width="0.65" stroke-dasharray="3,3" stroke-linecap="butt"/>
-          </rule>
-          <rule e="any" k="sac_scale" v="T1">
-            <line stroke="#FFAA00" stroke-width="0.65" stroke-dasharray="3,3" stroke-linecap="butt"/>
-          </rule>
-          <rule e="any" k="sac_scale" v="T2">
-            <line stroke="#3052FF" stroke-width="0.65" stroke-dasharray="3,3" stroke-linecap="butt"/>
-          </rule>
-          <rule e="any" k="sac_scale" v="T3">
-            <line stroke="#FF0000" stroke-width="0.65" stroke-dasharray="3,3" stroke-linecap="butt"/>
-          </rule>
-          <rule e="any" k="sac_scale" v="T4">
-            <line stroke="#000000" stroke-width="0.65" stroke-dasharray="3,3" stroke-linecap="butt"/>
-          </rule>
-        </rule>
--->
         <rule cat="h_routes" e="way" k="access" v="destination|private|~">
-          <rule e="way" k="trail_visibility|sac_scale" v="bad|horrible|no|demanding_alpine_hiking|difficult_alpine_hiking">
+          <rule cat="hike-tough" e="way" k="trail_visibility|sac_scale" v="bad|horrible|no|demanding_alpine_hiking|difficult_alpine_hiking|T5|T6">
             <rule e="way" k="highway" v="footway|path" zoom-min="13">
               <rule e="way" k="*" v="*" zoom-min="13" zoom-max="13">
-                <line stroke="#E10600" stroke-width="0.66" stroke-dasharray="2,2" stroke-linecap="butt"/>
-                <line stroke="#FFFFFF" stroke-width="0.17" stroke-dasharray="2,2" stroke-linecap="butt"/>
+                <line stroke="#700300" stroke-width="0.66" stroke-dasharray="2,1,2,3,5,3,2,1,2,3" stroke-linecap="butt"/>
               </rule>
               <rule e="way" k="*" v="*" zoom-min="14" zoom-max="14">
-                <line stroke="#E10600" stroke-width="0.51" stroke-dasharray="2,2" stroke-linecap="butt"/>
-                <line stroke="#FFFFFF" stroke-width="0.13" stroke-dasharray="2,2" stroke-linecap="butt"/>
+                <line stroke="#700300" stroke-width="0.51" stroke-dasharray="2,1,2,3,5,3,2,1,2,3" stroke-linecap="butt"/>
               </rule>
               <rule e="way" k="*" v="*" zoom-min="15" zoom-max="15">
-                <line stroke="#E10600" stroke-width="0.37" stroke-dasharray="2,2" stroke-linecap="butt"/>
-                <line stroke="#FFFFFF" stroke-width="0.09" stroke-dasharray="2,2" stroke-linecap="butt"/>
+                <line stroke="#700300" stroke-width="0.37" stroke-dasharray="2,1,2,3,5,3,2,1,2,3" stroke-linecap="butt"/>
               </rule>
               <rule e="way" k="*" v="*" zoom-min="16" zoom-max="16">
-                <line stroke="#E10600" stroke-width="0.27" stroke-dasharray="2,2" stroke-linecap="butt"/>
-                <line stroke="#FFFFFF" stroke-width="0.07" stroke-dasharray="2,2" stroke-linecap="butt"/>
+                <line stroke="#700300" stroke-width="0.27" stroke-dasharray="2,1,2,3,5,3,2,1,2,3" stroke-linecap="butt"/>
               </rule>
               <rule e="way" k="*" v="*" zoom-min="17" zoom-max="17">
-                <line stroke="#E10600" stroke-width="0.24" stroke-dasharray="2,2" stroke-linecap="butt"/>
-                <line stroke="#FFFFFF" stroke-width="0.06" stroke-dasharray="2,2" stroke-linecap="butt"/>
+                <line stroke="#700300" stroke-width="0.24" stroke-dasharray="2,1,2,3,5,3,2,1,2,3" stroke-linecap="butt"/>
               </rule>
               <rule e="way" k="*" v="*" zoom-min="18">
-                <line stroke="#E10600" stroke-width="0.22" stroke-dasharray="2,2" stroke-linecap="butt"/>
-                <line stroke="#FFFFFF" stroke-width="0.06" stroke-dasharray="2,2" stroke-linecap="butt"/>
+                <line stroke="#700300" stroke-width="0.22" stroke-dasharray="2,1,2,3,5,3,2,1,2,3" stroke-linecap="butt"/>
               </rule>
               <!-- ;trail -->
             </rule>
           </rule>
-        </rule>
-        <rule cat="h_routes" e="way" k="access" v="destination|private|~">
           <rule e="way" k="trail_visibility" v="excellent|good|intermediate|~">
-            <rule e="way" k="sac_scale" v="hiking|mountain_hiking|demanding_mountain_hiking|alpine_hiking|~">
+            <rule e="way" k="sac_scale" v="hiking|mountain_hiking|demanding_mountain_hiking|alpine_hiking|~|T1|T2|T3|T4">
               <rule e="way" k="highway" v="footway|path" zoom-min="13">
                 <rule e="way" k="*" v="*" zoom-min="13" zoom-max="13">
                   <line stroke="#E10600" stroke-width="0.66" stroke-dasharray="5,3" stroke-linecap="butt"/>
@@ -2815,36 +2672,74 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
               </rule>
             </rule>
           </rule>
+          <rule e="way" k="highway" v="steps" zoom-min="13">
+            <rule e="way" k="*" v="*" zoom-min="13" zoom-max="13">
+              <line stroke="#E10600" stroke-width="0.85" stroke-dasharray="1,1" stroke-linecap="butt"/>
+            </rule>
+            <rule e="way" k="*" v="*" zoom-min="14" zoom-max="14">
+              <line stroke="#E10600" stroke-width="0.66" stroke-dasharray="1,1" stroke-linecap="butt"/>
+            </rule>
+            <rule e="way" k="*" v="*" zoom-min="15" zoom-max="15">
+              <line stroke="#E10600" stroke-width="0.51" stroke-dasharray="1,1" stroke-linecap="butt"/>
+            </rule>
+            <rule e="way" k="*" v="*" zoom-min="16" zoom-max="16">
+              <line stroke="#E10600" stroke-width="0.37" stroke-dasharray="1,1" stroke-linecap="butt"/>
+            </rule>
+            <rule e="way" k="*" v="*" zoom-min="17" zoom-max="17">
+              <line stroke="#E10600" stroke-width="0.27" stroke-dasharray="1,1" stroke-linecap="butt"/>
+            </rule>
+            <rule e="way" k="*" v="*" zoom-min="18">
+              <line stroke="#E10600" stroke-width="0.24" stroke-dasharray="1,1" stroke-linecap="butt"/>
+            </rule>
+            <!-- ;trail -->
+          </rule>
         </rule>
         <rule cat="hike-no_access" e="way" k="access" v="acc_no">
           <rule e="way" k="highway" v="footway|path" zoom-min="13">
             <rule e="way" k="*" v="*" zoom-min="13" zoom-max="13">
-              <line stroke="#E10600" stroke-width="0.66" stroke-dasharray="5,3" stroke-linecap="butt"/>
+              <line stroke="#404040" stroke-width="0.66" stroke-dasharray="5,3" stroke-linecap="butt"/>
             </rule>
             <rule e="way" k="*" v="*" zoom-min="14" zoom-max="14">
-              <line stroke="#E10600" stroke-width="0.51" stroke-dasharray="5,3" stroke-linecap="butt"/>
+              <line stroke="#404040" stroke-width="0.51" stroke-dasharray="5,3" stroke-linecap="butt"/>
             </rule>
             <rule e="way" k="*" v="*" zoom-min="15" zoom-max="15">
-              <line stroke="#E10600" stroke-width="0.37" stroke-dasharray="5,3" stroke-linecap="butt"/>
+              <line stroke="#404040" stroke-width="0.37" stroke-dasharray="5,3" stroke-linecap="butt"/>
             </rule>
             <rule e="way" k="*" v="*" zoom-min="16" zoom-max="16">
-              <line stroke="#E10600" stroke-width="0.27" stroke-dasharray="5,3" stroke-linecap="butt"/>
+              <line stroke="#404040" stroke-width="0.27" stroke-dasharray="5,3" stroke-linecap="butt"/>
             </rule>
             <rule e="way" k="*" v="*" zoom-min="17" zoom-max="17">
-              <line stroke="#E10600" stroke-width="0.24" stroke-dasharray="5,3" stroke-linecap="butt"/>
+              <line stroke="#404040" stroke-width="0.24" stroke-dasharray="5,3" stroke-linecap="butt"/>
             </rule>
             <rule e="way" k="*" v="*" zoom-min="18">
-              <line stroke="#E10600" stroke-width="0.22" stroke-dasharray="5,3" stroke-linecap="butt"/>
+              <line stroke="#404040" stroke-width="0.22" stroke-dasharray="5,3" stroke-linecap="butt"/>
+            </rule>
+            <!-- ;trail -->
+          </rule>
+          <rule e="way" k="highway" v="steps" zoom-min="13">
+            <rule e="way" k="*" v="*" zoom-min="13" zoom-max="13">
+              <line stroke="#404040" stroke-width="0.85" stroke-dasharray="1,1" stroke-linecap="butt"/>
+            </rule>
+            <rule e="way" k="*" v="*" zoom-min="14" zoom-max="14">
+              <line stroke="#404040" stroke-width="0.66" stroke-dasharray="1,1" stroke-linecap="butt"/>
+            </rule>
+            <rule e="way" k="*" v="*" zoom-min="15" zoom-max="15">
+              <line stroke="#404040" stroke-width="0.51" stroke-dasharray="1,1" stroke-linecap="butt"/>
+            </rule>
+            <rule e="way" k="*" v="*" zoom-min="16" zoom-max="16">
+              <line stroke="#404040" stroke-width="0.37" stroke-dasharray="1,1" stroke-linecap="butt"/>
+            </rule>
+            <rule e="way" k="*" v="*" zoom-min="17" zoom-max="17">
+              <line stroke="#404040" stroke-width="0.27" stroke-dasharray="1,1" stroke-linecap="butt"/>
+            </rule>
+            <rule e="way" k="*" v="*" zoom-min="18">
+              <line stroke="#404040" stroke-width="0.24" stroke-dasharray="1,1" stroke-linecap="butt"/>
             </rule>
             <!-- ;trail -->
           </rule>
         </rule>
         <rule e="way" k="bicycle" v="bic_yes|bic_permissive|bic_designated">
           <line stroke="#0080FF" stroke-width="0.1" stroke-dasharray="0,1,8,2.5" stroke-linecap="butt"/>
-        </rule>
-        <rule e="way" k="highway" v="steps" zoom-min="13">
-          <line stroke="#E10600" stroke-width="0.55" stroke-dasharray="1,1" stroke-linecap="butt"/>
-          <!-- ;trail -->
         </rule>
       </rule>
       <rule cat="city" e="any" k="*" v="*">
@@ -3309,23 +3204,27 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
   <!-- highway captions etc. -->
   <rule e="way" k="tunnel" v="~|no" zoom-min="9">
     <rule e="any" k="area" v="~">
-      <rule cat="h_routes" e="way" k="highway" v="footway|path">
-        <rule e="way" k="access" v="destination|private|~">
-          <rule cat="hike-tough" e="way" k="trail_visibility|sac_scale" v="bad|horrible|no|demanding_alpine_hiking|difficult_alpine_hiking">
-            <pathText display="always" k="name" font-style="bold" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="h_routes" e="way" k="highway" v="footway|path|steps">
+        <rule e="way" k="access" v="destination|private|~" zoom-min="13">
+          <rule cat="hike-tough" e="way" k="trail_visibility|sac_scale" v="bad|horrible|no|demanding_alpine_hiking|difficult_alpine_hiking|T5|T6">
+            <rule cat="trail-label" e="way" k="*" v="*">
+              <pathText display="always" k="name" font-style="bold" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+            </rule>
           </rule>
-          <rule e="way" k="trail_visibility" v="excellent|good|intermediate|~">
+          <rule cat="trail-label" e="way" k="trail_visibility" v="excellent|good|intermediate|~">
             <pathText display="always" k="name" font-style="bold" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
           </rule>
         </rule>
-        <rule cat="hike-no_access" e="way" k="access" v="acc_no">
-          <pathText display="always" k="name" font-style="bold" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+        <rule cat="hike-no_access" e="way" k="access" v="acc_no" zoom-min="14">
+          <rule cat="trail-label" e="way" k="*" v="*">
+            <pathText display="always" k="name" font-style="bold" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+          </rule>
         </rule>
       </rule>
-      <rule e="way" k="highway" v="track|bridleway|steps|byway|cycleway|service|construction|road|pedestrian|unclassified|residential|living_street|tertiary|tertiary_link" zoom-max="16">
+      <rule e="way" k="highway" v="track|bridleway|byway|cycleway|service|construction|road|pedestrian|unclassified|residential|living_street|tertiary|tertiary_link" zoom-max="16">
         <pathText display="always" k="name" font-style="bold" font-size="14" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
-      <rule e="way" k="highway" v="track|bridleway|steps|byway|cycleway|service|construction|road|pedestrian|unclassified|residential|living_street|tertiary|tertiary_link" zoom-min="17">
+      <rule e="way" k="highway" v="track|bridleway|byway|cycleway|service|construction|road|pedestrian|unclassified|residential|living_street|tertiary|tertiary_link" zoom-min="17">
         <pathText display="always" k="name" font-style="bold" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="way" k="highway" v="secondary_link|primary_link|trunk_link|motorway_link|secondary|primary|trunk">
@@ -3592,6 +3491,9 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
   <rule e="way" k="aeroway" v="runway|apron" closed="yes" zoom-min="13">
     <area fill="#FFFCF0"/>
   </rule>
+  <rule e="way" k="emergency" v="landing_site">
+    <area fill="#FFFCF0" stroke-width="0.2" stroke="#9EA199"/>
+  </rule>
   <rule e="way" k="aeroway" v="helipad">
     <area fill="#FFFCF0" stroke-width="0.2" stroke="#9EA199"/>
   </rule>
@@ -3681,6 +3583,14 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
     </rule>
   </rule>
   <!-- POIS -->
+  <!-- meta -->
+  <rule e="any" k="*" v="*">
+    <rule e="node" k="meta" v="map_version">
+      <rule e="any" k="zl" v="0" zoom-min="7" zoom-max="7">
+        <caption k="name" priority="300" display="always" position="center" font-size="12" font-style="normal" fill="#000000" stroke="#E5FFFFFF" stroke-width="3"/>
+      </rule>
+    </rule>
+  </rule>
   <!-- settlements -->
   <rule cat="settlements" e="any" k="*" v="*">
     <rule e="node" k="place" v="city|town|village|hamlet|quarter|neighbourhood|isolated_dwelling|farm">
@@ -4176,67 +4086,67 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
         <caption k="name" symbol-id="s_sp_trig_C" priority="300" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="node" k="survey_point" v="mine" zoom-min="13">
-        <symbol id="s_sp_mine" priority="280" src="file:moiosm_twmap/s_sp_mine.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
+        <symbol id="s_sp_mine" priority="280" src="file:moiosm_twmap/s_sp_mine.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_sp_mine" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="node" k="survey_point" v="mine_suppl" zoom-min="13">
-        <symbol id="s_sp_mine_suppl" priority="280" src="file:moiosm_twmap/s_sp_mine_suppl.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
+        <symbol id="s_sp_mine_suppl" priority="280" src="file:moiosm_twmap/s_sp_mine_suppl.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_sp_mine_suppl" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="node" k="survey_point" v="forest_trig|forest_trig_aero" zoom-min="13">
-        <symbol id="s_sp_forest_trig" priority="280" src="file:moiosm_twmap/s_sp_forest_trig.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
+        <symbol id="s_sp_forest_trig" priority="280" src="file:moiosm_twmap/s_sp_forest_trig.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_sp_forest_trig" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="node" k="survey_point" v="forest_suppl|forest_monopoly|forest_boundary|forest_mountain|forest_exfo_JP|forest_exfo|forest_aero|farm_bureau|farm_hengchun" zoom-min="13">
-        <symbol id="s_sp_forest_trig" priority="280" src="file:moiosm_twmap/s_sp_forest_trig.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
+        <symbol id="s_sp_forest_trig" priority="280" src="file:moiosm_twmap/s_sp_forest_trig.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_sp_forest_trig" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="node" k="survey_point" v="polygon_IT|polygon_TW" zoom-min="13">
-        <symbol id="s_sp_polygon" priority="280" src="file:moiosm_twmap/s_sp_polygon.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
+        <symbol id="s_sp_polygon" priority="280" src="file:moiosm_twmap/s_sp_polygon.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_sp_polygon" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="node" k="survey_point" v="taiwanp|taipei_tax|taipei|taipeic|keelung|hsinchu_water|miaoli_old|miaoli|kaohsiung|penghu|kinmen" zoom-min="13">
-        <symbol id="s_sp_taiwanp" priority="280" src="file:moiosm_twmap/s_sp_taiwanp.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
+        <symbol id="s_sp_taiwanp" priority="280" src="file:moiosm_twmap/s_sp_taiwanp.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_sp_taiwanp" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="node" k="survey_point" v="navy_trig_JP|navy_trig_TW" zoom-min="13">
-        <symbol id="s_sp_navy_trig" priority="280" src="file:moiosm_twmap/s_sp_navy_trig.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
+        <symbol id="s_sp_navy_trig" priority="280" src="file:moiosm_twmap/s_sp_navy_trig.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_sp_navy_trig" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="node" k="survey_point" v="navy_suppl_JP|navy_suppl_TW|sinica_trig|suppl_CS|suppl_taipower|suppl_eclipse|suppl_declination|suppl_port|military_zone|military_zone_A" zoom-min="13">
-        <symbol id="s_sp_navy_suppl" priority="280" src="file:moiosm_twmap/s_sp_navy_suppl.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
+        <symbol id="s_sp_navy_suppl" priority="280" src="file:moiosm_twmap/s_sp_navy_suppl.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_sp_navy_suppl" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="node" k="survey_point" v="water_trig" zoom-min="13">
-        <symbol id="s_sp_water_trig" priority="280" src="file:moiosm_twmap/s_sp_water_trig.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
+        <symbol id="s_sp_water_trig" priority="280" src="file:moiosm_twmap/s_sp_water_trig.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_sp_water_trig" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="node" k="survey_point" v="water_suppl|water_taipei|water_reservoir|water_boundary" zoom-min="13">
-        <symbol id="s_sp_water_suppl" priority="280" src="file:moiosm_twmap/s_sp_water_suppl.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
+        <symbol id="s_sp_water_suppl" priority="280" src="file:moiosm_twmap/s_sp_water_suppl.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_sp_water_suppl" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="node" k="survey_point" v="replica" zoom-min="13">
-        <symbol id="s_sp_replica" priority="280" src="file:moiosm_twmap/s_sp_replica.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
+        <symbol id="s_sp_replica" priority="280" src="file:moiosm_twmap/s_sp_replica.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_sp_replica" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="node" k="survey_point" v="bm_japan1" zoom-min="13">
-        <symbol id="s_sp_bm_japan1" priority="280" src="file:moiosm_twmap/s_sp_bm_japan1.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
+        <symbol id="s_sp_bm_japan1" priority="280" src="file:moiosm_twmap/s_sp_bm_japan1.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_sp_bm_japan1" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="node" k="survey_point" v="bm_japan2|bm_old|bm_sinica|bm_port|bm_taipower|bm_aero|bm_tainan|bm_kaohsiung" zoom-min="13">
-        <symbol id="s_sp_bm_japan2" priority="280" src="file:moiosm_twmap/s_sp_bm_japan2.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
+        <symbol id="s_sp_bm_japan2" priority="280" src="file:moiosm_twmap/s_sp_bm_japan2.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_sp_bm_japan2" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="node" k="survey_point" v="bm_water|bm_reservoir|sectionstake|riverbank" zoom-min="13">
-        <symbol id="s_sp_bm_water" priority="280" src="file:moiosm_twmap/s_sp_bm_water.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
+        <symbol id="s_sp_bm_water" priority="280" src="file:moiosm_twmap/s_sp_bm_water.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_sp_bm_water" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="node" k="survey_point" v="satellite_gps|satellite_1st|satellite_2nd|satellite_3rd|satellite_4th" zoom-min="13">
-        <symbol id="s_sp_satellite" priority="280" src="file:moiosm_twmap/s_sp_satellite.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
+        <symbol id="s_sp_satellite" priority="280" src="file:moiosm_twmap/s_sp_satellite.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_sp_satellite" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="node" k="survey_point" v="bm_new|bm_cgs" zoom-min="13">
-        <symbol id="s_sp_bm_new" priority="280" src="file:moiosm_twmap/s_sp_bm_new.svg" symbol-scaling="size" symbol-height="14" symbol-width="14"/>
+        <symbol id="s_sp_bm_new" priority="280" src="file:moiosm_twmap/s_sp_bm_new.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_sp_bm_new" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
     </rule>
@@ -4260,7 +4170,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
         <caption k="name" symbol-id="s_sp_suppl" priority="280" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
     </rule>
-    <rule cat="nocity" e="node" k="natural" v="peak">
+    <rule cat="nocity" e="node" k="man_made" v="summit_board">
       <rule e="any" k="zl" v="0" zoom-min="7" zoom-max="11">
         <symbol id="s_peak_small_m" display="always" priority="250" src="file:moiosm_twmap/s_peak_small_m.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
         <caption k="name" symbol-id="s_peak_small_m" priority="220" position="above" font-style="normal" font-size="18" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
@@ -4285,22 +4195,13 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
           <caption k="ref" priority="-5" symbol-id="s_peak_small_l" position="below" font-style="normal" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
         </rule>
         <rule e="any" k="zl" v="~|no">
-          <rule e="any" k="name" v="~|no">
-            <symbol id="s_peak_noname_s" priority="-5" src="file:moiosm_twmap/s_peak_noname_s.svg" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-            <caption k="ele" symbol-id="s_peak_noname_s" priority="-5" position="below" font-style="normal" font-size="18" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
-          </rule>
           <rule e="any" k="name" v="*">
             <symbol id="s_peak_small" priority="200" src="file:moiosm_twmap/s_peak_small.svg" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
             <caption k="name" symbol-id="s_peak_small" priority="200" position="above" font-style="normal" font-size="18" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
           </rule>
         </rule>
       </rule>
-      <rule e="any" k="summit:cross" v="yes" zoom-min="14">
-        <symbol id="s_peak_cross" priority="190" src="file:moiosm_twmap/s_peak_cross.svg" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-        <caption k="name" priority="190" symbol-id="s_peak_cross" position="above" font-style="bold" font-size="20" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
-        <caption k="ref" priority="-5" symbol-id="s_peak_cross" position="below" font-style="bold" font-size="20" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
-      </rule>
-      <rule e="any" k="summit:cross" v="~|no" zoom-min="14">
+      <rule e="any" k="*" v="*" zoom-min="14">
         <rule e="node" k="zl" v="0|1">
           <symbol id="s_peak_m" display="always" priority="210" src="file:moiosm_twmap/s_peak_m.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
           <caption k="name" priority="210" symbol-id="s_peak_m" position="above" font-style="bold" font-size="20" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
@@ -4312,10 +4213,30 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
           <caption k="ref" priority="-5" symbol-id="s_peak_l" position="below" font-style="bold" font-size="20" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
         </rule>
         <rule e="node" k="zl" v="~|no">
-          <rule e="any" k="name" v="~|no">
-            <symbol id="s_peak_noname" priority="-5" src="file:moiosm_twmap/s_peak_noname.svg" symbol-height="12" symbol-scaling="size" symbol-width="12"/>
-            <caption fill="#000000" font-size="18" font-style="normal" k="ele" position="below" priority="-5" stroke="#E5FFFFFF" stroke-width="1.8" symbol-id="s_peak_noname"/>
+          <rule e="any" k="name" v="*">
+            <symbol id="s_peak" priority="200" src="file:moiosm_twmap/s_peak.svg" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
+            <caption k="name" priority="200" symbol-id="s_peak" position="above" font-style="bold" font-size="20" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
           </rule>
+        </rule>
+      </rule>
+    </rule>
+    <rule cat="nocity" e="node" k="natural" v="peak">
+      <rule e="any" k="is_in" v="taiwan">
+        <rule e="any" k="*" v="*" zoom-min="13">
+          <symbol id="s_peak_noname" priority="-5" src="file:moiosm_twmap/s_peak_noname.svg" symbol-scaling="size" symbol-height="9" symbol-width="9"/>
+          <rule e="any" k="ele" v="*">
+            <caption k="ele" symbol-id="s_peak_noname" priority="-10" position="below" font-style="normal" font-size="18" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
+          </rule>
+        </rule>
+      </rule>
+      <rule e="any" k="is_in" v="~">
+        <rule e="any" k="*" v="*" zoom-min="12" zoom-max="13">
+          <rule e="any" k="name" v="*">
+            <symbol id="s_peak_small" priority="200" src="file:moiosm_twmap/s_peak_small.svg" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
+            <caption k="name" symbol-id="s_peak_small" priority="200" position="above" font-style="normal" font-size="18" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
+          </rule>
+        </rule>
+        <rule e="any" k="*" v="*" zoom-min="14">
           <rule e="any" k="name" v="*">
             <symbol id="s_peak" priority="200" src="file:moiosm_twmap/s_peak.svg" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
             <caption k="name" priority="200" symbol-id="s_peak" position="above" font-style="bold" font-size="20" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
@@ -4571,11 +4492,24 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
         <caption k="name" symbol-id="s_doctors" position="above" font-style="bold" font-size="20" fill="#DA0092" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
     </rule>
-    <rule e="any" k="highway" v="emergency_access_point">
-      <symbol id="s_emergency_access_point" priority="82" src="file:moiosm_twmap/s_emergency_access_point.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
-      <rule e="any" k="*" v="*">
-        <caption k="name" symbol-id="s_emergency_access_point" position="above" font-style="bold" font-size="20" fill="#DA0092" stroke="#E5FFFFFF" stroke-width="2"/>
-        <caption k="addr:housenumber" symbol-id="s_emergency_access_point" position="below" font-style="bold" font-size="20" fill="#DA0092" stroke="#E5FFFFFF" stroke-width="2"/>
+    <rule e="any" k="highway" v="emergency_access_point" zoom-min="14">
+      <rule e="any" k="zl" v="0" zoom-min="14">
+        <symbol id="s_emergency_access_point" priority="82" src="file:moiosm_res/s_emergency_access_point.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
+        <rule e="any" k="*" v="*">
+          <caption k="name" symbol-id="s_emergency_access_point" position="above" font-style="bold" font-size="22" fill="#734a08" stroke="#E5FFFFFF" stroke-width="2"/>
+        </rule>
+      </rule>
+      <rule e="any" k="zl" v="1|~" zoom-min="15">
+        <symbol id="s_emergency_access_point" priority="83" src="file:moiosm_res/s_emergency_access_point.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
+        <rule e="any" k="*" v="*">
+          <caption k="name" symbol-id="s_emergency_access_point" position="above" font-style="bold" font-size="20" fill="#734a08" stroke="#E5FFFFFF" stroke-width="2"/>
+        </rule>
+      </rule>
+      <rule e="any" k="zl" v="2" zoom-min="16">
+        <symbol id="s_emergency_access_point" priority="85" src="file:moiosm_res/s_emergency_access_point.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
+        <rule e="any" k="*" v="*">
+          <caption k="name" symbol-id="s_emergency_access_point" position="above" font-style="bold" font-size="20" fill="#734a08" stroke="#E5FFFFFF" stroke-width="2"/>
+        </rule>
       </rule>
     </rule>
     <rule e="any" k="emergency" v="defibrillator">
@@ -4583,6 +4517,10 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       <rule e="any" k="*" v="*">
         <caption k="name" symbol-id="s_defibrillator" position="above" font-style="bold" font-size="20" fill="#DA0092" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
+    </rule>
+    <rule e="any" k="emergency" v="landing_site">
+      <symbol id="s_landing_site" src="file:moiosm_twmap/s_landing_site.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
+      <caption k="name" symbol-id="s_landing_site" position="above" font-style="bold" font-size="20" fill="#DA0092" stroke="#E5FFFFFF" stroke-width="2"/>
     </rule>
     <rule e="any" k="emergency" v="portable_altitude_chamber">
       <symbol id="s_pac" priority="82" src="file:moiosm_twmap/s_pac.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
@@ -4852,10 +4790,8 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       </rule>
     </rule>
     <rule cat="nobike" e="any" k="amenity" v="bicycle_rental">
-      <rule e="any" k="network" v="~"> 
-        <symbol id="s_bicycle_rental" priority="66" src="file:moiosm_twmap/s_bicycle_rental.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
-        <caption k="name" symbol-id="s_bicycle_rental" position="above" font-style="bold" font-size="10" fill="#0092DA" stroke="#E5FFFFFF" stroke-width="2"/>
-      </rule>
+      <symbol id="s_bicycle_rental" priority="66" src="file:moiosm_twmap/s_bicycle_rental.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
+      <caption k="name" symbol-id="s_bicycle_rental" position="above" font-style="bold" font-size="10" fill="#0092DA" stroke="#E5FFFFFF" stroke-width="2"/>
     </rule>
     <rule cat="nobike" e="any" k="shop|vending" v="bicycle|bicycle_tube">
       <symbol id="s_bicycle_shop" priority="65" src="file:moiosm_twmap/s_bicycle_shop.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
@@ -5073,23 +5009,13 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
   </rule>
   <!-- public transport -->
   <rule cat="pubtrans" e="any" k="*" v="*" zoom-min="14">
-    <rule cat="nobike" e="any" k="amenity" v="bicycle_rental" zoom-min="15">
-      <rule e="any" k="network" v="YouBike|iBike">
-        <symbol id="s_you_bike" priority="75" src="file:moiosm_twmap/s_you_bike.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
-        <caption k="name" symbol-id="s_you_bike" position="above" font-style="bold" font-size="10" fill="#0092DA" stroke="#E5FFFFFF" stroke-width="2"/>
-      </rule>
-      <rule e="any" k="network" v="City_Bike">
-        <symbol id="s_city_bike" priority="75" src="file:moiosm_twmap/s_city_bike.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
-        <caption k="name" symbol-id="s_city_bike" position="above" font-style="bold" font-size="10" fill="#0092DA" stroke="#E5FFFFFF" stroke-width="2"/>
-      </rule>
-      <rule e="any" k="network" v="TBike">
-        <symbol id="s_tbike" priority="75" src="file:moiosm_twmap/s_tbike.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
-        <caption k="name" symbol-id="s_tbike" position="above" font-style="bold" font-size="10" fill="#0092DA" stroke="#E5FFFFFF" stroke-width="2"/>
-      </rule>
-      <rule e="any" k="network" v="Pbike">
-        <symbol id="s_pbike" priority="75" src="file:moiosm_twmap/s_pbike.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
-        <caption k="name" symbol-id="s_pbike" position="above" font-style="bold" font-size="10" fill="#0092DA" stroke="#E5FFFFFF" stroke-width="2"/>
-      </rule>
+    <rule e="any" k="amenity" v="bicycle_rental_YouBike" zoom-min="15">
+      <symbol id="s_you_bike" priority="75" src="file:moiosm_twmap/s_you_bike.svg" symbol-scaling="size" symbol-height="15" symbol-width="15"/>
+      <caption k="name" symbol-id="s_you_bike" position="above" font-style="bold" font-size="10" fill="#0092DA" stroke="#E5FFFFFF" stroke-width="2"/>
+    </rule>
+    <rule e="any" k="amenity" v="bicycle_rental_Moovo" zoom-min="15">
+      <symbol id="s_moovo_bike" priority="75" src="file:moiosm_twmap/s_moovo_bike.svg" symbol-scaling="size" symbol-height="15" symbol-width="15"/>
+      <caption k="name" symbol-id="s_moovo_bike" position="above" font-style="bold" font-size="10" fill="#0092DA" stroke="#E5FFFFFF" stroke-width="2"/>
     </rule>
     <!-- stations -->
     <rule cat="nocity" e="any" k="highway" v="bus_stop" zoom-min="15">
@@ -5140,6 +5066,10 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       <rule e="any" k="network" v="高雄捷運">
         <symbol id="s_pt_subway_kaohsiung" priority="78" src="file:moiosm_twmap/s_pt_subway_kaohsiung.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
         <caption priority="78" k="name" symbol-id="s_pt_subway_kaohsiung" position="above" font-style="bold" font-size="20" fill="#115D91" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
+      <rule e="any" k="network" v="臺中捷運">
+        <symbol id="s_pt_subway_taichung" priority="78" src="file:moiosm_twmap/s_pt_subway_taichung.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
+        <caption priority="78" k="name" symbol-id="s_pt_subway_taichung" position="above" font-style="bold" font-size="20" fill="#115D91" stroke="#E5FFFFFF" stroke-width="2"/>
       </rule>
       <rule e="any" k="network" v="臺北捷運|~">
         <symbol id="s_pt_subway_taipei" priority="78" src="file:moiosm_twmap/s_pt_subway_taipei.svg" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
@@ -5656,455 +5586,726 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       <caption priority="118" k="name" symbol-id="s_pt_ferry" position="above" font-style="bold" font-size="18" fill="#0092DA" stroke="#E5FFFFFF" stroke-width="2"/>
     </rule>
   </rule>
+  <!-- air defense shelters -->
+  <rule cat="ads" e="any" k="*" v="*">
+    <rule e="node" k="amenity" v="air_defense_shelter">
+      <rule e="any" k="cap" v="5000" zoom-min="13">
+        <symbol id="s_ads" display="always" priority="10" src="file:moiosm_twmap/s_ads.png" symbol-scaling="size" symbol-height="24" symbol-width="24"/>
+        <rule cat="ads-label" e="node" k="*" v="*">
+          <caption symbol-id="s_ads" k="name" priority="10" position="above" font-style="bold" font-size="11" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+          <caption symbol-id="s_ads" k="addr:housenumber" priority="10" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+        </rule>
+      </rule>
+      <rule e="any" k="cap" v="4000" zoom-min="14">
+        <symbol id="s_ads" display="always" priority="10" src="file:moiosm_twmap/s_ads.png" symbol-scaling="size" symbol-height="22" symbol-width="22"/>
+        <rule cat="ads-label" e="node" k="*" v="*">
+          <caption symbol-id="s_ads" k="name" priority="10" position="above" font-style="bold" font-size="11" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+          <caption symbol-id="s_ads" k="addr:housenumber" priority="10" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+        </rule>
+      </rule>
+      <rule e="any" k="cap" v="3000" zoom-min="15">
+        <symbol id="s_ads" display="always" priority="10" src="file:moiosm_twmap/s_ads.png" symbol-scaling="size" symbol-height="20" symbol-width="20"/>
+        <rule cat="ads-label" e="node" k="*" v="*">
+          <caption symbol-id="s_ads" k="name" priority="10" position="above" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+          <caption symbol-id="s_ads" k="addr:housenumber" priority="10" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+        </rule>
+      </rule>
+      <rule e="any" k="cap" v="2000" zoom-min="16">
+        <symbol id="s_ads" display="always" priority="10" src="file:moiosm_twmap/s_ads.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
+        <rule cat="ads-label" e="node" k="*" v="*">
+          <caption symbol-id="s_ads" k="name" priority="10" position="above" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+          <caption symbol-id="s_ads" k="addr:housenumber" priority="10" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+        </rule>
+      </rule>
+      <rule e="any" k="cap" v="1000|500" zoom-min="16">
+        <symbol id="s_ads" display="always" priority="10" src="file:moiosm_twmap/s_ads.png" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
+        <rule cat="ads-label" e="node" k="*" v="*">
+          <caption symbol-id="s_ads" k="name" priority="10" position="above" font-style="bold" font-size="9" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+          <caption symbol-id="s_ads" k="addr:housenumber" priority="10" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+        </rule>
+      </rule>
+      <rule e="any" k="cap" v="0" zoom-min="16">
+        <symbol id="s_ads" display="always" priority="10" src="file:moiosm_twmap/s_ads.png" symbol-scaling="size" symbol-height="16" symbol-width="16"/>
+        <rule cat="ads-label" e="node" k="*" v="*">
+          <caption symbol-id="s_ads" k="name" priority="10" position="above" font-style="bold" font-size="9" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+          <caption symbol-id="s_ads" k="addr:housenumber" priority="10" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+        </rule>
+      </rule>
+    </rule>
+  </rule>
   <!-- waypoints -->
   <rule cat="waypoint" e="node" k="gpx" v="wpt">
     <rule e="node" k="sym" v="Airport" zoom-min="13">
       <symbol id="s_gpx_airport" display="always" priority="210" src="file:moiosm_twmap/s_gpx_airport.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_airport" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_airport" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="AmusementPark" zoom-min="13">
       <symbol id="s_gpx_amusement_park" display="always" priority="210" src="file:moiosm_twmap/s_gpx_amusement_park.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_amusement_park" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_amusement_park" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Anchor" zoom-min="13">
       <symbol id="s_gpx_anchor" display="always" priority="210" src="file:moiosm_twmap/s_gpx_anchor.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_anchor" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_anchor" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="BallPark" zoom-min="13">
       <symbol id="s_gpx_ball_park" display="always" priority="210" src="file:moiosm_twmap/s_gpx_ball_park.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_ball_park" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_ball_park" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Bank" zoom-min="13">
       <symbol id="s_gpx_bank" display="always" priority="210" src="file:moiosm_twmap/s_gpx_bank.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_bank" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_bank" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Bar" zoom-min="13">
       <symbol id="s_gpx_bar" display="always" priority="210" src="file:moiosm_twmap/s_gpx_bar.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_bar" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_bar" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Beach" zoom-min="13">
       <symbol id="s_gpx_beach" display="always" priority="210" src="file:moiosm_twmap/s_gpx_beach.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_beach" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_beach" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Bell" zoom-min="13">
       <symbol id="s_gpx_bell" display="always" priority="210" src="file:moiosm_twmap/s_gpx_bell.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_bell" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_bell" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="BikeTrail" zoom-min="13">
       <symbol id="s_gpx_bike_trail" display="always" priority="210" src="file:moiosm_twmap/s_gpx_bike_trail.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_bike_trail" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_bike_trail" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="BlockBlue" zoom-min="13">
       <symbol id="s_gpx_blue_block" display="always" priority="210" src="file:moiosm_twmap/s_gpx_blue_block.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_blue_block" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_blue_block" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="FlagBlue" zoom-min="13">
       <symbol id="s_gpx_blue_flag" display="always" priority="210" src="file:moiosm_twmap/s_gpx_blue_flag.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_blue_flag" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_blue_flag" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="PinBlue" zoom-min="13">
       <symbol id="s_gpx_blue_pin" display="always" priority="210" src="file:moiosm_twmap/s_gpx_blue_pin.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_blue_pin" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_blue_pin" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="BoatRamp" zoom-min="13">
       <symbol id="s_gpx_boat_ramp" display="always" priority="210" src="file:moiosm_twmap/s_gpx_boat_ramp.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_boat_ramp" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_boat_ramp" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Bowling" zoom-min="13">
       <symbol id="s_gpx_bowling" display="always" priority="210" src="file:moiosm_twmap/s_gpx_bowling.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_bowling" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_bowling" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Bridge" zoom-min="13">
       <symbol id="s_gpx_bridge" display="always" priority="210" src="file:moiosm_twmap/s_gpx_bridge.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_bridge" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_bridge" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Building" zoom-min="13">
       <symbol id="s_gpx_building" display="always" priority="210" src="file:moiosm_twmap/s_gpx_building.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_building" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_building" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Campground" zoom-min="13">
       <symbol id="s_gpx_campground" display="always" priority="210" src="file:moiosm_twmap/s_gpx_campground.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_campground" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_campground" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Car" zoom-min="13">
       <symbol id="s_gpx_car" display="always" priority="210" src="file:moiosm_twmap/s_gpx_car.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_car" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_car" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="CarRental" zoom-min="13">
       <symbol id="s_gpx_car_rental" display="always" priority="210" src="file:moiosm_twmap/s_gpx_car_rental.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_car_rental" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_car_rental" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="CarRepair" zoom-min="13">
       <symbol id="s_gpx_car_repair" display="always" priority="210" src="file:moiosm_twmap/s_gpx_car_repair.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_car_repair" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_car_repair" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Cemetery" zoom-min="13">
       <symbol id="s_gpx_cemetery" display="always" priority="210" src="file:moiosm_twmap/s_gpx_cemetery.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_cemetery" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_cemetery" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Church" zoom-min="13">
       <symbol id="s_gpx_church" display="always" priority="210" src="file:moiosm_twmap/s_gpx_church.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_church" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_church" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Civil" zoom-min="13">
       <symbol id="s_gpx_civil" display="always" priority="210" src="file:moiosm_twmap/s_gpx_civil.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_civil" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_civil" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="ControlledArea" zoom-min="13">
       <symbol id="s_gpx_controlled_area" display="always" priority="210" src="file:moiosm_twmap/s_gpx_controlled_area.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_controlled_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_controlled_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="ConvenienceStore" zoom-min="13">
       <symbol id="s_gpx_convenience_store" display="always" priority="210" src="file:moiosm_twmap/s_gpx_convenience_store.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_convenience_store" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_convenience_store" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Crossing" zoom-min="13">
       <symbol id="s_gpx_crossing" display="always" priority="210" src="file:moiosm_twmap/s_gpx_crossing.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_crossing" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_crossing" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Dam" zoom-min="13">
       <symbol id="s_gpx_dam" display="always" priority="210" src="file:moiosm_twmap/s_gpx_dam.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_dam" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_dam" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="DangerArea" zoom-min="13">
       <symbol id="s_gpx_danger_area" display="always" priority="210" src="file:moiosm_twmap/s_gpx_danger_area.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_danger_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_danger_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="DepartmentStore" zoom-min="13">
       <symbol id="s_gpx_department_store" display="always" priority="210" src="file:moiosm_twmap/s_gpx_department_store.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_department_store" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_department_store" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="DrinkingWater" zoom-min="13">
       <symbol id="s_gpx_drinking_water" display="always" priority="210" src="file:moiosm_twmap/s_gpx_drinking_water.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_drinking_water" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_drinking_water" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="DiverDownFlag1" zoom-min="13">
       <symbol id="s_gpx_driver_down_flag_1" display="always" priority="210" src="file:moiosm_twmap/s_gpx_driver_down_flag_1.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_driver_down_flag_1" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_driver_down_flag_1" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="DiverDownFlag2" zoom-min="13">
       <symbol id="s_gpx_driver_down_flag_2" display="always" priority="210" src="file:moiosm_twmap/s_gpx_driver_down_flag_2.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_driver_down_flag_2" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_driver_down_flag_2" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="FastFood" zoom-min="13">
       <symbol id="s_gpx_fast_food" display="always" priority="210" src="file:moiosm_twmap/s_gpx_fast_food.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_fast_food" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_fast_food" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="FishingArea" zoom-min="13">
       <symbol id="s_gpx_fishing_area" display="always" priority="210" src="file:moiosm_twmap/s_gpx_fishing_area.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_fishing_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_fishing_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="FishingFacility" zoom-min="13">
       <symbol id="s_gpx_fishing_facility" display="always" priority="210" src="file:moiosm_twmap/s_gpx_fishing_facility.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_fishing_facility" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_fishing_facility" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="FitnessCenter" zoom-min="13">
       <symbol id="s_gpx_fitness_center" display="always" priority="210" src="file:moiosm_twmap/s_gpx_fitness_center.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_fitness_center" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_fitness_center" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Forest" zoom-min="13">
       <symbol id="s_gpx_forest" display="always" priority="210" src="file:moiosm_twmap/s_gpx_forest.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_forest" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_forest" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="GasStation" zoom-min="13">
       <symbol id="s_gpx_gas_station" display="always" priority="210" src="file:moiosm_twmap/s_gpx_gas_station.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_gas_station" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_gas_station" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Geocache" zoom-min="13">
       <symbol id="s_gpx_geocache" display="always" priority="210" src="file:moiosm_twmap/s_gpx_geocache.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_geocache" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_geocache" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="GeocacheFound" zoom-min="13">
       <symbol id="s_gpx_geocache_found" display="always" priority="210" src="file:moiosm_twmap/s_gpx_geocache_found.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_geocache_found" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_geocache_found" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="GliderArea" zoom-min="13">
       <symbol id="s_gpx_glider_area" display="always" priority="210" src="file:moiosm_twmap/s_gpx_glider_area.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_glider_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_glider_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="GolfCourse" zoom-min="13">
       <symbol id="s_gpx_golf_course" display="always" priority="210" src="file:moiosm_twmap/s_gpx_golf_course.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_golf_course" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_golf_course" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="BlockGreen" zoom-min="13">
       <symbol id="s_gpx_green_block" display="always" priority="210" src="file:moiosm_twmap/s_gpx_green_block.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_green_block" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_green_block" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="FlagGreen" zoom-min="13">
       <symbol id="s_gpx_green_flag" display="always" priority="210" src="file:moiosm_twmap/s_gpx_green_flag.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_green_flag" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_green_flag" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="PinGreen" zoom-min="13">
       <symbol id="s_gpx_green_pin" display="always" priority="210" src="file:moiosm_twmap/s_gpx_green_pin.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_green_pin" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_green_pin" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Horn" zoom-min="13">
       <symbol id="s_gpx_horn" display="always" priority="210" src="file:moiosm_twmap/s_gpx_horn.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_horn" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_horn" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Airport" zoom-min="13">
       <symbol id="s_gpx_hunting_area" display="always" priority="210" src="file:moiosm_twmap/s_gpx_hunting_area.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_hunting_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_hunting_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="IceSkating" zoom-min="13">
       <symbol id="s_gpx_ice_skating" display="always" priority="210" src="file:moiosm_twmap/s_gpx_ice_skating.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_ice_skating" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_ice_skating" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Information" zoom-min="13">
       <symbol id="s_gpx_information" display="always" priority="210" src="file:moiosm_twmap/s_gpx_information.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_information" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_information" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="CityLarge" zoom-min="13">
       <symbol id="s_gpx_large_city" display="always" priority="210" src="file:moiosm_twmap/s_gpx_large_city.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_large_city" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_large_city" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Light" zoom-min="13">
       <symbol id="s_gpx_light" display="always" priority="210" src="file:moiosm_twmap/s_gpx_light.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_light" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_light" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Lodging" zoom-min="13">
       <symbol id="s_gpx_lodging" display="always" priority="210" src="file:moiosm_twmap/s_gpx_lodging.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_lodging" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_lodging" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="ManOverboard" zoom-min="13">
       <symbol id="s_gpx_man_overboard" display="always" priority="210" src="file:moiosm_twmap/s_gpx_man_overboard.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_man_overboard" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_man_overboard" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="MedicalFacility" zoom-min="13">
       <symbol id="s_gpx_medical_facility" display="always" priority="210" src="file:moiosm_twmap/s_gpx_medical_facility.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_medical_facility" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_medical_facility" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="CityMedium" zoom-min="13">
       <symbol id="s_gpx_medium_city" display="always" priority="210" src="file:moiosm_twmap/s_gpx_medium_city.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_medium_city" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_medium_city" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Mine" zoom-min="13">
       <symbol id="s_gpx_mine" display="always" priority="210" src="file:moiosm_twmap/s_gpx_mine.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_mine" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_mine" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="MovieTheater" zoom-min="13">
       <symbol id="s_gpx_movie_theater" display="always" priority="210" src="file:moiosm_twmap/s_gpx_movie_theater.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_movie_theater" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_movie_theater" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Museum" zoom-min="13">
       <symbol id="s_gpx_museum" display="always" priority="210" src="file:moiosm_twmap/s_gpx_museum.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_museum" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_museum" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="NavaidAmber" zoom-min="13">
       <symbol id="s_gpx_navaid_amber" display="always" priority="210" src="file:moiosm_twmap/s_gpx_navaid_amber.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_navaid_amber" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_navaid_amber" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="NavaidBlack" zoom-min="13">
       <symbol id="s_gpx_navaid_black" display="always" priority="210" src="file:moiosm_twmap/s_gpx_navaid_black.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_navaid_black" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_navaid_black" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="NavaidBlue" zoom-min="13">
       <symbol id="s_gpx_navaid_blue" display="always" priority="210" src="file:moiosm_twmap/s_gpx_navaid_blue.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_navaid_blue" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_navaid_blue" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="NavaidGreen" zoom-min="13">
       <symbol id="s_gpx_navaid_green" display="always" priority="210" src="file:moiosm_twmap/s_gpx_navaid_green.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_navaid_green" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_navaid_green" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="NavaidGreenRed" zoom-min="13">
       <symbol id="s_gpx_navaid_green_red" display="always" priority="210" src="file:moiosm_twmap/s_gpx_navaid_green_red.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_navaid_green_red" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_navaid_green_red" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="NavaidGreenWhite" zoom-min="13">
       <symbol id="s_gpx_navaid_green_white" display="always" priority="210" src="file:moiosm_twmap/s_gpx_navaid_green_white.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_navaid_green_white" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_navaid_green_white" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="NavaidOrange" zoom-min="13">
       <symbol id="s_gpx_navaid_orange" display="always" priority="210" src="file:moiosm_twmap/s_gpx_navaid_orange.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_navaid_orange" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_navaid_orange" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="NavaidRed" zoom-min="13">
       <symbol id="s_gpx_navaid_red" display="always" priority="210" src="file:moiosm_twmap/s_gpx_navaid_red.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_navaid_red" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_navaid_red" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="NavaidRedGreen" zoom-min="13">
       <symbol id="s_gpx_navaid_red_green" display="always" priority="210" src="file:moiosm_twmap/s_gpx_navaid_red_green.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_navaid_red_green" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_navaid_red_green" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="NavaidRedWhite" zoom-min="13">
       <symbol id="s_gpx_navaid_red_white" display="always" priority="210" src="file:moiosm_twmap/s_gpx_navaid_red_white.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_navaid_red_white" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_navaid_red_white" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="NavaidViolet" zoom-min="13">
       <symbol id="s_gpx_navaid_violet" display="always" priority="210" src="file:moiosm_twmap/s_gpx_navaid_violet.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_navaid_violet" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_navaid_violet" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="NavaidWhite" zoom-min="13">
       <symbol id="s_gpx_navaid_white" display="always" priority="210" src="file:moiosm_twmap/s_gpx_navaid_white.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_navaid_white" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_navaid_white" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="NavaidWhiteGreen" zoom-min="13">
       <symbol id="s_gpx_navaid_white_green" display="always" priority="210" src="file:moiosm_twmap/s_gpx_navaid_white_green.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_navaid_white_green" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_navaid_white_green" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="NavaidWhiteRed" zoom-min="13">
       <symbol id="s_gpx_navaid_white_red" display="always" priority="210" src="file:moiosm_twmap/s_gpx_navaid_white_red.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_navaid_white_red" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_navaid_white_red" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="OilField" zoom-min="13">
       <symbol id="s_gpx_oil_field" display="always" priority="210" src="file:moiosm_twmap/s_gpx_oil_field.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_oil_field" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_oil_field" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="ParachuteArea" zoom-min="13">
       <symbol id="s_gpx_parachuting_area" display="always" priority="210" src="file:moiosm_twmap/s_gpx_parachuting_area.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_parachuting_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_parachuting_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Park" zoom-min="13">
       <symbol id="s_gpx_park" display="always" priority="210" src="file:moiosm_twmap/s_gpx_park.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_park" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_park" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Parking" zoom-min="13">
       <symbol id="s_gpx_parking" display="always" priority="210" src="file:moiosm_twmap/s_gpx_parking.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_parking" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_parking" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Pharmacy" zoom-min="13">
       <symbol id="s_gpx_pharmacy" display="always" priority="210" src="file:moiosm_twmap/s_gpx_pharmacy.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_pharmacy" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_pharmacy" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="PicnicArea" zoom-min="13">
       <symbol id="s_gpx_picnic_area" display="always" priority="210" src="file:moiosm_twmap/s_gpx_picnic_area.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_picnic_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_picnic_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Pizza" zoom-min="13">
       <symbol id="s_gpx_pizza" display="always" priority="210" src="file:moiosm_twmap/s_gpx_pizza.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_pizza" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_pizza" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="PoliceStation" zoom-min="13">
       <symbol id="s_gpx_police_station" display="always" priority="210" src="file:moiosm_twmap/s_gpx_police_station.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_police_station" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_police_station" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="PostOffice" zoom-min="13">
       <symbol id="s_gpx_post_office" display="always" priority="210" src="file:moiosm_twmap/s_gpx_post_office.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_post_office" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_post_office" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="RadioBeacon" zoom-min="13">
       <symbol id="s_gpx_radio_beacon" display="always" priority="210" src="file:moiosm_twmap/s_gpx_radio_beacon.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_radio_beacon" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_radio_beacon" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="BlockRed" zoom-min="13">
       <symbol id="s_gpx_red_block" display="always" priority="210" src="file:moiosm_twmap/s_gpx_red_block.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_red_block" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_red_block" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="FlagRed" zoom-min="13">
       <symbol id="s_gpx_red_flag" display="always" priority="210" src="file:moiosm_twmap/s_gpx_red_flag.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_red_flag" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_red_flag" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="PinRed" zoom-min="13">
       <symbol id="s_gpx_red_pin" display="always" priority="210" src="file:moiosm_twmap/s_gpx_red_pin.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_red_pin" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_red_pin" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Residence" zoom-min="13">
       <symbol id="s_gpx_residence" display="always" priority="210" src="file:moiosm_twmap/s_gpx_residence.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_residence" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_residence" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Restaurant" zoom-min="13">
       <symbol id="s_gpx_restaurant" display="always" priority="210" src="file:moiosm_twmap/s_gpx_restaurant.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_restaurant" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_restaurant" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="RestrictedArea" zoom-min="13">
       <symbol id="s_gpx_restricted_area" display="always" priority="210" src="file:moiosm_twmap/s_gpx_restricted_area.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_restricted_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_restricted_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Restroom" zoom-min="13">
       <symbol id="s_gpx_restrooms" display="always" priority="210" src="file:moiosm_twmap/s_gpx_restrooms.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_restrooms" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_restrooms" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="RVPark" zoom-min="13">
       <symbol id="s_gpx_rv_park" display="always" priority="210" src="file:moiosm_twmap/s_gpx_rv_park.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_rv_park" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_rv_park" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="ScenicArea" zoom-min="13">
       <symbol id="s_gpx_scenic_area" display="always" priority="210" src="file:moiosm_twmap/s_gpx_scenic_area.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_scenic_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_scenic_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="School" zoom-min="13">
       <symbol id="s_gpx_school" display="always" priority="210" src="file:moiosm_twmap/s_gpx_school.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_school" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_school" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Shipwreck" zoom-min="13">
       <symbol id="s_gpx_shipwreck" display="always" priority="210" src="file:moiosm_twmap/s_gpx_shipwreck.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_shipwreck" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_shipwreck" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="ShoppingCenter" zoom-min="13">
       <symbol id="s_gpx_shopping" display="always" priority="210" src="file:moiosm_twmap/s_gpx_shopping.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_shopping" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_shopping" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="ShortTower" zoom-min="13">
       <symbol id="s_gpx_short_tower" display="always" priority="210" src="file:moiosm_twmap/s_gpx_short_tower.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_short_tower" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_short_tower" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Shower" zoom-min="13">
       <symbol id="s_gpx_shower" display="always" priority="210" src="file:moiosm_twmap/s_gpx_shower.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_shower" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_shower" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="SkiResort" zoom-min="13">
       <symbol id="s_gpx_ski_resort" display="always" priority="210" src="file:moiosm_twmap/s_gpx_ski_resort.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_ski_resort" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_ski_resort" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="SkullandCrossbones" zoom-min="13">
       <symbol id="s_gpx_skull_and_crossbones" display="always" priority="210" src="file:moiosm_twmap/s_gpx_skull_and_crossbones.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_skull_and_crossbones" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_skull_and_crossbones" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="CitySmall" zoom-min="13">
       <symbol id="s_gpx_small_city" display="always" priority="210" src="file:moiosm_twmap/s_gpx_small_city.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_small_city" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_small_city" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Stadium" zoom-min="13">
       <symbol id="s_gpx_stadium" display="always" priority="210" src="file:moiosm_twmap/s_gpx_stadium.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_stadium" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_stadium" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Summit" zoom-min="12">
       <symbol id="s_gpx_summit" display="always" priority="210" src="file:moiosm_twmap/s_gpx_summit.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_summit" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_summit" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="SwimmingArea" zoom-min="13">
       <symbol id="s_gpx_swimming_area" display="always" priority="210" src="file:moiosm_twmap/s_gpx_swimming_area.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_swimming_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_swimming_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="TallTower" zoom-min="13">
       <symbol id="s_gpx_tall_tower" display="always" priority="210" src="file:moiosm_twmap/s_gpx_tall_tower.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_tall_tower" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_tall_tower" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Telephone" zoom-min="13">
       <symbol id="s_gpx_telephone" display="always" priority="210" src="file:moiosm_twmap/s_gpx_telephone.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_telephone" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_telephone" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Theater" zoom-min="13">
       <symbol id="s_gpx_theater" display="always" priority="210" src="file:moiosm_twmap/s_gpx_theater.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_theater" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_theater" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="TrailHead" zoom-min="13">
       <symbol id="s_gpx_trail_head" display="always" priority="210" src="file:moiosm_twmap/s_gpx_trail_head.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_trail_head" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_trail_head" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Tunnel" zoom-min="13">
       <symbol id="s_gpx_tunnel" display="always" priority="210" src="file:moiosm_twmap/s_gpx_tunnel.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_tunnel" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_tunnel" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="UltralightArea" zoom-min="13">
       <symbol id="s_gpx_ultralight_area" display="always" priority="210" src="file:moiosm_twmap/s_gpx_ultralight_area.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_ultralight_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_ultralight_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="WaterSkiing" zoom-min="13">
       <symbol id="s_gpx_water_skiing_area" display="always" priority="210" src="file:moiosm_twmap/s_gpx_water_skiing_area.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_water_skiing_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_water_skiing_area" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="WaterSource" zoom-min="13">
       <symbol id="s_gpx_water_source" display="always" priority="210" src="file:moiosm_twmap/s_gpx_water_source.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_water_source" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_water_source" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="BWhiteBuoy" zoom-min="13">
       <symbol id="s_gpx_white_buoy" display="always" priority="210" src="file:moiosm_twmap/s_gpx_white_buoy.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_white_buoy" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_white_buoy" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
     <rule e="node" k="sym" v="Zoo" zoom-min="13">
       <symbol id="s_gpx_zoo" display="always" priority="210" src="file:moiosm_twmap/s_gpx_zoo.png" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
-      <caption symbol-id="s_gpx_zoo" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      <rule cat="waypoint-label" e="node" k="*" v="*" zoom-min="13">
+        <caption symbol-id="s_gpx_zoo" k="name" priority="210" position="below" font-style="bold" font-size="10" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
+      </rule>
     </rule>
   </rule>
   <!-- Power lines -->
@@ -6131,534 +6332,6 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
     </rule>
     <rule e="any" k="*" v="*" zoom-min="19">
       <line stroke="#799079" stroke-width="0.04" stroke-linecap="butt"/>
-    </rule>
-  </rule>
-  <!-- Hiking waymarks -->
-  <rule cat="waymarks" e="node" k="osmc" v="osmc_yes">
-    <!--zm-->
-    <rule e="node" k="osmc_background" v="*" zoom-max="14" zoom-min="12">
-      <rule e="node" k="osmc_background" v="wmbg_black|wmbg_black_circle">
-        <symbol src="file:/moiosm_twmap/wm_bcg_black.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_blue|wmbg_blue_circle|wmbg_blue_frame|wmbg_blue_round">
-        <symbol src="file:/moiosm_twmap/wm_bcg_blue.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_brown">
-        <symbol src="file:/moiosm_twmap/wm_bcg_brown.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_green|wmbg_green_frame|wmbg_green_round">
-        <symbol src="file:/moiosm_twmap/wm_bcg_green.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_orange">
-        <symbol src="file:/moiosm_twmap/wm_bcg_orange.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_purple">
-        <symbol src="file:/moiosm_twmap/wm_bcg_purple.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_red|wmbg_red_circle|wmbg_red_frame|wmbg_red_round">
-        <symbol src="file:/moiosm_twmap/wm_bcg_red.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_white|wmbg_white_circle|wmbg_white_round">
-        <symbol src="file:/moiosm_twmap/wm_bcg_white.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_yellow|wmbg_yellow_circle|wmbg_yellow_frame">
-        <symbol src="file:/moiosm_twmap/wm_bcg_yellow.svg" symbol-scaling="size" symbol-height="6" symbol-width="6"/>
-      </rule>
-    </rule>
-    <rule e="node" k="osmc_foreground" v="*" zoom-min="15">
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_l">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_L.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_bar">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_bar.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_bowl">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_bowl.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_circle">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_circle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_corner">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_corner.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_cross">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_cross.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_diamond">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_diamond.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_dot">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_dot.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_fork">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_fork.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_lower">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_lower.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_pointer">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_pointer.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_rectangle">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_rectangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_right">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_right.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_slash">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_slash.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_stripe">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_stripe.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_triangle">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_triangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_triangle_turned">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_triangle_turned.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_turned_t">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_turned_T.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_blue_x">
-        <symbol src="file:/moiosm_twmap/wm_frg_blue_x.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_l">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_L.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_arch">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_arch.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_backslash">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_backslash.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_bar">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_bar.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_circle">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_circle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_corner">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_corner.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_crest">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_crest.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_cross">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_cross.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_diamond">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_diamond.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_dot">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_dot.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_drop">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_drop.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_drop_line">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_drop_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_fork">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_fork.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_hiker">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_hiker.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_lower">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_lower.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_pointer">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_pointer.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_rectangle">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_rectangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_right">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_right.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_slash">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_slash.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_stripe">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_stripe.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_triangle">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_triangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_triangle_turned">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_triangle_turned.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_turned_t">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_turned_T.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_red_x">
-        <symbol src="file:/moiosm_twmap/wm_frg_red_x.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_l">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_L.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_backslash">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_backslash.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_bar">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_bar.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_bowl">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_bowl.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_circle">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_circle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_corner">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_corner.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_cross">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_cross.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_diamond">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_diamond.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_dot">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_dot.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_fork">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_fork.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_hiker">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_hiker.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_lower">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_lower.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_pointer">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_pointer.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_rectangle">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_rectangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_rectangle_line">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_rectangle_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_slash">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_slash.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_stripe">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_stripe.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_triangle">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_triangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_turned_t">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_turned_T.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_yellow_x">
-        <symbol src="file:/moiosm_twmap/wm_frg_yellow_x.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_arch">
-        <symbol src="file:/moiosm_twmap/wm_frg_black_arch.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_bar">
-        <symbol src="file:/moiosm_twmap/wm_frg_black_bar.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_circle">
-        <symbol src="file:/moiosm_twmap/wm_frg_black_circle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_crest">
-        <symbol src="file:/moiosm_twmap/wm_frg_black_crest.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_cross">
-        <symbol src="file:/moiosm_twmap/wm_frg_black_cross.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_diamond">
-        <symbol src="file:/moiosm_twmap/wm_frg_black_diamond.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_dot">
-        <symbol src="file:/moiosm_twmap/wm_frg_black_dot.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_fork">
-        <symbol src="file:/moiosm_twmap/wm_frg_black_fork.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_horse">
-        <symbol src="file:/moiosm_twmap/wm_frg_black_horse.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_pointer">
-        <symbol src="file:/moiosm_twmap/wm_frg_black_pointer.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_rectangle">
-        <symbol src="file:/moiosm_twmap/wm_frg_black_rectangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_rectangle_line">
-        <symbol src="file:/moiosm_twmap/wm_frg_black_rectangle_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_red_diamond">
-        <symbol src="file:/moiosm_twmap/wm_frg_black_red_diamond.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_triangle">
-        <symbol src="file:/moiosm_twmap/wm_frg_black_triangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_triangle_line">
-        <symbol src="file:/moiosm_twmap/wm_frg_black_triangle_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_black_x">
-        <symbol src="file:/moiosm_twmap/wm_frg_black_x.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_l">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_L.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_backslash">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_backslash.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_bar">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_bar.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_bowl">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_bowl.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_circle">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_circle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_corner">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_corner.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_cross">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_cross.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_diamond">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_diamond.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_dot">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_dot.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_drop_line">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_drop_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_fork">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_fork.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_hiker">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_hiker.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_horse">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_horse.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_lower">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_lower.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_pointer">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_pointer.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_rectangle">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_rectangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_right">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_right.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_slash">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_slash.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_stripe">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_stripe.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_triangle">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_triangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_triangle_line">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_triangle_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_triangle_turned">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_triangle_turned.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_turned_t">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_turned_T.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_green_x">
-        <symbol src="file:/moiosm_twmap/wm_frg_green_x.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_arch">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_arch.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_bar">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_bar.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_circle">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_circle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_cross">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_cross.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_diamond">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_diamond.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_diamond_line">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_diamond_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_dot">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_dot.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_hiker">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_hiker.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_lower">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_lower.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_pointer">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_pointer.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_rectangle">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_rectangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_rectangle_line">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_rectangle_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_red_diamond">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_red_diamond.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_right">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_right.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_slash">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_slash.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_stripe">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_stripe.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_triangle">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_triangle.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_triangle_line">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_triangle_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_turned_t">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_turned_T.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_white_x">
-        <symbol src="file:/moiosm_twmap/wm_frg_white_x.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_ammonit">
-        <symbol src="file:/moiosm_twmap/wm_frg_ammonit.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_bridleway">
-        <symbol src="file:/moiosm_twmap/wm_frg_bridleway.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_heart">
-        <symbol src="file:/moiosm_twmap/wm_frg_heart.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_hiker">
-        <symbol src="file:/moiosm_twmap/wm_frg_hiker.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_mine">
-        <symbol src="file:/moiosm_twmap/wm_frg_mine.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_orange_bar">
-        <symbol src="file:/moiosm_twmap/wm_frg_orange_bar.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_orange_diamond_line">
-        <symbol src="file:/moiosm_twmap/wm_frg_orange_diamond_line.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_orange_dot">
-        <symbol src="file:/moiosm_twmap/wm_frg_orange_dot.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_orange_right">
-        <symbol src="file:/moiosm_twmap/wm_frg_orange_right.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_shell">
-        <symbol src="file:/moiosm_twmap/wm_frg_shell.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_shell_modern">
-        <symbol src="file:/moiosm_twmap/wm_frg_shell_modern.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_tower">
-        <symbol src="file:/moiosm_twmap/wm_frg_tower.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_foreground" v="wmfg_wolfshook">
-        <symbol src="file:/moiosm_twmap/wm_frg_wolfshook.svg" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-    </rule>
-    <rule e="node" k="osmc_background" v="*" zoom-min="15">
-      <rule e="node" k="osmc_background" v="wmbg_black">
-        <symbol src="file:/moiosm_twmap/wm_bcg_black.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_black_circle">
-        <symbol src="file:/moiosm_twmap/wm_bcg_black_circle.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_blue">
-        <symbol src="file:/moiosm_twmap/wm_bcg_blue.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_blue_circle">
-        <symbol src="file:/moiosm_twmap/wm_bcg_blue_circle.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_blue_frame">
-        <symbol src="file:/moiosm_twmap/wm_bcg_blue_frame.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_blue_round">
-        <symbol src="file:/moiosm_twmap/wm_bcg_blue_round.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_brown">
-        <symbol src="file:/moiosm_twmap/wm_bcg_brown.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_green">
-        <symbol src="file:/moiosm_twmap/wm_bcg_green.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_green_frame">
-        <symbol src="file:/moiosm_twmap/wm_bcg_green_frame.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_green_round">
-        <symbol src="file:/moiosm_twmap/wm_bcg_green_round.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_orange">
-        <symbol src="file:/moiosm_twmap/wm_bcg_orange.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_purple">
-        <symbol src="file:/moiosm_twmap/wm_bcg_purple.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_red">
-        <symbol src="file:/moiosm_twmap/wm_bcg_red.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_red_circle">
-        <symbol src="file:/moiosm_twmap/wm_bcg_red_circle.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_red_frame">
-        <symbol src="file:/moiosm_twmap/wm_bcg_red_frame.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_red_round">
-        <symbol src="file:/moiosm_twmap/wm_bcg_red_round.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_white">
-        <symbol src="file:/moiosm_twmap/wm_bcg_white.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_white_circle">
-        <symbol src="file:/moiosm_twmap/wm_bcg_white_circle.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_white_round">
-        <symbol src="file:/moiosm_twmap/wm_bcg_white_round.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_yellow">
-        <symbol src="file:/moiosm_twmap/wm_bcg_yellow.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_yellow_circle">
-        <symbol src="file:/moiosm_twmap/wm_bcg_yellow_circle.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-      <rule e="node" k="osmc_background" v="wmbg_yellow_frame">
-        <symbol src="file:/moiosm_twmap/wm_bcg_yellow_frame.svg" priority="-1" display="always" symbol-scaling="size" symbol-height="12" symbol-width="12"/>
-      </rule>
-    </rule>
-    <!-- Waymarks text -->
-    <rule e="node" k="osmc_textcolor" v="~|wmtc_black|wmtc_brown|wmtc_purple|wmtc_red|wmtc_green|wmtc_blue|wmtc_orange" zoom-min="15">
-      <rule e="node" k="osmc_text_len" v="wmtl_1|wmtl_2|wmtl_3" zoom-min="13">
-        <caption k="name" priority="1" display="always" font-size="16" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
-      </rule>
-      <rule e="node" k="osmc_text_len" v="wmtl_4|wmtl_5" zoom-min="13">
-        <caption k="name" priority="1" display="always" font-size="14" fill="#000000" stroke="#E5FFFFFF" stroke-width="2"/>
-      </rule>
-    </rule>
-    <rule e="node" k="osmc_textcolor" v="wmtc_gray|wmtc_white|wmtc_yellow" zoom-min="15">
-      <rule e="node" k="osmc_text_len" v="wmtl_1|wmtl_2|wmtl_3" zoom-min="13">
-        <caption k="name" priority="1" display="always" font-size="16" fill="#FFFFFF" stroke="#E5000000" stroke-width="2"/>
-      </rule>
-      <rule e="node" k="osmc_text_len" v="wmtl_4|wmtl_5" zoom-min="13">
-        <caption k="name" priority="1" display="always" font-size="14" fill="#FFFFFF" stroke="#E5000000" stroke-width="2"/>
-      </rule>
     </rule>
   </rule>
 </rendertheme>
