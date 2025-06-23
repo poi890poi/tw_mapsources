@@ -794,12 +794,12 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
     </layer>
     <!-- mapstyles -->
     <layer id="elmt-hiking" visible="true">
-      <name lang="de" value="Wandern v__version__"/>
-      <name lang="en" value="Hiking v__version__"/>
-      <name lang="es" value="Excursionismo v__version__"/>
-      <name lang="fr" value="Randonnées v__version__"/>
-      <name lang="it" value="Escursioni v__version__"/>
-      <name lang="zh" value="登山 v__version__"/>
+      <name lang="de" value="Wandern v2025.06.23"/>
+      <name lang="en" value="Hiking v2025.06.23"/>
+      <name lang="es" value="Excursionismo v2025.06.23"/>
+      <name lang="fr" value="Randonnées v2025.06.23"/>
+      <name lang="it" value="Escursioni v2025.06.23"/>
+      <name lang="zh" value="登山 v2025.06.23"/>
       <cat id="hike"/>
       <cat id="nobike"/>
       <cat id="nocity"/>
