@@ -4315,11 +4315,11 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
       <rule e="node" k="survey_point" v="trig_3rd" zoom-min="11">
         <symbol id="s_sp_trig" priority="300" src="file:moiosm_res/s_sp_trig.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
       </rule>
-      <rule e="node" k="survey_point" v="trig_2nd" zoom-min="12">
-        <caption k="name" symbol-id="s_peak_small_l" priority="320" position="below" font-style="normal" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
+      <rule e="node" k="survey_point" v="trig_2nd" zoom-min="14">
+        <caption k="name" symbol-id="s_peak_small_l" priority="340" position="below" font-style="normal" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
       </rule>
-      <rule e="node" k="survey_point" v="trig_3rd" zoom-min="12">
-        <caption k="name" symbol-id="s_sp_trig" priority="300" position="below" font-style="normal" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
+      <rule e="node" k="survey_point" v="trig_3rd" zoom-min="15">
+        <caption k="name" symbol-id="s_sp_trig" priority="320" position="below" font-style="normal" font-size="8" fill="#000000" stroke="#E5FFFFFF" stroke-width="1.8"/>
       </rule>
       <rule e="node" k="survey_point" v="trig_1st_IC" zoom-min="10">
         <symbol id="s_sp_trig_C" priority="340" src="file:moiosm_res/s_sp_trig_C.svg" symbol-scaling="size" symbol-height="18" symbol-width="18"/>
