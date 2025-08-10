@@ -785,12 +785,12 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
     </layer>
     <!-- mapstyles -->
     <layer id="elmt-hiking" visible="true">
-      <name lang="de" value="Wandern v2025.08.08"/>
-      <name lang="en" value="Hiking v2025.08.08"/>
-      <name lang="es" value="Excursionismo v2025.08.08"/>
-      <name lang="fr" value="Randonnées v2025.08.08"/>
-      <name lang="it" value="Escursioni v2025.08.08"/>
-      <name lang="zh" value="登山 v2025.08.08"/>
+      <name lang="de" value="Wandern v2025.08.10"/>
+      <name lang="en" value="Hiking v2025.08.10"/>
+      <name lang="es" value="Excursionismo v2025.08.10"/>
+      <name lang="fr" value="Randonnées v2025.08.10"/>
+      <name lang="it" value="Escursioni v2025.08.10"/>
+      <name lang="zh" value="登山 v2025.08.10"/>
       <cat id="hike"/>
       <cat id="nobike"/>
       <cat id="nocity"/>
@@ -1454,7 +1454,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
   </rule>
   <!-- waterways -->
   <rule e="way" k="waterway" v="*" zoom-min="11" zoom-max="15">
-    <caption k="name" font-style="bold" font-size="9" fill="#E577A5FC" stroke="#E5FFFFFF" stroke-width="1"/>
+    <caption k="name" font-style="bold" font-size="9" fill="#E577A5FC" stroke="#E5FFFFFF" stroke-width="1.0"/>
   </rule>
   <rule e="way" k="bridge" v="yes|viaduct|movable" zoom-min="9">
     <rule e="way" k="tunnel" v="no|~">
@@ -1483,10 +1483,10 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
     <line stroke="#1E90FF" stroke-width="0.9"/>
   </rule>
   <rule e="way" k="waterway" v="river">
-    <line stroke="#1E90FF" stroke-width="1.6"/>
+    <line stroke="#1E90FF" stroke-width="1.2"/>
   </rule>
   <rule e="way" k="waterway" v="riverbank" closed="yes" zoom-min="9">
-    <area fill="#1E90FF" stroke="#1E90FF" stroke-width="0.8"/>
+    <area fill="#1E90FF" stroke="#1E90FF" stroke-width="0.6"/>
   </rule>
   <rule e="way" k="waterway" v="riverbank" closed="no" zoom-min="9">
     <line stroke="#1E90FF" stroke-width="1"/>
